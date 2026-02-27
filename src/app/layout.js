@@ -191,7 +191,7 @@ export default function RootLayout({ children }) {
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
-        <script
+        <cript
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceJsonLd) }}
         />
@@ -200,8 +200,10 @@ export default function RootLayout({ children }) {
         <ShipmentProvider>
           <Toaster position="top-right" richColors />
           {children}
-          <Script id="chatway" async={true} src="https://cdn.chatway.app/widget.js?id=3zQzoaoFAwOP"></Script>
-          {/*End of Tawk.to Script*/}
+          <Script
+            src="https://embed.tawk.to/69a131f44e6f551c35b71ae6/1jieqm8tq"
+            async
+          ></Script>
         </ShipmentProvider>
       </body>
     </html>
