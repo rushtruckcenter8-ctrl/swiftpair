@@ -32,22 +32,22 @@ function Page() {
     {
       title: "Parcel delivery",
       content:
-        "We have been moving your goods since 1990 and are committed to providing you with a great service every time",
+        "Fast, reliable parcel delivery for individuals and businesses. Domestic and international.",
     },
     {
       title: "Parcels throughout Europe",
       content:
-        "Send parcels throughout Europe with our DPD Classic service—from Spain to Denmark, Germany to Estonia, the Netherlands to Austria, and more. We also offer domestic services within each of these countries; for example, from one address in France to another.",
+        "Seamless European shipping with full tracking and customs handling.",
     },
     {
       title: "Freight",
       content:
-        "We combine longstanding freight expertise with a suite of freight services tailored to your shipping needs. Our relationship with international carriers and shipping companies, following over 20 years in the freight forwarding business, allows us to negotiate the best possible rates.",
+        "Heavy-haul freight with proven carrier partnerships and end-to-end management.",
     },
     {
       title: "Fulfillment services",
       content:
-        "With fulfilment services from Europa Lieferung Express, we'll store your inventory at our depot and ship out to your customers. It saves time and effort on your part, and allows your business to stay flexible and responsive as your consumer base grows.",
+        "Storage, pick and pack, and last-mile delivery — handled for you.",
     },
   ];
 
@@ -60,10 +60,10 @@ function Page() {
         img={
           "/images_now/aerial-view-cargo-ship-cargo-container-harbor_335224-1380.avif"
         }
-        h2Text={"Global Logistics Solutions"}
-        spanText={"End-to-End Supply Chain Management"}
+        h2Text={"Freight, Simplified."}
+        spanText={"Air. Ocean. Road. All in one place."}
         pText={
-          "Streamline your operations with our comprehensive logistics services"
+          "End-to-end freight for businesses of any size."
         }
       />
 
@@ -98,53 +98,31 @@ function Page() {
                   className="px-4 py-1 bg-[#f97316]/10 text-[#f97316] font-medium text-sm"
                   style={{ borderRadius: 0 }}
                 >
-                  Logistics Excellence
+                  Our Capabilities
                 </span>
               </div>
 
               <h1 className="text-4xl md:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#f97316] to-[#c2410c] mb-8">
-                Comprehensive Global Logistics & Supply Chain Solutions
+                Move Anything. Anywhere.
               </h1>
 
               <div className="grid md:grid-cols-2 gap-8 mb-8">
                 <div className="space-y-4 text-gray-700">
                   <p className="leading-relaxed text-lg">
-                    SwiftPair Logistics delivers end-to-end logistics solutions
-                    that optimize your supply chain operations. Our
-                    comprehensive services span air, ocean, and ground freight
-                    forwarding, ensuring reliable and efficient transportation
-                    for all your shipments.
-                  </p>
-                  <p className="leading-relaxed">
-                    With over{" "}
-                    <span className="font-semibold text-[#f97316]">
-                      25 years of experience
-                    </span>{" "}
-                    and a network covering{" "}
-                    <span className="font-semibold text-[#f97316]">
-                      220+ countries
-                    </span>
-                    , we provide tailored logistics solutions that adapt to your
-                    business needs.
+                    We optimize supply chains across air, ocean, and road — with full visibility and expert support at every stage.
                   </p>
                 </div>
                 <div className="space-y-4 text-gray-700">
                   <p className="leading-relaxed">
-                    Whether you need{" "}
+                    From{" "}
                     <span className="font-semibold text-[#f97316]">
                       Full Container Load (FCL)
                     </span>{" "}
-                    or{" "}
+                    to{" "}
                     <span className="font-semibold text-[#f97316]">
                       Less than Container Load (LCL)
-                    </span>{" "}
-                    services, our flexible approach ensures secure, reliable,
-                    and cost-effective freight forwarding.
-                  </p>
-                  <p className="leading-relaxed">
-                    Our advanced logistics technology provides real-time
-                    tracking, automated documentation, and seamless customs
-                    clearance, streamlining your entire supply chain process.
+                    </span>
+                    , real-time tracking, and seamless customs clearance — we handle it all.
                   </p>
                 </div>
               </div>
@@ -192,22 +170,12 @@ function Page() {
               Our Services
             </span>
             <h2 className="text-3xl md:text-5xl font-bold text-[#f97316] mb-6">
-              Multi-Modal Freight Solutions
+              Every Mode, Every Route
             </h2>
             <div className="w-20 h-1 bg-[#f97316] mx-auto mb-6"></div>
             <div className="max-w-4xl mx-auto space-y-4 text-gray-700 text-lg leading-relaxed">
               <p>
-                From cross-border shipments to streamlined pallet services,
-                parcel delivery, and full or partial container loads, SwiftTrack
-                Express provides comprehensive logistics solutions tailored to
-                your business needs.
-              </p>
-              <p>
-                Our expert logistics team designs custom freight forwarding
-                strategies, selecting optimal transport modes and ensuring
-                timely delivery. We combine industry expertise with cutting-edge
-                technology to deliver efficient, reliable solutions for all your
-                shipping requirements.
+                Air, ocean, or road — we manage cross-border shipments with precision and full documentation support.
               </p>
             </div>
           </div>
@@ -247,7 +215,7 @@ function Page() {
               </div>
               <div className="p-8">
                 <h4 className="font-bold text-[#f97316] mb-4 text-lg">
-                  International Air Freight Options
+                  Fast air freight, door to door.
                 </h4>
                 <ul className="mb-8 space-y-3">
                   <li className="flex items-start">
@@ -381,7 +349,7 @@ function Page() {
               </div>
               <div className="p-8">
                 <h4 className="font-bold text-[#f97316] mb-4 text-lg">
-                  International Ocean Freight Options
+                  Cost-effective ocean shipping, FCL or LCL.
                 </h4>
                 <ul className="mb-8 space-y-3">
                   <li className="flex items-start">
@@ -531,7 +499,7 @@ function Page() {
               </div>
               <div className="p-8">
                 <h4 className="font-bold text-[#f97316] mb-4 text-lg">
-                  Ground Transportation Options
+                  Reliable road freight across the region.
                 </h4>
                 <ul className="mb-8 space-y-3">
                   <li className="flex items-start">
@@ -668,17 +636,11 @@ function Page() {
 
               <div className="relative z-10">
                 <h2 className="text-3xl md:text-4xl font-bold mb-6">
-                  Expert Logistics Consultants Ready to Help
+                  Let's Build Your Shipping Solution.
                 </h2>
 
                 <p className="mb-6 text-white/95 leading-relaxed text-lg max-w-4xl">
-                  Need more information about our logistics and shipping
-                  services? Contact our expert team today. Our logistics
-                  consultants will discuss your specific requirements, provide
-                  strategic insights, and answer all your questions. With our
-                  commitment to excellence and customer satisfaction, trust
-                  SwiftPair Logistics to deliver reliable, efficient solutions
-                  tailored to your business needs.
+                  Our team designs custom strategies tailored to your cargo, timeline, and budget.
                 </p>
 
                 <div className="mb-10 grid md:grid-cols-2 gap-6">
@@ -688,9 +650,7 @@ function Page() {
                   >
                     <h3 className="font-bold text-xl mb-3">Custom Solutions</h3>
                     <p className="text-white/90">
-                      Every business is unique. Our team designs logistics
-                      strategies specifically tailored to your operational
-                      requirements and growth objectives.
+                      Tailored to your exact requirements.
                     </p>
                   </div>
                   <div
@@ -701,9 +661,7 @@ function Page() {
                       End-to-End Support
                     </h3>
                     <p className="text-white/90">
-                      From initial consultation to final delivery, we provide
-                      comprehensive support throughout your entire logistics
-                      journey.
+                      We're with you from booking to delivery.
                     </p>
                   </div>
                 </div>
@@ -714,14 +672,14 @@ function Page() {
                     className="bg-white text-[#f97316] hover:bg-gray-100 font-bold py-4 px-10 transition-all shadow-lg hover:shadow-xl transform hover:scale-105"
                     style={{ borderRadius: 0 }}
                   >
-                    GET EXPERT ADVICE
+                    TALK TO AN EXPERT
                   </button>
                   <Link
                     href="/#track-shipment"
                     className="bg-transparent hover:bg-white/20 border-2 border-white text-white font-bold py-4 px-10 transition-all"
                     style={{ borderRadius: 0 }}
                   >
-                    TRACK SHIPMENT
+                    TRACK A SHIPMENT
                   </Link>
                 </div>
               </div>
@@ -766,10 +724,10 @@ function Page() {
                   className="inline-block px-4 py-1 bg-[#f97316]/10 text-[#f97316] font-medium mb-4"
                   style={{ borderRadius: 0 }}
                 >
-                  Service Details
+                  Services
                 </span>
                 <h3 className="text-3xl md:text-4xl font-bold text-[#f97316] mb-2">
-                  Comprehensive Logistics Services
+                  What's Included
                 </h3>
                 <div className="w-20 h-1 bg-[#f97316] mb-6"></div>
               </div>
@@ -852,20 +810,10 @@ function Page() {
             <div className="p-10 md:p-16">
               <div className="max-w-4xl mb-10">
                 <h2 className="text-3xl md:text-4xl font-bold text-[#f97316] mb-6">
-                  Advanced Supply Chain Management Solutions
+                  Supply Chain, Under Control.
                 </h2>
-                <p className="text-gray-700 mb-6 text-lg leading-relaxed">
-                  In today's complex global marketplace, effective supply chain
-                  control and visibility are critical for maintaining
-                  competitive advantage. Companies must have real-time insights
-                  into processes, data flows, and shipment status to optimize
-                  operations and reduce costs.
-                </p>
-
                 <p className="text-gray-700 mb-10 text-lg leading-relaxed">
-                  SwiftPair Logistics offers a comprehensive Lead Logistics
-                  Provider (LLP/4PL) solution designed to address these
-                  challenges and deliver measurable results:
+                  As your Lead Logistics Provider, we consolidate, optimize, and manage your entire supply chain — so you can focus on your business.
                 </p>
               </div>
 
@@ -894,7 +842,7 @@ function Page() {
                       </svg>
                     </div>
                     <h3 className="text-2xl font-bold text-[#f97316] uppercase">
-                      Strategic Approach
+                      Strategic Planning
                     </h3>
                   </div>
                   <ul className="space-y-4">
@@ -913,7 +861,7 @@ function Page() {
                         />
                       </svg>
                       <span className="text-gray-700">
-                        Global, regional, and local logistics strategies
+                        Global and regional strategy
                       </span>
                     </li>
                     <li className="flex items-start">
@@ -931,7 +879,7 @@ function Page() {
                         />
                       </svg>
                       <span className="text-gray-700">
-                        End-to-end supply chain visibility and control
+                        Full supply chain visibility
                       </span>
                     </li>
                     <li className="flex items-start">
@@ -949,7 +897,7 @@ function Page() {
                         />
                       </svg>
                       <span className="text-gray-700">
-                        Data quality assurance and validation
+                        Data accuracy and integrity
                       </span>
                     </li>
                     <li className="flex items-start">
@@ -967,7 +915,7 @@ function Page() {
                         />
                       </svg>
                       <span className="text-gray-700">
-                        Proactive management of regulatory changes
+                        Regulatory compliance
                       </span>
                     </li>
                   </ul>
@@ -997,7 +945,7 @@ function Page() {
                       </svg>
                     </div>
                     <h3 className="text-2xl font-bold text-[#f97316] uppercase">
-                      Operational Planning
+                      Operational Execution
                     </h3>
                   </div>
                   <ul className="space-y-4">
@@ -1016,7 +964,7 @@ function Page() {
                         />
                       </svg>
                       <span className="text-gray-700">
-                        Streamlined process management and optimization
+                        Lean process management
                       </span>
                     </li>
                     <li className="flex items-start">
@@ -1034,7 +982,7 @@ function Page() {
                         />
                       </svg>
                       <span className="text-gray-700">
-                        Identification of consolidation opportunities
+                        Freight consolidation
                       </span>
                     </li>
                     <li className="flex items-start">
@@ -1070,8 +1018,7 @@ function Page() {
                         />
                       </svg>
                       <span className="text-gray-700">
-                        Strategic transport mode optimization (air to sea
-                        migration)
+                        Mode optimization
                       </span>
                     </li>
                   </ul>
