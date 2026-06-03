@@ -127,16 +127,16 @@ export const POST = async (req) => {
 
     let mailOptions = {
       from: {
-        name: "Track-Global Logistics Shipping",
-        address: "contact@track-globallogistics.com",
+        name: "SwiftPair Logistics Shipping",
+        address: "contact@swiftpairlogistics.com",
       },
       to: shipmentData.receiverEmail,
       cc: shipmentData.senderEmail,
       subject: `Shipment Confirmation - Tracking #${trackingNumber}`,
-      messageId: `${trackingNumber}-${Date.now()}@swifttrackexpres.com`,
+      messageId: `${trackingNumber}-${Date.now()}@swiftpairlogistics.com`,
       headers: {
-        "Feedback-ID": `${trackingNumber}:shipping:swifttrackexpress:1`,
-        "List-Unsubscribe": `<https://track-globallogistics.com/unsubscribe/${trackingNumber}>, <mailto:unsubscribe@swifttrackexpres.com?subject=unsubscribe_${trackingNumber}>`,
+        "Feedback-ID": `${trackingNumber}:shipping:swiftpairlogistics:1`,
+        "List-Unsubscribe": `<https://www.swiftpairlogistics.com/unsubscribe/${trackingNumber}>, <mailto:unsubscribe@swiftpairlogistics.com?subject=unsubscribe_${trackingNumber}>`,
         "List-Unsubscribe-Post": "List-Unsubscribe=One-Click",
       },
       html: `
@@ -162,7 +162,7 @@ export const POST = async (req) => {
                 <p style="margin: 0 0 10px 0;">Dear Client, we have received and registered your package for delivery at our office. Your package is currently <strong>pending</strong> so we urge you to check that the delivery information is correct and accurate so the order can be sent out.</p>
                 <p style="margin: 0 0 10px 0;">You can contact us to confirm via:</p>
                 <ul style="margin: 0 0 10px 0; padding-left: 20px;">
-                  <li>Email: <a href="mailto:contact@track-globallogistics.com" style="color: #0066cc;">contact@track-globallogistics.com</a></li>
+                  <li>Email: <a href="mailto:contact@swiftpairlogistics.com" style="color: #0066cc;">contact@swiftpairlogistics.com</a></li>
                   <li>Direct message on our website</li>
                 </ul>
                 <p style="margin: 0;">Please check your delivery information and confirm with us ASAP so we can proceed.</p>
@@ -208,30 +208,30 @@ export const POST = async (req) => {
               </table>
 
               <div style="text-align: center; margin: 30px 0;">
-                <a href="https://track-globallogistics.com/shipment?num=${trackingNumber}" 
+                <a href="https://www.swiftpairlogistics.com/shipment?num=${trackingNumber}"
                   style="background-color: #0066cc; color: white; padding: 12px 30px; text-decoration: none; border-radius: 4px; font-weight: bold;">
                   Track Your Shipment
                 </a>
               </div>
 
               <div style="text-align: center; margin: 20px 0;">
-                <a href="https://track-globallogistics.com/shipment?num=${trackingNumber}" 
+                <a href="https://www.swiftpairlogistics.com/shipment?num=${trackingNumber}"
                   style="background-color: #4CAF50; color: white; padding: 12px 30px; text-decoration: none; border-radius: 4px; font-weight: bold;">
                   Confirm Delivery Information
                 </a>
               </div>
 
               <p style="color: #666666; font-size: 14px; margin-top: 30px;">
-                Thank you for choosing Track-Global Logistics. If you have any questions, please contact our customer service at <a href="mailto:contact@track-globallogistics.com" style="color: #0066cc;">contact@track-globallogistics.com</a>.
+                Thank you for choosing SwiftPair Logistics. If you have any questions, please contact our customer service at <a href="mailto:contact@swiftpairlogistics.com" style="color: #0066cc;">contact@swiftpairlogistics.com</a>.
               </p>
             </div>
             
             <div style="text-align: center; margin-top: 20px; color: #999999; font-size: 12px;">
               <p>This is an automated message, please do not reply to this email.</p>
-              <p>© ${new Date().getFullYear()} Track-Global Logistics. All rights reserved.</p>
+              <p>© ${new Date().getFullYear()} SwiftPair Logistics. All rights reserved.</p>
               <p>
-                <a href="https://track-globallogistics.com/privacy" style="color: #666666; text-decoration: underline;">Privacy Policy</a> | 
-                <a href="https://track-globallogistics.com/terms" style="color: #666666; text-decoration: underline;">Terms of Service</a>
+                <a href="https://www.swiftpairlogistics.com/privacy" style="color: #666666; text-decoration: underline;">Privacy Policy</a> |
+                <a href="https://www.swiftpairlogistics.com/terms" style="color: #666666; text-decoration: underline;">Terms of Service</a>
               </p>
             </div>
           </div>
@@ -247,7 +247,7 @@ IMPORTANT NOTICE:
 Dear Client, we have received and registered your package for delivery at our office. Your package is currently pending so we urge you to check that the delivery information is correct and accurate so the order can be sent out.
 
 You can contact us to confirm via:
-- Email: contact@track-globallogistics.com
+- Email: contact@swiftpairlogistics.com
 - Direct message on our website
 
 Please check your delivery information and confirm with us ASAP so we can proceed.
@@ -258,13 +258,13 @@ Shipment Details:
 - Origin: ${shipmentData.origin}
 - Destination: ${shipmentData.destination}
 
-Track your shipment at: https://track-globallogistics.com/shipment?num=${trackingNumber}
+Track your shipment at: https://www.swiftpairlogistics.com/shipment?num=${trackingNumber}
 
-Thank you for choosing Track-Global Logistics.
+Thank you for choosing SwiftPair Logistics.
 
-For questions, contact us at contact@track-globallogistics.com
+For questions, contact us at contact@swiftpairlogistics.com
 
-© ${new Date().getFullYear()} Track-Global Logistics. All rights reserved.
+© ${new Date().getFullYear()} SwiftPair Logistics. All rights reserved.
       `,
     };
 

@@ -7,7 +7,7 @@ import { useRouter } from "next/navigation";
 function Footer() {
   const handleSubmit = (e) => {
     e.preventDefault();
-    const mailtoLink = `mailto:contact@track-globallogistics.com?subject=Contact%20Form`;
+    const mailtoLink = `mailto:contact@swiftpairlogistics.com?subject=Contact%20Form`;
     window.location.href = mailtoLink;
   };
 
@@ -22,7 +22,7 @@ function Footer() {
   return (
     <>
       {/* Main Footer */}
-      <footer className="bg-gradient-to-b from-[#0e7490] to-[#155e75] text-white pt-16 pb-6">
+      <footer className="bg-gradient-to-b from-[#ea580c] to-[#c2410c] text-white pt-16 pb-6">
         <div className="max-w-7xl mx-auto px-4">
           {/* Footer Top Section */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
@@ -34,17 +34,15 @@ function Footer() {
               >
                 <Image
                   src="/images/track_logo2.png"
-                  width={400}
-                  height={80}
-                  alt="Track-Global Logistics - International Transport and Logistics"
-                  className="h-20 w-auto object-contain "
+                  width={140}
+                  height={140}
+                  alt="SwiftPair Logistics - International Transport and Logistics"
+                  className="h-24 w-auto object-contain filter brightness-0 invert"
                   priority
                 />
               </div>
               <p className="text-gray-200 mb-6 text-sm leading-relaxed">
-                Your trusted partner for fast, secure, and reliable worldwide
-                shipping solutions. Connecting businesses and individuals across
-                220+ destinations with over 25 years of excellence.
+                Fast, secure shipping to 220+ destinations worldwide. 30 years of logistics excellence.
               </p>
 
               {/* Social Media Icons */}
@@ -107,17 +105,17 @@ function Footer() {
                 >
                   <p className="text-sm font-medium mb-2">Email Us:</p>
                   <button
-                    className="bg-white text-[#0891b2] overflow-hidden py-2 px-4 font-medium hover:bg-gray-100 transition-colors w-full text-left"
+                    className="bg-white text-[#f97316] overflow-hidden py-2 px-4 font-medium hover:bg-gray-100 transition-colors w-full text-left"
                     style={{ borderRadius: 0 }}
                   >
-                    contact@track-globallogistics.com{" "}
+                    contact@swiftpairlogistics.com{" "}
                   </button>
                 </form>
                 {/* <div className="bg-white/10 p-3" style={{ borderRadius: 0 }}>
                   <p className="text-sm font-medium mb-2">Call Us:</p>
                   <a
                     href="tel:+16303926723"
-                    className="block bg-white text-[#0891b2] overflow-hidden py-2 px-4 font-medium hover:bg-gray-100 transition-colors w-full text-left"
+                    className="block bg-white text-[#f97316] overflow-hidden py-2 px-4 font-medium hover:bg-gray-100 transition-colors w-full text-left"
                     style={{ borderRadius: 0 }}
                   >
                     (630) 392-6723
@@ -441,10 +439,9 @@ function Footer() {
           {/* Newsletter Subscription */}
           <div className="border-t border-white/20 pt-8 pb-8">
             <div className="max-w-xl mx-auto text-center">
-              <h3 className="text-xl font-bold mb-4">Stay Connected</h3>
+              <h3 className="text-xl font-bold mb-4">Stay in the Loop</h3>
               <p className="text-gray-200 mb-6">
-                Get the latest shipping tips, industry insights, and exclusive
-                offers delivered to your inbox
+                Shipping tips, updates, and exclusive offers — in your inbox.
               </p>
               <form className="flex flex-col sm:flex-row gap-2">
                 <input
@@ -456,7 +453,7 @@ function Footer() {
                 />
                 <button
                   type="submit"
-                  className="bg-gradient-to-r from-[#0891b2] to-[#0e7490] hover:from-[#0e7490] hover:to-[#155e75] text-white font-bold px-6 py-3 transition-colors"
+                  className="bg-gradient-to-r from-[#f97316] to-[#ea580c] hover:from-[#ea580c] hover:to-[#c2410c] text-white font-bold px-6 py-3 transition-colors"
                   style={{ borderRadius: 0 }}
                 >
                   Subscribe
@@ -468,7 +465,7 @@ function Footer() {
           {/* Footer Bottom */}
           <div className="border-t border-white/20 pt-6 flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-300 text-sm mb-4 md:mb-0">
-              &copy; {year} Track-Global Logistics. All Rights Reserved
+              &copy; {year} SwiftPair Logistics. All Rights Reserved
             </p>
 
             <div className="flex space-x-6">

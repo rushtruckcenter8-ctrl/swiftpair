@@ -82,13 +82,13 @@ export const POST = async (req, res) => {
       });
 
       // Generate message ID and campaign ID
-      const messageId = `${trackingNumber}-status-${Date.now()}@swifttrackexpres.com`;
+      const messageId = `${trackingNumber}-status-${Date.now()}@swiftpairlogistics.com`;
       const campaignId = `status-update-${Date.now()}`;
 
       let mailOptions = {
         from: {
-          name: "Track-Global Logistics",
-          address: "contact@track-globallogistics.com",
+          name: "SwiftPair Logistics",
+          address: "contact@swiftpairlogistics.com",
         },
         to: shipment.receiverEmail,
         cc: shipment.senderEmail, // CC the sender for transparency
@@ -100,18 +100,18 @@ export const POST = async (req, res) => {
           "X-Priority": "1",
           "X-MSMail-Priority": "High",
           Importance: "high",
-          "List-Unsubscribe": `<mailto:contact@track-globallogistics.com?subject=unsubscribe_${trackingNumber}>`,
+          "List-Unsubscribe": `<mailto:contact@swiftpairlogistics.com?subject=unsubscribe_${trackingNumber}>`,
           "X-Campaign-ID": campaignId,
           "X-Report-Abuse":
-            "Please report abuse here: contact@track-globallogistics.com",
-          "X-CSA-Complaints": "contact@track-globallogistics.com",
+            "Please report abuse here: contact@swiftpairlogistics.com",
+          "X-CSA-Complaints": "contact@swiftpairlogistics.com",
           "X-Auto-Response-Suppress": "OOF, AutoReply",
         },
         html: `<div style="font-family: Arial, sans-serif; padding: 20px; max-width: 600px; margin: auto; border: 1px solid #ddd; border-radius: 10px;">
           <h1 style="font-size: 16px; font-weight: 600; color: #333;">Shipment Status Update</h1>
           <h2 style="font-size: 14px; font-weight: 600; margin-top: 10px;">The status of your shipment with tracking number <span style="color: #007bff; text-decoration: underline; cursor: pointer;">${trackingNumber}</span> has been updated to: ${updatedData.status}.</h2>
           <p style="font-size: 14px; margin-top: 5px;">Comment: ${updatedData.comments}</p>
-          <p style="font-size: 14px; margin-top: 20px; color: #555;">Have questions? Email us at <a href="mailto:contact@track-globallogistics.com" style="color: #007bff;">contact@track-globallogistics.com</a>.</p>
+          <p style="font-size: 14px; margin-top: 20px; color: #555;">Have questions? Email us at <a href="mailto:contact@swiftpairlogistics.com" style="color: #007bff;">contact@swiftpairlogistics.com</a>.</p>
           <p style="font-size: 14px; font-weight: 400; margin-top: 20px; color: #555;">Thanks for shipping with us!</p>
         </div>`,
         text: `
@@ -121,7 +121,7 @@ export const POST = async (req, res) => {
           
           Comment: ${updatedData.comments}
           
-          Questions? Contact us at contact@track-globallogistics.com.
+          Questions? Contact us at contact@swiftpairlogistics.com.
           
           Thanks for shipping with us!
         `,

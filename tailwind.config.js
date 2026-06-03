@@ -12,10 +12,10 @@ module.exports = {
       },
       colors: {
         primary: {
-          DEFAULT: "#0891b2",
-          light: "#06b6d4",
-          dark: "#0e7490",
-          darker: "#155e75",
+          DEFAULT: "#f97316",
+          light: "#fb923c",
+          dark: "#ea580c",
+          darker: "#c2410c",
         },
       },
       backgroundImage: {

@@ -13,17 +13,17 @@ const quicksand = Quicksand({
 });
 
 const siteUrl =
-  process.env.NEXT_PUBLIC_SITE_URL || "https://track-globallogistics.com";
+  process.env.NEXT_PUBLIC_SITE_URL || "https://www.swiftpairlogistics.com";
 
 export const metadata = {
   metadataBase: new URL(siteUrl),
   title: {
     default:
-      "Track-Global Logistics - International Transport & Logistics | Track Your Shipment",
-    template: "%s | Track-Global Logistics",
+      "SwiftPair Logistics — Ship Smarter, Deliver Faster",
+    template: "%s | SwiftPair Logistics",
   },
   description:
-    "Track-Global Logistics is a leading international transport and logistics company. Track your shipments in real-time, access warehouse solutions, and experience reliable global shipping across 220+ destinations. 24/7 support available.",
+    "SwiftPair Logistics delivers to 220+ destinations worldwide. Real-time tracking, air, ocean, and road freight — built for speed, backed by experience.",
   keywords: [
     "international shipping",
     "logistics company",
@@ -38,11 +38,11 @@ export const metadata = {
     "air freight",
     "ocean freight",
     "road freight",
-    "Track-Global Logistics",
+    "SwiftPair Logistics",
   ],
-  authors: [{ name: "Track-Global Logistics" }],
-  creator: "Track-Global Logistics",
-  publisher: "Track-Global Logistics",
+  authors: [{ name: "SwiftPair Logistics" }],
+  creator: "SwiftPair Logistics",
+  publisher: "SwiftPair Logistics",
   formatDetection: {
     email: false,
     address: false,
@@ -52,26 +52,26 @@ export const metadata = {
     type: "website",
     locale: "en_US",
     url: siteUrl,
-    siteName: "Track-Global Logistics",
-    title: "Track-Global Logistics - International Transport & Logistics",
+    siteName: "SwiftPair Logistics",
+    title: "SwiftPair Logistics — Global Shipping, Simplified",
     description:
-      "Track your shipments in real-time with Track-Global Logistics. Leading international transport and logistics company serving 220+ destinations worldwide.",
+      "220+ destinations. Real-time tracking. 98% on-time delivery. SwiftPair Logistics.",
     images: [
       {
         url: "/images/track_logo.png",
         width: 1200,
         height: 630,
-        alt: "Track-Global Logistics Logo",
+        alt: "SwiftPair Logistics Logo",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Track-Global Logistics - International Transport & Logistics",
+    title: "SwiftPair Logistics — Global Shipping, Simplified",
     description:
-      "Track your shipments in real-time. Leading international transport and logistics company.",
+      "Fast, secure shipping to 220+ destinations worldwide. Real-time tracking available.",
     images: ["/images/track_logo.png"],
-    creator: "@swifttrackexpress",
+    creator: "@swiftpairlogistics",
   },
   robots: {
     index: true,
@@ -109,7 +109,7 @@ export default function RootLayout({ children }) {
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "Organization",
-    name: "Track-Global Logistics",
+    name: "SwiftPair Logistics",
     url: siteUrl,
     logo: `${siteUrl}/images/track_logo.png`,
     description: "International Transport and Logistics Company",
@@ -117,7 +117,7 @@ export default function RootLayout({ children }) {
       "@type": "ContactPoint",
       // telephone: "+1-630-392-6723",
       contactType: "Customer Service",
-      email: "contact@track-globallogistics.com",
+      email: "contact@swiftpairlogistics.com",
       availableLanguage: ["English"],
     },
     sameAs: [
@@ -147,7 +147,7 @@ export default function RootLayout({ children }) {
     serviceType: "Logistics and Transportation",
     provider: {
       "@type": "Organization",
-      name: "Track-Global Logistics",
+      name: "SwiftPair Logistics",
     },
     areaServed: {
       "@type": "Place",
@@ -186,7 +186,7 @@ export default function RootLayout({ children }) {
           sizes="180x180"
           href="/images/track_logo.png"
         />
-        <meta name="theme-color" content="#0891b2" />
+        <meta name="theme-color" content="#f97316" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}

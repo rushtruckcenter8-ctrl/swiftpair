@@ -34,7 +34,7 @@ function Page() {
     try {
       const { firstName, lastName, phoneNumber, email, address, message } =
         formData;
-      const mailtoLink = `mailto:contact@track-globallogistics.com?subject=Contact%20Form%20Submission&body=Name:%20${firstName}%20${lastName}%0APhone%20Number:%20${phoneNumber}%0AEmail:%20${email}%0AAddress/State:%20${address}%0AMessage/Comment:%20${message}`;
+      const mailtoLink = `mailto:contact@swiftpairlogistics.com?subject=Contact%20Form%20Submission&body=Name:%20${firstName}%20${lastName}%0APhone%20Number:%20${phoneNumber}%0AEmail:%20${email}%0AAddress/State:%20${address}%0AMessage/Comment:%20${message}`;
       window.location.href = mailtoLink;
 
       setFormStatus({
@@ -71,26 +71,24 @@ function Page() {
         content={"CONTACT US"}
         height={"40vh"}
         location={""}
-        spanText={"Get in Touch - We're Here to Help"}
+        spanText={"We're here whenever you need us."}
       />
 
       <div className="flex-grow py-8 sm:py-12 md:py-16 px-4">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-10 sm:mb-16">
             <span
-              className="inline-block px-4 py-1 bg-[#0891b2]/10 text-[#0891b2] font-medium mb-4 text-sm"
+              className="inline-block px-4 py-1 bg-[#f97316]/10 text-[#f97316] font-medium mb-4 text-sm"
               style={{ borderRadius: 0 }}
             >
-              Contact Us
+              Contact
             </span>
-            <h1 className="text-4xl sm:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#0891b2] to-[#155e75] mb-4 sm:mb-6">
-              Get in Touch
+            <h1 className="text-4xl sm:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#f97316] to-[#c2410c] mb-4 sm:mb-6">
+              Let's Talk
             </h1>
-            <div className="w-20 h-1 bg-[#0891b2] mx-auto mb-4 sm:mb-6"></div>
+            <div className="w-20 h-1 bg-[#f97316] mx-auto mb-4 sm:mb-6"></div>
             <p className="text-gray-700 max-w-3xl mx-auto text-base sm:text-lg leading-relaxed">
-              Have questions about our services or need a shipping quote? Our
-              expert team is ready to assist you with all your logistics needs.
-              Reach out today and experience the Track-Global Logistics difference.
+              Need a quote or have questions? Our team responds fast.
             </p>
           </div>
 
@@ -98,7 +96,7 @@ function Page() {
             {/* Contact Information */}
             <div className="md:col-span-1">
               <div
-                className="bg-gradient-to-br from-[#0e7490] via-[#0891b2] to-[#06b6d4] text-white shadow-2xl overflow-hidden h-full border-2 border-white/20"
+                className="bg-gradient-to-br from-[#ea580c] via-[#f97316] to-[#fb923c] text-white shadow-2xl overflow-hidden h-full border-2 border-white/20"
                 style={{ borderRadius: 0 }}
               >
                 <div className="p-6 sm:p-8 relative">
@@ -108,7 +106,7 @@ function Page() {
                   ></div>
                   <div className="relative z-10">
                     <h2 className="text-xl sm:text-2xl font-bold mb-8">
-                      Contact Information
+                      Reach Us
                     </h2>
                     <div className="space-y-6 sm:space-y-8">
                       <div className="flex items-start">
@@ -135,10 +133,10 @@ function Page() {
                             Email
                           </p>
                           <a
-                            href="mailto:contact@track-globallogistics.com"
-                            className="font-semibold text-base sm:text-lg break-all hover:text-cyan-200 transition-colors"
+                            href="mailto:contact@swiftpairlogistics.com"
+                            className="font-semibold text-base sm:text-lg break-all hover:text-orange-200 transition-colors"
                           >
-                            contact@track-globallogistics.com{" "}
+                            contact@swiftpairlogistics.com{" "}
                           </a>
                         </div>
                       </div>
@@ -168,7 +166,7 @@ function Page() {
                           </p>
                           <a
                             href="tel:+16303926723"
-                            className="font-semibold text-base sm:text-lg hover:text-cyan-200 transition-colors"
+                            className="font-semibold text-base sm:text-lg hover:text-orange-200 transition-colors"
                           >
                             (630) 392-6723
                           </a>
@@ -333,7 +331,7 @@ function Page() {
               >
                 <div className="flex items-center gap-3 mb-6">
                   <div
-                    className="w-12 h-12 bg-gradient-to-br from-[#0891b2] to-[#0e7490] flex items-center justify-center"
+                    className="w-12 h-12 bg-gradient-to-br from-[#f97316] to-[#ea580c] flex items-center justify-center"
                     style={{ borderRadius: 0 }}
                   >
                     <svg
@@ -350,8 +348,8 @@ function Page() {
                       />
                     </svg>
                   </div>
-                  <h2 className="text-2xl sm:text-3xl font-bold text-[#0891b2]">
-                    Send Us a Message
+                  <h2 className="text-2xl sm:text-3xl font-bold text-[#f97316]">
+                    Send a Message
                   </h2>
                 </div>
 
@@ -408,7 +406,7 @@ function Page() {
                         htmlFor="firstName"
                         className="block text-sm font-semibold text-gray-700 mb-2"
                       >
-                        First Name <span className="text-[#0891b2]">*</span>
+                        First Name <span className="text-[#f97316]">*</span>
                       </label>
                       <input
                         type="text"
@@ -416,7 +414,7 @@ function Page() {
                         name="firstName"
                         value={formData.firstName}
                         required
-                        className="w-full px-4 py-3 text-base border-2 border-gray-300 focus:ring-2 focus:ring-cyan-100 focus:border-[#0891b2] outline-none transition-all"
+                        className="w-full px-4 py-3 text-base border-2 border-gray-300 focus:ring-2 focus:ring-orange-100 focus:border-[#f97316] outline-none transition-all"
                         style={{ borderRadius: 0 }}
                         onChange={handleChange}
                         placeholder="John"
@@ -427,7 +425,7 @@ function Page() {
                         htmlFor="lastName"
                         className="block text-sm font-semibold text-gray-700 mb-2"
                       >
-                        Last Name <span className="text-[#0891b2]">*</span>
+                        Last Name <span className="text-[#f97316]">*</span>
                       </label>
                       <input
                         type="text"
@@ -435,7 +433,7 @@ function Page() {
                         name="lastName"
                         value={formData.lastName}
                         required
-                        className="w-full px-4 py-3 text-base border-2 border-gray-300 focus:ring-2 focus:ring-cyan-100 focus:border-[#0891b2] outline-none transition-all"
+                        className="w-full px-4 py-3 text-base border-2 border-gray-300 focus:ring-2 focus:ring-orange-100 focus:border-[#f97316] outline-none transition-all"
                         style={{ borderRadius: 0 }}
                         onChange={handleChange}
                         placeholder="Doe"
@@ -448,7 +446,7 @@ function Page() {
                       htmlFor="phoneNumber"
                       className="block text-sm font-semibold text-gray-700 mb-2"
                     >
-                      Phone Number <span className="text-[#0891b2]">*</span>
+                      Phone Number <span className="text-[#f97316]">*</span>
                     </label>
                     <input
                       type="tel"
@@ -456,7 +454,7 @@ function Page() {
                       name="phoneNumber"
                       value={formData.phoneNumber}
                       required
-                      className="w-full px-4 py-3 text-base border-2 border-gray-300 focus:ring-2 focus:ring-cyan-100 focus:border-[#0891b2] outline-none transition-all"
+                      className="w-full px-4 py-3 text-base border-2 border-gray-300 focus:ring-2 focus:ring-orange-100 focus:border-[#f97316] outline-none transition-all"
                       style={{ borderRadius: 0 }}
                       onChange={handleChange}
                       placeholder="+1 (234) 567 890"
@@ -468,7 +466,7 @@ function Page() {
                       htmlFor="email"
                       className="block text-sm font-semibold text-gray-700 mb-2"
                     >
-                      Email <span className="text-[#0891b2]">*</span>
+                      Email <span className="text-[#f97316]">*</span>
                     </label>
                     <input
                       type="email"
@@ -476,7 +474,7 @@ function Page() {
                       name="email"
                       value={formData.email}
                       required
-                      className="w-full px-4 py-3 text-base border-2 border-gray-300 focus:ring-2 focus:ring-cyan-100 focus:border-[#0891b2] outline-none transition-all"
+                      className="w-full px-4 py-3 text-base border-2 border-gray-300 focus:ring-2 focus:ring-orange-100 focus:border-[#f97316] outline-none transition-all"
                       style={{ borderRadius: 0 }}
                       onChange={handleChange}
                       placeholder="your@email.com"
@@ -495,7 +493,7 @@ function Page() {
                       id="address"
                       name="address"
                       value={formData.address}
-                      className="w-full px-4 py-3 text-base border-2 border-gray-300 focus:ring-2 focus:ring-cyan-100 focus:border-[#0891b2] outline-none transition-all"
+                      className="w-full px-4 py-3 text-base border-2 border-gray-300 focus:ring-2 focus:ring-orange-100 focus:border-[#f97316] outline-none transition-all"
                       style={{ borderRadius: 0 }}
                       onChange={handleChange}
                       placeholder="123 Main St, City, State"
@@ -507,7 +505,7 @@ function Page() {
                       htmlFor="message"
                       className="block text-sm font-semibold text-gray-700 mb-2"
                     >
-                      Message/Comment <span className="text-[#0891b2]">*</span>
+                      Message/Comment <span className="text-[#f97316]">*</span>
                     </label>
                     <textarea
                       id="message"
@@ -515,7 +513,7 @@ function Page() {
                       value={formData.message}
                       required
                       rows={6}
-                      className="w-full px-4 py-3 text-base border-2 border-gray-300 focus:ring-2 focus:ring-cyan-100 focus:border-[#0891b2] outline-none transition-all resize-none"
+                      className="w-full px-4 py-3 text-base border-2 border-gray-300 focus:ring-2 focus:ring-orange-100 focus:border-[#f97316] outline-none transition-all resize-none"
                       style={{ borderRadius: 0 }}
                       onChange={handleChange}
                       placeholder="Tell us about your shipping needs or ask any questions..."
@@ -527,7 +525,7 @@ function Page() {
                       id="privacy"
                       type="checkbox"
                       required
-                      className="w-5 h-5 mt-0.5 text-[#0891b2] border-gray-300 focus:ring-[#0891b2]"
+                      className="w-5 h-5 mt-0.5 text-[#f97316] border-gray-300 focus:ring-[#f97316]"
                       style={{ borderRadius: 0 }}
                     />
                     <label
@@ -537,7 +535,7 @@ function Page() {
                       I agree to the{" "}
                       <a
                         href="#"
-                        className="text-[#0891b2] hover:underline font-medium"
+                        className="text-[#f97316] hover:underline font-medium"
                       >
                         privacy policy
                       </a>{" "}
@@ -548,10 +546,10 @@ function Page() {
                   <div>
                     <button
                       type="submit"
-                      className="w-full bg-gradient-to-r from-[#0891b2] to-[#0e7490] hover:from-[#0e7490] hover:to-[#155e75] text-white font-bold py-4 px-8 transition-all shadow-lg hover:shadow-xl transform hover:scale-[1.02] flex items-center justify-center text-base"
+                      className="w-full bg-gradient-to-r from-[#f97316] to-[#ea580c] hover:from-[#ea580c] hover:to-[#c2410c] text-white font-bold py-4 px-8 transition-all shadow-lg hover:shadow-xl transform hover:scale-[1.02] flex items-center justify-center text-base"
                       style={{ borderRadius: 0 }}
                     >
-                      <span>Send Message</span>
+                      <span>Send</span>
                       <svg
                         className="w-4 h-4 sm:w-5 sm:h-5 ml-2"
                         fill="none"
@@ -579,19 +577,17 @@ function Page() {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-12 sm:mb-16">
             <span
-              className="inline-block px-4 py-1 bg-[#0891b2]/10 text-[#0891b2] font-medium mb-4 text-sm"
+              className="inline-block px-4 py-1 bg-[#f97316]/10 text-[#f97316] font-medium mb-4 text-sm"
               style={{ borderRadius: 0 }}
             >
               FAQ
             </span>
-            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#0891b2] to-[#155e75] mb-4 sm:mb-6">
-              Frequently Asked Questions
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#f97316] to-[#c2410c] mb-4 sm:mb-6">
+              Quick Answers
             </h2>
-            <div className="w-20 h-1 bg-[#0891b2] mx-auto mb-6"></div>
+            <div className="w-20 h-1 bg-[#f97316] mx-auto mb-6"></div>
             <p className="text-gray-700 text-base sm:text-lg max-w-3xl mx-auto">
-              Find answers to common questions about our shipping and logistics
-              services. Can't find what you're looking for? Contact our support
-              team.
+              Can't find what you're looking for? Contact us directly.
             </p>
           </div>
 
@@ -602,7 +598,7 @@ function Page() {
             >
               <div className="flex items-start mb-4">
                 <div
-                  className="w-10 h-10 bg-gradient-to-br from-[#0891b2] to-[#0e7490] flex items-center justify-center mr-4 flex-shrink-0"
+                  className="w-10 h-10 bg-gradient-to-br from-[#f97316] to-[#ea580c] flex items-center justify-center mr-4 flex-shrink-0"
                   style={{ borderRadius: 0 }}
                 >
                   <svg
@@ -620,13 +616,11 @@ function Page() {
                   </svg>
                 </div>
                 <div>
-                  <h3 className="font-bold text-lg sm:text-xl text-[#0891b2] mb-3">
+                  <h3 className="font-bold text-lg sm:text-xl text-[#f97316] mb-3">
                     What areas do you service?
                   </h3>
                   <p className="text-gray-700 leading-relaxed">
-                    We deliver to over 220 destinations worldwide, including all
-                    major cities and remote locations. Our extensive network
-                    ensures reliable service wherever you need to ship.
+                    We ship to 220+ destinations worldwide. Contact us to confirm coverage for your region.
                   </p>
                 </div>
               </div>
@@ -638,7 +632,7 @@ function Page() {
             >
               <div className="flex items-start mb-4">
                 <div
-                  className="w-10 h-10 bg-gradient-to-br from-[#06b6d4] to-[#0891b2] flex items-center justify-center mr-4 flex-shrink-0"
+                  className="w-10 h-10 bg-gradient-to-br from-[#fb923c] to-[#f97316] flex items-center justify-center mr-4 flex-shrink-0"
                   style={{ borderRadius: 0 }}
                 >
                   <svg
@@ -656,14 +650,11 @@ function Page() {
                   </svg>
                 </div>
                 <div>
-                  <h3 className="font-bold text-lg sm:text-xl text-[#0891b2] mb-3">
+                  <h3 className="font-bold text-lg sm:text-xl text-[#f97316] mb-3">
                     How can I track my shipment?
                   </h3>
                   <p className="text-gray-700 leading-relaxed">
-                    You can track your shipment using the tracking number
-                    provided at the time of booking. Use our website's tracking
-                    tool or mobile app for real-time updates on your package
-                    location.
+                    Enter your tracking number on the shipment page for real-time updates.
                   </p>
                 </div>
               </div>
@@ -675,7 +666,7 @@ function Page() {
             >
               <div className="flex items-start mb-4">
                 <div
-                  className="w-10 h-10 bg-gradient-to-br from-[#0e7490] to-[#155e75] flex items-center justify-center mr-4 flex-shrink-0"
+                  className="w-10 h-10 bg-gradient-to-br from-[#ea580c] to-[#c2410c] flex items-center justify-center mr-4 flex-shrink-0"
                   style={{ borderRadius: 0 }}
                 >
                   <svg
@@ -693,7 +684,7 @@ function Page() {
                   </svg>
                 </div>
                 <div>
-                  <h3 className="font-bold text-lg sm:text-xl text-[#0891b2] mb-3">
+                  <h3 className="font-bold text-lg sm:text-xl text-[#f97316] mb-3">
                     What are your delivery times?
                   </h3>
                   <p className="text-gray-700 leading-relaxed">
@@ -712,7 +703,7 @@ function Page() {
             >
               <div className="flex items-start mb-4">
                 <div
-                  className="w-10 h-10 bg-gradient-to-br from-[#0891b2] to-[#06b6d4] flex items-center justify-center mr-4 flex-shrink-0"
+                  className="w-10 h-10 bg-gradient-to-br from-[#f97316] to-[#fb923c] flex items-center justify-center mr-4 flex-shrink-0"
                   style={{ borderRadius: 0 }}
                 >
                   <svg
@@ -730,14 +721,11 @@ function Page() {
                   </svg>
                 </div>
                 <div>
-                  <h3 className="font-bold text-lg sm:text-xl text-[#0891b2] mb-3">
+                  <h3 className="font-bold text-lg sm:text-xl text-[#f97316] mb-3">
                     Do you offer insurance for shipments?
                   </h3>
                   <p className="text-gray-700 leading-relaxed">
-                    Yes, we offer comprehensive insurance options for all
-                    shipments to ensure your items are protected throughout the
-                    delivery process. Coverage can be customized based on the
-                    value of your shipment.
+                    Yes. We offer comprehensive insurance for all shipment types. Ask us for details.
                   </p>
                 </div>
               </div>
@@ -746,16 +734,16 @@ function Page() {
 
           <div className="text-center mt-12 sm:mt-16">
             <div
-              className="bg-gradient-to-br from-[#0891b2]/10 to-[#06b6d4]/10 p-8 border-2 border-[#0891b2]/20"
+              className="bg-gradient-to-br from-[#f97316]/10 to-[#fb923c]/10 p-8 border-2 border-[#f97316]/20"
               style={{ borderRadius: 0 }}
             >
               <p className="text-gray-700 mb-6 text-lg font-medium">
-                Still have questions? Our team is here to help.
+                Still have questions?
               </p>
               <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
                 <a
-                  href="mailto:contact@track-globallogistics.com"
-                  className="inline-flex items-center text-[#0891b2] font-semibold hover:text-[#0e7490] transition-colors text-base"
+                  href="mailto:contact@swiftpairlogistics.com"
+                  className="inline-flex items-center text-[#f97316] font-semibold hover:text-[#ea580c] transition-colors text-base"
                 >
                   <svg
                     className="w-5 h-5 mr-2"
@@ -770,14 +758,14 @@ function Page() {
                       d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
                     />
                   </svg>
-                  Email our support team
+                  Email Support
                 </a>
                 <span className="text-gray-400 hidden sm:inline text-2xl">
                   |
                 </span>
                 {/* <a
                   href="tel:+16303926723"
-                  className="inline-flex items-center text-[#0891b2] font-semibold hover:text-[#0e7490] transition-colors text-base"
+                  className="inline-flex items-center text-[#f97316] font-semibold hover:text-[#ea580c] transition-colors text-base"
                 >
                   <svg
                     className="w-5 h-5 mr-2"

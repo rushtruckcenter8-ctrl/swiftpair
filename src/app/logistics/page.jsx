@@ -32,22 +32,22 @@ function Page() {
     {
       title: "Parcel delivery",
       content:
-        "We have been moving your goods since 1990 and are committed to providing you with a great service every time",
+        "Fast, reliable parcel delivery for individuals and businesses. Domestic and international.",
     },
     {
       title: "Parcels throughout Europe",
       content:
-        "Send parcels throughout Europe with our DPD Classic service—from Spain to Denmark, Germany to Estonia, the Netherlands to Austria, and more. We also offer domestic services within each of these countries; for example, from one address in France to another.",
+        "Seamless European shipping with full tracking and customs handling.",
     },
     {
       title: "Freight",
       content:
-        "We combine longstanding freight expertise with a suite of freight services tailored to your shipping needs. Our relationship with international carriers and shipping companies, following over 20 years in the freight forwarding business, allows us to negotiate the best possible rates.",
+        "Heavy-haul freight with proven carrier partnerships and end-to-end management.",
     },
     {
       title: "Fulfillment services",
       content:
-        "With fulfilment services from Europa Lieferung Express, we'll store your inventory at our depot and ship out to your customers. It saves time and effort on your part, and allows your business to stay flexible and responsive as your consumer base grows.",
+        "Storage, pick and pack, and last-mile delivery — handled for you.",
     },
   ];
 
@@ -60,10 +60,10 @@ function Page() {
         img={
           "/images_now/aerial-view-cargo-ship-cargo-container-harbor_335224-1380.avif"
         }
-        h2Text={"Global Logistics Solutions"}
-        spanText={"End-to-End Supply Chain Management"}
+        h2Text={"Freight, Simplified."}
+        spanText={"Air. Ocean. Road. All in one place."}
         pText={
-          "Streamline your operations with our comprehensive logistics services"
+          "End-to-end freight for businesses of any size."
         }
       />
 
@@ -77,7 +77,7 @@ function Page() {
             <div className="p-8 md:p-12">
               <div className="flex items-center gap-3 mb-6">
                 <div
-                  className="w-12 h-12 bg-gradient-to-br from-[#0891b2] to-[#0e7490] flex items-center justify-center"
+                  className="w-12 h-12 bg-gradient-to-br from-[#f97316] to-[#ea580c] flex items-center justify-center"
                   style={{ borderRadius: 0 }}
                 >
                   <svg
@@ -95,56 +95,34 @@ function Page() {
                   </svg>
                 </div>
                 <span
-                  className="px-4 py-1 bg-[#0891b2]/10 text-[#0891b2] font-medium text-sm"
+                  className="px-4 py-1 bg-[#f97316]/10 text-[#f97316] font-medium text-sm"
                   style={{ borderRadius: 0 }}
                 >
-                  Logistics Excellence
+                  Our Capabilities
                 </span>
               </div>
 
-              <h1 className="text-4xl md:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#0891b2] to-[#155e75] mb-8">
-                Comprehensive Global Logistics & Supply Chain Solutions
+              <h1 className="text-4xl md:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#f97316] to-[#c2410c] mb-8">
+                Move Anything. Anywhere.
               </h1>
 
               <div className="grid md:grid-cols-2 gap-8 mb-8">
                 <div className="space-y-4 text-gray-700">
                   <p className="leading-relaxed text-lg">
-                    Track-Global Logistics delivers end-to-end logistics solutions
-                    that optimize your supply chain operations. Our
-                    comprehensive services span air, ocean, and ground freight
-                    forwarding, ensuring reliable and efficient transportation
-                    for all your shipments.
-                  </p>
-                  <p className="leading-relaxed">
-                    With over{" "}
-                    <span className="font-semibold text-[#0891b2]">
-                      25 years of experience
-                    </span>{" "}
-                    and a network covering{" "}
-                    <span className="font-semibold text-[#0891b2]">
-                      220+ countries
-                    </span>
-                    , we provide tailored logistics solutions that adapt to your
-                    business needs.
+                    We optimize supply chains across air, ocean, and road — with full visibility and expert support at every stage.
                   </p>
                 </div>
                 <div className="space-y-4 text-gray-700">
                   <p className="leading-relaxed">
-                    Whether you need{" "}
-                    <span className="font-semibold text-[#0891b2]">
+                    From{" "}
+                    <span className="font-semibold text-[#f97316]">
                       Full Container Load (FCL)
                     </span>{" "}
-                    or{" "}
-                    <span className="font-semibold text-[#0891b2]">
+                    to{" "}
+                    <span className="font-semibold text-[#f97316]">
                       Less than Container Load (LCL)
-                    </span>{" "}
-                    services, our flexible approach ensures secure, reliable,
-                    and cost-effective freight forwarding.
-                  </p>
-                  <p className="leading-relaxed">
-                    Our advanced logistics technology provides real-time
-                    tracking, automated documentation, and seamless customs
-                    clearance, streamlining your entire supply chain process.
+                    </span>
+                    , real-time tracking, and seamless customs clearance — we handle it all.
                   </p>
                 </div>
               </div>
@@ -152,25 +130,25 @@ function Page() {
               {/* Key Benefits Grid */}
               <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-8 pt-8 border-t-2 border-gray-100">
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-[#0891b2] mb-2">
+                  <div className="text-3xl font-bold text-[#f97316] mb-2">
                     220+
                   </div>
                   <div className="text-sm text-gray-600">Destinations</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-[#0891b2] mb-2">
+                  <div className="text-3xl font-bold text-[#f97316] mb-2">
                     24/7
                   </div>
                   <div className="text-sm text-gray-600">Support</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-[#0891b2] mb-2">
+                  <div className="text-3xl font-bold text-[#f97316] mb-2">
                     98%
                   </div>
                   <div className="text-sm text-gray-600">On-Time Rate</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-[#0891b2] mb-2">
+                  <div className="text-3xl font-bold text-[#f97316] mb-2">
                     25+
                   </div>
                   <div className="text-sm text-gray-600">Years Experience</div>
@@ -186,28 +164,18 @@ function Page() {
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16" data-aos="fade-up">
             <span
-              className="inline-block px-4 py-1 bg-[#0891b2]/10 text-[#0891b2] font-medium mb-4"
+              className="inline-block px-4 py-1 bg-[#f97316]/10 text-[#f97316] font-medium mb-4"
               style={{ borderRadius: 0 }}
             >
               Our Services
             </span>
-            <h2 className="text-3xl md:text-5xl font-bold text-[#0891b2] mb-6">
-              Multi-Modal Freight Solutions
+            <h2 className="text-3xl md:text-5xl font-bold text-[#f97316] mb-6">
+              Every Mode, Every Route
             </h2>
-            <div className="w-20 h-1 bg-[#0891b2] mx-auto mb-6"></div>
+            <div className="w-20 h-1 bg-[#f97316] mx-auto mb-6"></div>
             <div className="max-w-4xl mx-auto space-y-4 text-gray-700 text-lg leading-relaxed">
               <p>
-                From cross-border shipments to streamlined pallet services,
-                parcel delivery, and full or partial container loads, SwiftTrack
-                Express provides comprehensive logistics solutions tailored to
-                your business needs.
-              </p>
-              <p>
-                Our expert logistics team designs custom freight forwarding
-                strategies, selecting optimal transport modes and ensuring
-                timely delivery. We combine industry expertise with cutting-edge
-                technology to deliver efficient, reliable solutions for all your
-                shipping requirements.
+                Air, ocean, or road — we manage cross-border shipments with precision and full documentation support.
               </p>
             </div>
           </div>
@@ -221,8 +189,8 @@ function Page() {
               data-aos-delay="100"
               style={{ borderRadius: 0 }}
             >
-              <div className="bg-gradient-to-br from-[#0891b2] to-[#0e7490] p-8 flex items-center justify-between relative overflow-hidden">
-                <div className="absolute inset-0 bg-[#0891b2]/20 opacity-0 group-hover:opacity-100 transition-opacity"></div>
+              <div className="bg-gradient-to-br from-[#f97316] to-[#ea580c] p-8 flex items-center justify-between relative overflow-hidden">
+                <div className="absolute inset-0 bg-[#f97316]/20 opacity-0 group-hover:opacity-100 transition-opacity"></div>
                 <div className="flex items-center relative z-10">
                   <div
                     className="w-16 h-16 flex-shrink-0 mr-4 bg-white/20 flex items-center justify-center"
@@ -246,13 +214,13 @@ function Page() {
                 </div>
               </div>
               <div className="p-8">
-                <h4 className="font-bold text-[#0891b2] mb-4 text-lg">
-                  International Air Freight Options
+                <h4 className="font-bold text-[#f97316] mb-4 text-lg">
+                  Fast air freight, door to door.
                 </h4>
                 <ul className="mb-8 space-y-3">
                   <li className="flex items-start">
                     <svg
-                      className="w-5 h-5 text-[#0891b2] mr-3 mt-0.5 flex-shrink-0"
+                      className="w-5 h-5 text-[#f97316] mr-3 mt-0.5 flex-shrink-0"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
@@ -268,7 +236,7 @@ function Page() {
                   </li>
                   <li className="flex items-start">
                     <svg
-                      className="w-5 h-5 text-[#0891b2] mr-3 mt-0.5 flex-shrink-0"
+                      className="w-5 h-5 text-[#f97316] mr-3 mt-0.5 flex-shrink-0"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
@@ -286,13 +254,13 @@ function Page() {
                   </li>
                 </ul>
 
-                <h4 className="font-bold text-[#0891b2] mb-4 text-lg">
+                <h4 className="font-bold text-[#f97316] mb-4 text-lg">
                   Included Services
                 </h4>
                 <ul className="space-y-3">
                   <li className="flex items-start">
                     <svg
-                      className="w-5 h-5 text-[#0891b2] mr-3 mt-0.5 flex-shrink-0"
+                      className="w-5 h-5 text-[#f97316] mr-3 mt-0.5 flex-shrink-0"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
@@ -308,7 +276,7 @@ function Page() {
                   </li>
                   <li className="flex items-start">
                     <svg
-                      className="w-5 h-5 text-[#0891b2] mr-3 mt-0.5 flex-shrink-0"
+                      className="w-5 h-5 text-[#f97316] mr-3 mt-0.5 flex-shrink-0"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
@@ -326,7 +294,7 @@ function Page() {
                   </li>
                   <li className="flex items-start">
                     <svg
-                      className="w-5 h-5 text-[#0891b2] mr-3 mt-0.5 flex-shrink-0"
+                      className="w-5 h-5 text-[#f97316] mr-3 mt-0.5 flex-shrink-0"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
@@ -353,8 +321,8 @@ function Page() {
               data-aos-delay="200"
               style={{ borderRadius: 0 }}
             >
-              <div className="bg-gradient-to-br from-[#06b6d4] to-[#0891b2] p-8 flex items-center justify-between relative overflow-hidden">
-                <div className="absolute inset-0 bg-[#0891b2]/20 opacity-0 group-hover:opacity-100 transition-opacity"></div>
+              <div className="bg-gradient-to-br from-[#fb923c] to-[#f97316] p-8 flex items-center justify-between relative overflow-hidden">
+                <div className="absolute inset-0 bg-[#f97316]/20 opacity-0 group-hover:opacity-100 transition-opacity"></div>
                 <div className="flex items-center relative z-10">
                   <div
                     className="w-16 h-16 flex-shrink-0 mr-4 bg-white/20 flex items-center justify-center"
@@ -380,13 +348,13 @@ function Page() {
                 </div>
               </div>
               <div className="p-8">
-                <h4 className="font-bold text-[#0891b2] mb-4 text-lg">
-                  International Ocean Freight Options
+                <h4 className="font-bold text-[#f97316] mb-4 text-lg">
+                  Cost-effective ocean shipping, FCL or LCL.
                 </h4>
                 <ul className="mb-8 space-y-3">
                   <li className="flex items-start">
                     <svg
-                      className="w-5 h-5 text-[#0891b2] mr-3 mt-0.5 flex-shrink-0"
+                      className="w-5 h-5 text-[#f97316] mr-3 mt-0.5 flex-shrink-0"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
@@ -404,7 +372,7 @@ function Page() {
                   </li>
                   <li className="flex items-start">
                     <svg
-                      className="w-5 h-5 text-[#0891b2] mr-3 mt-0.5 flex-shrink-0"
+                      className="w-5 h-5 text-[#f97316] mr-3 mt-0.5 flex-shrink-0"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
@@ -422,13 +390,13 @@ function Page() {
                   </li>
                 </ul>
 
-                <h4 className="font-bold text-[#0891b2] mb-4 text-lg">
+                <h4 className="font-bold text-[#f97316] mb-4 text-lg">
                   Included Services
                 </h4>
                 <ul className="space-y-3">
                   <li className="flex items-start">
                     <svg
-                      className="w-5 h-5 text-[#0891b2] mr-3 mt-0.5 flex-shrink-0"
+                      className="w-5 h-5 text-[#f97316] mr-3 mt-0.5 flex-shrink-0"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
@@ -444,7 +412,7 @@ function Page() {
                   </li>
                   <li className="flex items-start">
                     <svg
-                      className="w-5 h-5 text-[#0891b2] mr-3 mt-0.5 flex-shrink-0"
+                      className="w-5 h-5 text-[#f97316] mr-3 mt-0.5 flex-shrink-0"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
@@ -460,7 +428,7 @@ function Page() {
                   </li>
                   <li className="flex items-start">
                     <svg
-                      className="w-5 h-5 text-[#0891b2] mr-3 mt-0.5 flex-shrink-0"
+                      className="w-5 h-5 text-[#f97316] mr-3 mt-0.5 flex-shrink-0"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
@@ -478,7 +446,7 @@ function Page() {
                   </li>
                   <li className="flex items-start">
                     <svg
-                      className="w-5 h-5 text-[#0891b2] mr-3 mt-0.5 flex-shrink-0"
+                      className="w-5 h-5 text-[#f97316] mr-3 mt-0.5 flex-shrink-0"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
@@ -505,8 +473,8 @@ function Page() {
               data-aos-delay="300"
               style={{ borderRadius: 0 }}
             >
-              <div className="bg-gradient-to-br from-[#0e7490] to-[#155e75] p-8 flex items-center justify-between relative overflow-hidden">
-                <div className="absolute inset-0 bg-[#0891b2]/20 opacity-0 group-hover:opacity-100 transition-opacity"></div>
+              <div className="bg-gradient-to-br from-[#ea580c] to-[#c2410c] p-8 flex items-center justify-between relative overflow-hidden">
+                <div className="absolute inset-0 bg-[#f97316]/20 opacity-0 group-hover:opacity-100 transition-opacity"></div>
                 <div className="flex items-center relative z-10">
                   <div
                     className="w-16 h-16 flex-shrink-0 mr-4 bg-white/20 flex items-center justify-center"
@@ -530,13 +498,13 @@ function Page() {
                 </div>
               </div>
               <div className="p-8">
-                <h4 className="font-bold text-[#0891b2] mb-4 text-lg">
-                  Ground Transportation Options
+                <h4 className="font-bold text-[#f97316] mb-4 text-lg">
+                  Reliable road freight across the region.
                 </h4>
                 <ul className="mb-8 space-y-3">
                   <li className="flex items-start">
                     <svg
-                      className="w-5 h-5 text-[#0891b2] mr-3 mt-0.5 flex-shrink-0"
+                      className="w-5 h-5 text-[#f97316] mr-3 mt-0.5 flex-shrink-0"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
@@ -552,7 +520,7 @@ function Page() {
                   </li>
                   <li className="flex items-start">
                     <svg
-                      className="w-5 h-5 text-[#0891b2] mr-3 mt-0.5 flex-shrink-0"
+                      className="w-5 h-5 text-[#f97316] mr-3 mt-0.5 flex-shrink-0"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
@@ -570,7 +538,7 @@ function Page() {
                   </li>
                   <li className="flex items-start">
                     <svg
-                      className="w-5 h-5 text-[#0891b2] mr-3 mt-0.5 flex-shrink-0"
+                      className="w-5 h-5 text-[#f97316] mr-3 mt-0.5 flex-shrink-0"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
@@ -586,7 +554,7 @@ function Page() {
                   </li>
                   <li className="flex items-start">
                     <svg
-                      className="w-5 h-5 text-[#0891b2] mr-3 mt-0.5 flex-shrink-0"
+                      className="w-5 h-5 text-[#f97316] mr-3 mt-0.5 flex-shrink-0"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
@@ -604,13 +572,13 @@ function Page() {
                   </li>
                 </ul>
 
-                <h4 className="font-bold text-[#0891b2] mb-4 text-lg">
+                <h4 className="font-bold text-[#f97316] mb-4 text-lg">
                   Included Services
                 </h4>
                 <ul className="space-y-3">
                   <li className="flex items-start">
                     <svg
-                      className="w-5 h-5 text-[#0891b2] mr-3 mt-0.5 flex-shrink-0"
+                      className="w-5 h-5 text-[#f97316] mr-3 mt-0.5 flex-shrink-0"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
@@ -626,7 +594,7 @@ function Page() {
                   </li>
                   <li className="flex items-start">
                     <svg
-                      className="w-5 h-5 text-[#0891b2] mr-3 mt-0.5 flex-shrink-0"
+                      className="w-5 h-5 text-[#f97316] mr-3 mt-0.5 flex-shrink-0"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
@@ -650,7 +618,7 @@ function Page() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-16 md:py-24 px-4 bg-gradient-to-br from-[#0e7490] via-[#0891b2] to-[#06b6d4]">
+      <section className="py-16 md:py-24 px-4 bg-gradient-to-br from-[#ea580c] via-[#f97316] to-[#fb923c]">
         <div className="max-w-7xl mx-auto" data-aos="fade-up">
           <div
             className="overflow-hidden shadow-2xl border-2 border-white/20"
@@ -668,17 +636,11 @@ function Page() {
 
               <div className="relative z-10">
                 <h2 className="text-3xl md:text-4xl font-bold mb-6">
-                  Expert Logistics Consultants Ready to Help
+                  Let's Build Your Shipping Solution.
                 </h2>
 
                 <p className="mb-6 text-white/95 leading-relaxed text-lg max-w-4xl">
-                  Need more information about our logistics and shipping
-                  services? Contact our expert team today. Our logistics
-                  consultants will discuss your specific requirements, provide
-                  strategic insights, and answer all your questions. With our
-                  commitment to excellence and customer satisfaction, trust
-                  Track-Global Logistics to deliver reliable, efficient solutions
-                  tailored to your business needs.
+                  Our team designs custom strategies tailored to your cargo, timeline, and budget.
                 </p>
 
                 <div className="mb-10 grid md:grid-cols-2 gap-6">
@@ -688,9 +650,7 @@ function Page() {
                   >
                     <h3 className="font-bold text-xl mb-3">Custom Solutions</h3>
                     <p className="text-white/90">
-                      Every business is unique. Our team designs logistics
-                      strategies specifically tailored to your operational
-                      requirements and growth objectives.
+                      Tailored to your exact requirements.
                     </p>
                   </div>
                   <div
@@ -701,9 +661,7 @@ function Page() {
                       End-to-End Support
                     </h3>
                     <p className="text-white/90">
-                      From initial consultation to final delivery, we provide
-                      comprehensive support throughout your entire logistics
-                      journey.
+                      We're with you from booking to delivery.
                     </p>
                   </div>
                 </div>
@@ -711,17 +669,17 @@ function Page() {
                 <div className="flex flex-wrap gap-4">
                   <button
                     onClick={() => router.push("/contact")}
-                    className="bg-white text-[#0891b2] hover:bg-gray-100 font-bold py-4 px-10 transition-all shadow-lg hover:shadow-xl transform hover:scale-105"
+                    className="bg-white text-[#f97316] hover:bg-gray-100 font-bold py-4 px-10 transition-all shadow-lg hover:shadow-xl transform hover:scale-105"
                     style={{ borderRadius: 0 }}
                   >
-                    GET EXPERT ADVICE
+                    TALK TO AN EXPERT
                   </button>
                   <Link
                     href="/#track-shipment"
                     className="bg-transparent hover:bg-white/20 border-2 border-white text-white font-bold py-4 px-10 transition-all"
                     style={{ borderRadius: 0 }}
                   >
-                    TRACK SHIPMENT
+                    TRACK A SHIPMENT
                   </Link>
                 </div>
               </div>
@@ -740,7 +698,7 @@ function Page() {
               data-aos="fade-right"
               style={{ borderRadius: 0 }}
             >
-              <div className="absolute inset-0 bg-gradient-to-r from-[#0891b2]/90 to-[#0e7490]/70 z-10">
+              <div className="absolute inset-0 bg-gradient-to-r from-[#f97316]/90 to-[#ea580c]/70 z-10">
                 <div className="absolute bottom-0 left-0 p-8">
                   <h3 className="text-white text-3xl md:text-4xl font-bold mb-3">
                     Global Logistics Network
@@ -763,15 +721,15 @@ function Page() {
             <div data-aos="fade-left">
               <div className="mb-8">
                 <span
-                  className="inline-block px-4 py-1 bg-[#0891b2]/10 text-[#0891b2] font-medium mb-4"
+                  className="inline-block px-4 py-1 bg-[#f97316]/10 text-[#f97316] font-medium mb-4"
                   style={{ borderRadius: 0 }}
                 >
-                  Service Details
+                  Services
                 </span>
-                <h3 className="text-3xl md:text-4xl font-bold text-[#0891b2] mb-2">
-                  Comprehensive Logistics Services
+                <h3 className="text-3xl md:text-4xl font-bold text-[#f97316] mb-2">
+                  What's Included
                 </h3>
-                <div className="w-20 h-1 bg-[#0891b2] mb-6"></div>
+                <div className="w-20 h-1 bg-[#f97316] mb-6"></div>
               </div>
               <div
                 className="bg-white shadow-xl overflow-hidden border-2 border-gray-100"
@@ -788,11 +746,11 @@ function Page() {
                         setActiveTab(activeTab === index ? null : index)
                       }
                     >
-                      <span className="font-semibold text-lg capitalize text-gray-800 group-hover:text-[#0891b2] transition-colors">
+                      <span className="font-semibold text-lg capitalize text-gray-800 group-hover:text-[#f97316] transition-colors">
                         {tab.title}
                       </span>
                       <span
-                        className={`text-[#0891b2] transition-transform ${
+                        className={`text-[#f97316] transition-transform ${
                           activeTab === index ? "rotate-180" : ""
                         }`}
                       >
@@ -845,38 +803,28 @@ function Page() {
       <section className="py-16 md:py-24 px-4 bg-white">
         <div className="max-w-7xl mx-auto">
           <div
-            className="bg-gradient-to-br from-gray-50 to-white border-2 border-[#0891b2]/20 shadow-xl overflow-hidden"
+            className="bg-gradient-to-br from-gray-50 to-white border-2 border-[#f97316]/20 shadow-xl overflow-hidden"
             data-aos="fade-up"
             style={{ borderRadius: 0 }}
           >
             <div className="p-10 md:p-16">
               <div className="max-w-4xl mb-10">
-                <h2 className="text-3xl md:text-4xl font-bold text-[#0891b2] mb-6">
-                  Advanced Supply Chain Management Solutions
+                <h2 className="text-3xl md:text-4xl font-bold text-[#f97316] mb-6">
+                  Supply Chain, Under Control.
                 </h2>
-                <p className="text-gray-700 mb-6 text-lg leading-relaxed">
-                  In today's complex global marketplace, effective supply chain
-                  control and visibility are critical for maintaining
-                  competitive advantage. Companies must have real-time insights
-                  into processes, data flows, and shipment status to optimize
-                  operations and reduce costs.
-                </p>
-
                 <p className="text-gray-700 mb-10 text-lg leading-relaxed">
-                  Track-Global Logistics offers a comprehensive Lead Logistics
-                  Provider (LLP/4PL) solution designed to address these
-                  challenges and deliver measurable results:
+                  As your Lead Logistics Provider, we consolidate, optimize, and manage your entire supply chain — so you can focus on your business.
                 </p>
               </div>
 
               <div className="grid md:grid-cols-2 gap-8">
                 <div
-                  className="bg-white border-2 border-[#0891b2]/20 p-8 shadow-lg"
+                  className="bg-white border-2 border-[#f97316]/20 p-8 shadow-lg"
                   style={{ borderRadius: 0 }}
                 >
                   <div className="flex items-center mb-6">
                     <div
-                      className="w-12 h-12 bg-gradient-to-br from-[#0891b2] to-[#0e7490] flex items-center justify-center mr-4"
+                      className="w-12 h-12 bg-gradient-to-br from-[#f97316] to-[#ea580c] flex items-center justify-center mr-4"
                       style={{ borderRadius: 0 }}
                     >
                       <svg
@@ -893,14 +841,14 @@ function Page() {
                         />
                       </svg>
                     </div>
-                    <h3 className="text-2xl font-bold text-[#0891b2] uppercase">
-                      Strategic Approach
+                    <h3 className="text-2xl font-bold text-[#f97316] uppercase">
+                      Strategic Planning
                     </h3>
                   </div>
                   <ul className="space-y-4">
                     <li className="flex items-start">
                       <svg
-                        className="w-6 h-6 text-[#0891b2] mr-3 mt-0.5 flex-shrink-0"
+                        className="w-6 h-6 text-[#f97316] mr-3 mt-0.5 flex-shrink-0"
                         fill="none"
                         viewBox="0 0 24 24"
                         stroke="currentColor"
@@ -913,12 +861,12 @@ function Page() {
                         />
                       </svg>
                       <span className="text-gray-700">
-                        Global, regional, and local logistics strategies
+                        Global and regional strategy
                       </span>
                     </li>
                     <li className="flex items-start">
                       <svg
-                        className="w-6 h-6 text-[#0891b2] mr-3 mt-0.5 flex-shrink-0"
+                        className="w-6 h-6 text-[#f97316] mr-3 mt-0.5 flex-shrink-0"
                         fill="none"
                         viewBox="0 0 24 24"
                         stroke="currentColor"
@@ -931,12 +879,12 @@ function Page() {
                         />
                       </svg>
                       <span className="text-gray-700">
-                        End-to-end supply chain visibility and control
+                        Full supply chain visibility
                       </span>
                     </li>
                     <li className="flex items-start">
                       <svg
-                        className="w-6 h-6 text-[#0891b2] mr-3 mt-0.5 flex-shrink-0"
+                        className="w-6 h-6 text-[#f97316] mr-3 mt-0.5 flex-shrink-0"
                         fill="none"
                         viewBox="0 0 24 24"
                         stroke="currentColor"
@@ -949,12 +897,12 @@ function Page() {
                         />
                       </svg>
                       <span className="text-gray-700">
-                        Data quality assurance and validation
+                        Data accuracy and integrity
                       </span>
                     </li>
                     <li className="flex items-start">
                       <svg
-                        className="w-6 h-6 text-[#0891b2] mr-3 mt-0.5 flex-shrink-0"
+                        className="w-6 h-6 text-[#f97316] mr-3 mt-0.5 flex-shrink-0"
                         fill="none"
                         viewBox="0 0 24 24"
                         stroke="currentColor"
@@ -967,19 +915,19 @@ function Page() {
                         />
                       </svg>
                       <span className="text-gray-700">
-                        Proactive management of regulatory changes
+                        Regulatory compliance
                       </span>
                     </li>
                   </ul>
                 </div>
 
                 <div
-                  className="bg-white border-2 border-[#0891b2]/20 p-8 shadow-lg"
+                  className="bg-white border-2 border-[#f97316]/20 p-8 shadow-lg"
                   style={{ borderRadius: 0 }}
                 >
                   <div className="flex items-center mb-6">
                     <div
-                      className="w-12 h-12 bg-gradient-to-br from-[#06b6d4] to-[#0891b2] flex items-center justify-center mr-4"
+                      className="w-12 h-12 bg-gradient-to-br from-[#fb923c] to-[#f97316] flex items-center justify-center mr-4"
                       style={{ borderRadius: 0 }}
                     >
                       <svg
@@ -996,14 +944,14 @@ function Page() {
                         />
                       </svg>
                     </div>
-                    <h3 className="text-2xl font-bold text-[#0891b2] uppercase">
-                      Operational Planning
+                    <h3 className="text-2xl font-bold text-[#f97316] uppercase">
+                      Operational Execution
                     </h3>
                   </div>
                   <ul className="space-y-4">
                     <li className="flex items-start">
                       <svg
-                        className="w-6 h-6 text-[#0891b2] mr-3 mt-0.5 flex-shrink-0"
+                        className="w-6 h-6 text-[#f97316] mr-3 mt-0.5 flex-shrink-0"
                         fill="none"
                         viewBox="0 0 24 24"
                         stroke="currentColor"
@@ -1016,12 +964,12 @@ function Page() {
                         />
                       </svg>
                       <span className="text-gray-700">
-                        Streamlined process management and optimization
+                        Lean process management
                       </span>
                     </li>
                     <li className="flex items-start">
                       <svg
-                        className="w-6 h-6 text-[#0891b2] mr-3 mt-0.5 flex-shrink-0"
+                        className="w-6 h-6 text-[#f97316] mr-3 mt-0.5 flex-shrink-0"
                         fill="none"
                         viewBox="0 0 24 24"
                         stroke="currentColor"
@@ -1034,12 +982,12 @@ function Page() {
                         />
                       </svg>
                       <span className="text-gray-700">
-                        Identification of consolidation opportunities
+                        Freight consolidation
                       </span>
                     </li>
                     <li className="flex items-start">
                       <svg
-                        className="w-6 h-6 text-[#0891b2] mr-3 mt-0.5 flex-shrink-0"
+                        className="w-6 h-6 text-[#f97316] mr-3 mt-0.5 flex-shrink-0"
                         fill="none"
                         viewBox="0 0 24 24"
                         stroke="currentColor"
@@ -1057,7 +1005,7 @@ function Page() {
                     </li>
                     <li className="flex items-start">
                       <svg
-                        className="w-6 h-6 text-[#0891b2] mr-3 mt-0.5 flex-shrink-0"
+                        className="w-6 h-6 text-[#f97316] mr-3 mt-0.5 flex-shrink-0"
                         fill="none"
                         viewBox="0 0 24 24"
                         stroke="currentColor"
@@ -1070,8 +1018,7 @@ function Page() {
                         />
                       </svg>
                       <span className="text-gray-700">
-                        Strategic transport mode optimization (air to sea
-                        migration)
+                        Mode optimization
                       </span>
                     </li>
                   </ul>

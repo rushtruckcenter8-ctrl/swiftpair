@@ -23,7 +23,7 @@ function Banner({ spanText, h2Text, pText, img, button, location, height }) {
           className="absolute inset-0"
           style={{
             background:
-              "linear-gradient(to right, rgba(8, 145, 178, 0.95) 0%, rgba(14, 116, 144, 0.85) 25%, rgba(21, 94, 117, 0.6) 50%, rgba(0, 0, 0, 0.3) 100%)",
+              "linear-gradient(to right, rgba(194, 65, 12, 0.95) 0%, rgba(234, 88, 12, 0.85) 25%, rgba(249, 115, 22, 0.6) 50%, rgba(0, 0, 0, 0.3) 100%)",
           }}
         />
         {/* Overlay pattern for texture */}
@@ -38,7 +38,7 @@ function Banner({ spanText, h2Text, pText, img, button, location, height }) {
         <div className="flex flex-col justify-center h-full max-w-2xl">
           <span
             className="
-              text-cyan-300 font-semibold text-base md:text-lg mb-4 uppercase tracking-wider
+              text-orange-300 font-semibold text-base md:text-lg mb-4 uppercase tracking-wider
               opacity-0 translate-y-8
               animate-[slideUp_0.8s_ease-out_0.2s_forwards]
             "
@@ -78,13 +78,13 @@ function Banner({ spanText, h2Text, pText, img, button, location, height }) {
             <Link
               href={location || "/contact"}
               className="
-                inline-flex items-center justify-center px-8 py-4 bg-white text-[#0891b2]
+                inline-flex items-center justify-center px-8 py-4 bg-white text-[#f97316]
                 font-semibold text-lg transition-all duration-300
-                hover:bg-cyan-50 hover:scale-105 hover:shadow-xl group
-                border-2 border-transparent hover:border-cyan-200
+                hover:bg-orange-50 hover:scale-105 hover:shadow-xl group
+                border-2 border-transparent hover:border-orange-200
               "
             >
-              {button || "Get Started"}
+              {button || "Get a Quote"}
               <ArrowRight className="ml-2 w-5 h-5 transition-transform duration-300 group-hover:translate-x-1" />
             </Link>
             <Link
@@ -92,7 +92,7 @@ function Banner({ spanText, h2Text, pText, img, button, location, height }) {
               className="
                 inline-flex items-center justify-center px-8 py-4 bg-transparent text-white
                 border-2 border-white font-semibold text-lg transition-all duration-300
-                hover:bg-white hover:text-[#0891b2] hover:scale-105 hover:shadow-xl group
+                hover:bg-white hover:text-[#f97316] hover:scale-105 hover:shadow-xl group
               "
             >
               <Package className="mr-2 w-5 h-5" />
@@ -130,7 +130,7 @@ function Banner({ spanText, h2Text, pText, img, button, location, height }) {
               <div className="p-2 bg-white/10 rounded-lg backdrop-blur-sm">
                 <Package className="h-5 w-5" />
               </div>
-              <span className="text-sm font-medium">Fast Tracking</span>
+              <span className="text-sm font-medium">Real-Time Tracking</span>
             </div>
           </div>
         </div>

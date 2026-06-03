@@ -51,7 +51,7 @@ function Page() {
             <div className="p-8 md:p-12">
               <div className="flex items-center gap-3 mb-6">
                 <div
-                  className="w-12 h-12 bg-gradient-to-br from-[#0891b2] to-[#0e7490] flex items-center justify-center"
+                  className="w-12 h-12 bg-gradient-to-br from-[#f97316] to-[#ea580c] flex items-center justify-center"
                   style={{ borderRadius: 0 }}
                 >
                   <svg
@@ -69,21 +69,21 @@ function Page() {
                   </svg>
                 </div>
                 <span
-                  className="px-4 py-1 bg-[#0891b2]/10 text-[#0891b2] font-medium text-sm"
+                  className="px-4 py-1 bg-[#f97316]/10 text-[#f97316] font-medium text-sm"
                   style={{ borderRadius: 0 }}
                 >
                   Warehouse Solutions
                 </span>
               </div>
 
-              <h1 className="text-4xl md:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#0891b2] to-[#155e75] mb-8">
+              <h1 className="text-4xl md:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#f97316] to-[#c2410c] mb-8">
                 State-of-the-Art Warehouse & Distribution Facilities
               </h1>
 
               <div className="grid md:grid-cols-2 gap-8 mb-8">
                 <div className="space-y-4 text-gray-700">
                   <p className="leading-relaxed text-lg">
-                    Track-Global Logistics operates modern, fully-equipped warehouse
+                    SwiftPair Logistics operates modern, fully-equipped warehouse
                     facilities designed to meet the most demanding storage and
                     distribution requirements. Our strategically located
                     warehouses provide secure, climate-controlled environments
@@ -91,7 +91,7 @@ function Page() {
                   </p>
                   <p className="leading-relaxed">
                     With over{" "}
-                    <span className="font-semibold text-[#0891b2]">
+                    <span className="font-semibold text-[#f97316]">
                       25 years of experience
                     </span>{" "}
                     in logistics and warehousing, we offer comprehensive
@@ -102,11 +102,11 @@ function Page() {
                 <div className="space-y-4 text-gray-700">
                   <p className="leading-relaxed">
                     Our facilities support both{" "}
-                    <span className="font-semibold text-[#0891b2]">
+                    <span className="font-semibold text-[#f97316]">
                       Full Container Load (FCL)
                     </span>{" "}
                     and{" "}
-                    <span className="font-semibold text-[#0891b2]">
+                    <span className="font-semibold text-[#f97316]">
                       Less than Container Load (LCL)
                     </span>{" "}
                     operations, ensuring flexible solutions for businesses of
@@ -123,7 +123,7 @@ function Page() {
               {/* Key Features Grid */}
               <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-8 pt-8 border-t-2 border-gray-100">
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-[#0891b2] mb-2">
+                  <div className="text-3xl font-bold text-[#f97316] mb-2">
                     24/7
                   </div>
                   <div className="text-sm text-gray-600">
@@ -131,19 +131,19 @@ function Page() {
                   </div>
                 </div>
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-[#0891b2] mb-2">
+                  <div className="text-3xl font-bold text-[#f97316] mb-2">
                     100%
                   </div>
                   <div className="text-sm text-gray-600">Secure Storage</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-[#0891b2] mb-2">
+                  <div className="text-3xl font-bold text-[#f97316] mb-2">
                     WMS
                   </div>
                   <div className="text-sm text-gray-600">Advanced Systems</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-[#0891b2] mb-2">
+                  <div className="text-3xl font-bold text-[#f97316] mb-2">
                     220+
                   </div>
                   <div className="text-sm text-gray-600">Global Reach</div>
@@ -159,15 +159,15 @@ function Page() {
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16" data-aos="fade-up">
             <span
-              className="inline-block px-4 py-1 bg-[#0891b2]/10 text-[#0891b2] font-medium mb-4"
+              className="inline-block px-4 py-1 bg-[#f97316]/10 text-[#f97316] font-medium mb-4"
               style={{ borderRadius: 0 }}
             >
               Our Services
             </span>
-            <h2 className="text-3xl md:text-5xl font-bold text-[#0891b2] mb-6">
+            <h2 className="text-3xl md:text-5xl font-bold text-[#f97316] mb-6">
               Comprehensive Warehouse & Distribution Services
             </h2>
-            <div className="w-20 h-1 bg-[#0891b2] mx-auto mb-6"></div>
+            <div className="w-20 h-1 bg-[#f97316] mx-auto mb-6"></div>
             <p className="max-w-3xl mx-auto text-gray-700 text-lg leading-relaxed">
               From secure storage to efficient distribution, our warehouse
               solutions are designed to streamline your supply chain operations.
@@ -184,8 +184,8 @@ function Page() {
               data-aos-delay="100"
               style={{ borderRadius: 0 }}
             >
-              <div className="h-48 bg-gradient-to-br from-[#0891b2] to-[#0e7490] flex items-center justify-center p-6 relative overflow-hidden">
-                <div className="absolute inset-0 bg-[#0891b2]/20 opacity-0 group-hover:opacity-100 transition-opacity"></div>
+              <div className="h-48 bg-gradient-to-br from-[#f97316] to-[#ea580c] flex items-center justify-center p-6 relative overflow-hidden">
+                <div className="absolute inset-0 bg-[#f97316]/20 opacity-0 group-hover:opacity-100 transition-opacity"></div>
                 <div className="w-24 h-24 flex items-center justify-center relative z-10">
                   <svg
                     className="w-16 h-16 text-white"
@@ -203,7 +203,7 @@ function Page() {
                 </div>
               </div>
               <div className="p-8">
-                <h3 className="text-2xl font-bold text-[#0891b2] mb-4">
+                <h3 className="text-2xl font-bold text-[#f97316] mb-4">
                   Secure Storage Solutions
                 </h3>
                 <p className="text-gray-700 leading-relaxed mb-4">
@@ -215,7 +215,7 @@ function Page() {
                 <ul className="space-y-2 text-sm text-gray-600">
                   <li className="flex items-start">
                     <svg
-                      className="w-5 h-5 text-[#0891b2] mr-2 mt-0.5"
+                      className="w-5 h-5 text-[#f97316] mr-2 mt-0.5"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
@@ -231,7 +231,7 @@ function Page() {
                   </li>
                   <li className="flex items-start">
                     <svg
-                      className="w-5 h-5 text-[#0891b2] mr-2 mt-0.5"
+                      className="w-5 h-5 text-[#f97316] mr-2 mt-0.5"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
@@ -247,7 +247,7 @@ function Page() {
                   </li>
                   <li className="flex items-start">
                     <svg
-                      className="w-5 h-5 text-[#0891b2] mr-2 mt-0.5"
+                      className="w-5 h-5 text-[#f97316] mr-2 mt-0.5"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
@@ -272,8 +272,8 @@ function Page() {
               data-aos-delay="200"
               style={{ borderRadius: 0 }}
             >
-              <div className="h-48 bg-gradient-to-br from-[#06b6d4] to-[#0891b2] flex items-center justify-center p-6 relative overflow-hidden">
-                <div className="absolute inset-0 bg-[#0891b2]/20 opacity-0 group-hover:opacity-100 transition-opacity"></div>
+              <div className="h-48 bg-gradient-to-br from-[#fb923c] to-[#f97316] flex items-center justify-center p-6 relative overflow-hidden">
+                <div className="absolute inset-0 bg-[#f97316]/20 opacity-0 group-hover:opacity-100 transition-opacity"></div>
                 <div className="w-24 h-24 flex items-center justify-center relative z-10">
                   <svg
                     className="w-16 h-16 text-white"
@@ -291,7 +291,7 @@ function Page() {
                 </div>
               </div>
               <div className="p-8">
-                <h3 className="text-2xl font-bold text-[#0891b2] mb-4">
+                <h3 className="text-2xl font-bold text-[#f97316] mb-4">
                   Order Fulfillment Services
                 </h3>
                 <p className="text-gray-700 leading-relaxed mb-4">
@@ -302,7 +302,7 @@ function Page() {
                 <ul className="space-y-2 text-sm text-gray-600">
                   <li className="flex items-start">
                     <svg
-                      className="w-5 h-5 text-[#0891b2] mr-2 mt-0.5"
+                      className="w-5 h-5 text-[#f97316] mr-2 mt-0.5"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
@@ -318,7 +318,7 @@ function Page() {
                   </li>
                   <li className="flex items-start">
                     <svg
-                      className="w-5 h-5 text-[#0891b2] mr-2 mt-0.5"
+                      className="w-5 h-5 text-[#f97316] mr-2 mt-0.5"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
@@ -334,7 +334,7 @@ function Page() {
                   </li>
                   <li className="flex items-start">
                     <svg
-                      className="w-5 h-5 text-[#0891b2] mr-2 mt-0.5"
+                      className="w-5 h-5 text-[#f97316] mr-2 mt-0.5"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
@@ -359,8 +359,8 @@ function Page() {
               data-aos-delay="300"
               style={{ borderRadius: 0 }}
             >
-              <div className="h-48 bg-gradient-to-br from-[#0e7490] to-[#155e75] flex items-center justify-center p-6 relative overflow-hidden">
-                <div className="absolute inset-0 bg-[#0891b2]/20 opacity-0 group-hover:opacity-100 transition-opacity"></div>
+              <div className="h-48 bg-gradient-to-br from-[#ea580c] to-[#c2410c] flex items-center justify-center p-6 relative overflow-hidden">
+                <div className="absolute inset-0 bg-[#f97316]/20 opacity-0 group-hover:opacity-100 transition-opacity"></div>
                 <div className="w-24 h-24 flex items-center justify-center relative z-10">
                   <svg
                     className="w-16 h-16 text-white"
@@ -378,7 +378,7 @@ function Page() {
                 </div>
               </div>
               <div className="p-8">
-                <h3 className="text-2xl font-bold text-[#0891b2] mb-4">
+                <h3 className="text-2xl font-bold text-[#f97316] mb-4">
                   Cross-Docking & Distribution
                 </h3>
                 <p className="text-gray-700 leading-relaxed mb-4">
@@ -389,7 +389,7 @@ function Page() {
                 <ul className="space-y-2 text-sm text-gray-600">
                   <li className="flex items-start">
                     <svg
-                      className="w-5 h-5 text-[#0891b2] mr-2 mt-0.5"
+                      className="w-5 h-5 text-[#f97316] mr-2 mt-0.5"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
@@ -405,7 +405,7 @@ function Page() {
                   </li>
                   <li className="flex items-start">
                     <svg
-                      className="w-5 h-5 text-[#0891b2] mr-2 mt-0.5"
+                      className="w-5 h-5 text-[#f97316] mr-2 mt-0.5"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
@@ -421,7 +421,7 @@ function Page() {
                   </li>
                   <li className="flex items-start">
                     <svg
-                      className="w-5 h-5 text-[#0891b2] mr-2 mt-0.5"
+                      className="w-5 h-5 text-[#f97316] mr-2 mt-0.5"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
@@ -443,7 +443,7 @@ function Page() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-16 md:py-24 px-4 bg-gradient-to-br from-[#0e7490] via-[#0891b2] to-[#06b6d4]">
+      <section className="py-16 md:py-24 px-4 bg-gradient-to-br from-[#ea580c] via-[#f97316] to-[#fb923c]">
         <div className="max-w-7xl mx-auto" data-aos="fade-up">
           <div
             className="overflow-hidden shadow-2xl border-2 border-white/20"
@@ -466,7 +466,7 @@ function Page() {
                 </h2>
 
                 <p className="mb-6 text-white/95 leading-relaxed text-lg max-w-4xl">
-                  Partner with Track-Global Logistics for comprehensive warehouse
+                  Partner with SwiftPair Logistics for comprehensive warehouse
                   and distribution services that integrate seamlessly with your
                   global shipping operations. Our state-of-the-art facilities,
                   advanced WMS technology, and expert logistics team ensure your
@@ -505,7 +505,7 @@ function Page() {
                 <div className="flex flex-wrap gap-4">
                   <button
                     onClick={() => router.push("/contact")}
-                    className="bg-white text-[#0891b2] hover:bg-gray-100 font-bold py-4 px-10 transition-all shadow-lg hover:shadow-xl transform hover:scale-105"
+                    className="bg-white text-[#f97316] hover:bg-gray-100 font-bold py-4 px-10 transition-all shadow-lg hover:shadow-xl transform hover:scale-105"
                     style={{ borderRadius: 0 }}
                   >
                     GET QUOTE
@@ -529,15 +529,15 @@ function Page() {
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-12" data-aos="fade-up">
             <span
-              className="inline-block px-4 py-1 bg-[#0891b2]/10 text-[#0891b2] font-medium mb-4"
+              className="inline-block px-4 py-1 bg-[#f97316]/10 text-[#f97316] font-medium mb-4"
               style={{ borderRadius: 0 }}
             >
               Why Choose Us
             </span>
-            <h2 className="text-3xl md:text-4xl font-bold text-[#0891b2] mb-4">
+            <h2 className="text-3xl md:text-4xl font-bold text-[#f97316] mb-4">
               Advanced Warehouse Capabilities
             </h2>
-            <div className="w-20 h-1 bg-[#0891b2] mx-auto mb-6"></div>
+            <div className="w-20 h-1 bg-[#f97316] mx-auto mb-6"></div>
           </div>
 
           <div className="grid md:grid-cols-3 gap-8">
@@ -549,7 +549,7 @@ function Page() {
               style={{ borderRadius: 0 }}
             >
               <div
-                className="w-16 h-16 bg-gradient-to-br from-[#0891b2] to-[#0e7490] flex items-center justify-center mb-6 group-hover:scale-110 transition-transform"
+                className="w-16 h-16 bg-gradient-to-br from-[#f97316] to-[#ea580c] flex items-center justify-center mb-6 group-hover:scale-110 transition-transform"
                 style={{ borderRadius: 0 }}
               >
                 <svg
@@ -566,7 +566,7 @@ function Page() {
                   />
                 </svg>
               </div>
-              <h3 className="text-xl font-bold text-[#0891b2] mb-4">
+              <h3 className="text-xl font-bold text-[#f97316] mb-4">
                 Secure & Monitored Facilities
               </h3>
               <p className="text-gray-700 leading-relaxed">
@@ -585,7 +585,7 @@ function Page() {
               style={{ borderRadius: 0 }}
             >
               <div
-                className="w-16 h-16 bg-gradient-to-br from-[#06b6d4] to-[#0891b2] flex items-center justify-center mb-6 group-hover:scale-110 transition-transform"
+                className="w-16 h-16 bg-gradient-to-br from-[#fb923c] to-[#f97316] flex items-center justify-center mb-6 group-hover:scale-110 transition-transform"
                 style={{ borderRadius: 0 }}
               >
                 <svg
@@ -602,7 +602,7 @@ function Page() {
                   />
                 </svg>
               </div>
-              <h3 className="text-xl font-bold text-[#0891b2] mb-4">
+              <h3 className="text-xl font-bold text-[#f97316] mb-4">
                 Real-Time Inventory Management
               </h3>
               <p className="text-gray-700 leading-relaxed">
@@ -621,7 +621,7 @@ function Page() {
               style={{ borderRadius: 0 }}
             >
               <div
-                className="w-16 h-16 bg-gradient-to-br from-[#0e7490] to-[#155e75] flex items-center justify-center mb-6 group-hover:scale-110 transition-transform"
+                className="w-16 h-16 bg-gradient-to-br from-[#ea580c] to-[#c2410c] flex items-center justify-center mb-6 group-hover:scale-110 transition-transform"
                 style={{ borderRadius: 0 }}
               >
                 <svg
@@ -638,7 +638,7 @@ function Page() {
                   />
                 </svg>
               </div>
-              <h3 className="text-xl font-bold text-[#0891b2] mb-4">
+              <h3 className="text-xl font-bold text-[#f97316] mb-4">
                 Fast & Efficient Operations
               </h3>
               <p className="text-gray-700 leading-relaxed">
@@ -655,11 +655,11 @@ function Page() {
       <section className="py-16 md:py-24 px-4 bg-white">
         <div className="max-w-7xl mx-auto" data-aos="fade-up">
           <div
-            className="bg-gradient-to-br from-gray-50 to-white border-2 border-[#0891b2]/20 p-10 md:p-16 shadow-xl"
+            className="bg-gradient-to-br from-gray-50 to-white border-2 border-[#f97316]/20 p-10 md:p-16 shadow-xl"
             style={{ borderRadius: 0 }}
           >
             <div className="max-w-4xl">
-              <h2 className="text-3xl md:text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#0891b2] to-[#155e75] mb-6">
+              <h2 className="text-3xl md:text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#f97316] to-[#c2410c] mb-6">
                 Ready to Optimize Your Warehouse Operations?
               </h2>
 
@@ -670,7 +670,7 @@ function Page() {
               </p>
 
               <p className="text-gray-700 mb-10 leading-relaxed">
-                Join hundreds of businesses that trust Track-Global Logistics for
+                Join hundreds of businesses that trust SwiftPair Logistics for
                 their warehouse and distribution needs. From secure storage to
                 efficient fulfillment, we provide end-to-end solutions that
                 integrate seamlessly with your supply chain.
@@ -679,7 +679,7 @@ function Page() {
               <div className="flex flex-wrap gap-4">
                 <button
                   onClick={() => router.push("/contact")}
-                  className="bg-gradient-to-r from-[#0891b2] to-[#0e7490] hover:from-[#0e7490] hover:to-[#155e75] text-white font-bold py-4 px-10 transition-all shadow-lg hover:shadow-xl transform hover:scale-105 flex items-center"
+                  className="bg-gradient-to-r from-[#f97316] to-[#ea580c] hover:from-[#ea580c] hover:to-[#c2410c] text-white font-bold py-4 px-10 transition-all shadow-lg hover:shadow-xl transform hover:scale-105 flex items-center"
                   style={{ borderRadius: 0 }}
                 >
                   <span>REQUEST QUOTE</span>
@@ -699,7 +699,7 @@ function Page() {
                 </button>
                 <Link
                   href="/#track-shipment"
-                  className="bg-white hover:bg-gray-50 border-2 border-[#0891b2] text-[#0891b2] font-bold py-4 px-10 transition-all flex items-center"
+                  className="bg-white hover:bg-gray-50 border-2 border-[#f97316] text-[#f97316] font-bold py-4 px-10 transition-all flex items-center"
                   style={{ borderRadius: 0 }}
                 >
                   <span>TRACK SHIPMENT</span>
@@ -727,10 +727,10 @@ function Page() {
       <section className="py-16 md:py-24 px-4 bg-gradient-to-b from-gray-50 to-white">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-[#0891b2] mb-4">
+            <h2 className="text-3xl md:text-4xl font-bold text-[#f97316] mb-4">
               Warehouse Excellence by the Numbers
             </h2>
-            <div className="w-20 h-1 bg-[#0891b2] mx-auto"></div>
+            <div className="w-20 h-1 bg-[#f97316] mx-auto"></div>
           </div>
 
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-8">
@@ -740,10 +740,10 @@ function Page() {
               className="text-center"
             >
               <div
-                className="bg-white border-2 border-[#0891b2]/20 shadow-lg p-8 hover:shadow-xl transition-all hover:-translate-y-2"
+                className="bg-white border-2 border-[#f97316]/20 shadow-lg p-8 hover:shadow-xl transition-all hover:-translate-y-2"
                 style={{ borderRadius: 0 }}
               >
-                <div className="text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#0891b2] to-[#06b6d4] mb-3">
+                <div className="text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#f97316] to-[#fb923c] mb-3">
                   220+
                 </div>
                 <div className="text-gray-700 font-medium">
@@ -759,10 +759,10 @@ function Page() {
               className="text-center"
             >
               <div
-                className="bg-white border-2 border-[#0891b2]/20 shadow-lg p-8 hover:shadow-xl transition-all hover:-translate-y-2"
+                className="bg-white border-2 border-[#f97316]/20 shadow-lg p-8 hover:shadow-xl transition-all hover:-translate-y-2"
                 style={{ borderRadius: 0 }}
               >
-                <div className="text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#0891b2] to-[#06b6d4] mb-3">
+                <div className="text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#f97316] to-[#fb923c] mb-3">
                   25+
                 </div>
                 <div className="text-gray-700 font-medium">
@@ -780,10 +780,10 @@ function Page() {
               className="text-center"
             >
               <div
-                className="bg-white border-2 border-[#0891b2]/20 shadow-lg p-8 hover:shadow-xl transition-all hover:-translate-y-2"
+                className="bg-white border-2 border-[#f97316]/20 shadow-lg p-8 hover:shadow-xl transition-all hover:-translate-y-2"
                 style={{ borderRadius: 0 }}
               >
-                <div className="text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#0891b2] to-[#06b6d4] mb-3">
+                <div className="text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#f97316] to-[#fb923c] mb-3">
                   24/7
                 </div>
                 <div className="text-gray-700 font-medium">
@@ -801,10 +801,10 @@ function Page() {
               className="text-center"
             >
               <div
-                className="bg-white border-2 border-[#0891b2]/20 shadow-lg p-8 hover:shadow-xl transition-all hover:-translate-y-2"
+                className="bg-white border-2 border-[#f97316]/20 shadow-lg p-8 hover:shadow-xl transition-all hover:-translate-y-2"
                 style={{ borderRadius: 0 }}
               >
-                <div className="text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#0891b2] to-[#06b6d4] mb-3">
+                <div className="text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#f97316] to-[#fb923c] mb-3">
                   99.8%
                 </div>
                 <div className="text-gray-700 font-medium">Accuracy Rate</div>

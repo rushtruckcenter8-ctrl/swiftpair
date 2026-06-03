@@ -5,13 +5,13 @@ import { ArrowRight, Mail, Calculator } from "lucide-react";
 const ShippingSection = ({ navigate }) => (
   <section className="w-full max-w-7xl mx-auto px-4 py-16 md:py-24 bg-gradient-to-b from-white to-gray-50">
     <div className="text-center max-w-3xl mx-auto mb-16">
-      <span className="inline-block px-4 py-1 bg-[#0891b2]/10 text-[#0891b2] font-medium mb-4" style={{ borderRadius: 0 }}>
+      <span className="inline-block px-4 py-1 bg-[#f97316]/10 text-[#f97316] font-medium mb-4" style={{ borderRadius: 0 }}>
         Our Services
       </span>
-      <h1 className="text-3xl md:text-4xl font-bold mb-4 text-[#0891b2]">
+      <h1 className="text-3xl md:text-4xl font-bold mb-4 text-[#f97316]">
         Comprehensive Transportation Solutions
       </h1>
-      <div className="w-20 h-1 bg-[#0891b2] mx-auto mb-6"></div>
+      <div className="w-20 h-1 bg-[#f97316] mx-auto mb-6"></div>
       <p className="text-gray-600 text-lg">
         We provide integrated logistics solutions across rail, ocean, road, and
         air transportation to meet your specific requirements with efficiency
@@ -21,20 +21,20 @@ const ShippingSection = ({ navigate }) => (
 
     {/* Perks Section */}
     <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-12 max-w-5xl mx-auto">
-      <div className="bg-white p-4 border-2 border-[#0891b2]/20 text-center" style={{ borderRadius: 0 }}>
-        <div className="text-2xl font-bold text-[#0891b2] mb-1">220+</div>
+      <div className="bg-white p-4 border-2 border-[#f97316]/20 text-center" style={{ borderRadius: 0 }}>
+        <div className="text-2xl font-bold text-[#f97316] mb-1">220+</div>
         <div className="text-sm text-gray-600">Destinations</div>
       </div>
-      <div className="bg-white p-4 border-2 border-[#0891b2]/20 text-center" style={{ borderRadius: 0 }}>
-        <div className="text-2xl font-bold text-[#0891b2] mb-1">24/7</div>
+      <div className="bg-white p-4 border-2 border-[#f97316]/20 text-center" style={{ borderRadius: 0 }}>
+        <div className="text-2xl font-bold text-[#f97316] mb-1">24/7</div>
         <div className="text-sm text-gray-600">Support</div>
       </div>
-      <div className="bg-white p-4 border-2 border-[#0891b2]/20 text-center" style={{ borderRadius: 0 }}>
-        <div className="text-2xl font-bold text-[#0891b2] mb-1">98%</div>
+      <div className="bg-white p-4 border-2 border-[#f97316]/20 text-center" style={{ borderRadius: 0 }}>
+        <div className="text-2xl font-bold text-[#f97316] mb-1">98%</div>
         <div className="text-sm text-gray-600">On-Time Rate</div>
       </div>
-      <div className="bg-white p-4 border-2 border-[#0891b2]/20 text-center" style={{ borderRadius: 0 }}>
-        <div className="text-2xl font-bold text-[#0891b2] mb-1">25+</div>
+      <div className="bg-white p-4 border-2 border-[#f97316]/20 text-center" style={{ borderRadius: 0 }}>
+        <div className="text-2xl font-bold text-[#f97316] mb-1">25+</div>
         <div className="text-sm text-gray-600">Years Experience</div>
       </div>
     </div>

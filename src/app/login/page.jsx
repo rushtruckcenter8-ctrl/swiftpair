@@ -71,18 +71,18 @@ function LoginPage() {
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-gray-50 via-cyan-50/30 to-gray-50 py-12 px-4 sm:px-6 lg:px-8 relative overflow-hidden">
+    <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-gray-50 via-orange-50/30 to-gray-50 py-12 px-4 sm:px-6 lg:px-8 relative overflow-hidden">
       {/* Background decorative elements */}
-      <div className="absolute top-0 left-0 w-96 h-96 bg-[#0891b2]/5 -translate-x-1/2 -translate-y-1/2" style={{ borderRadius: 0 }}></div>
-      <div className="absolute bottom-0 right-0 w-96 h-96 bg-[#06b6d4]/5 translate-x-1/3 translate-y-1/3" style={{ borderRadius: 0 }}></div>
+      <div className="absolute top-0 left-0 w-96 h-96 bg-[#f97316]/5 -translate-x-1/2 -translate-y-1/2" style={{ borderRadius: 0 }}></div>
+      <div className="absolute bottom-0 right-0 w-96 h-96 bg-[#fb923c]/5 translate-x-1/3 translate-y-1/3" style={{ borderRadius: 0 }}></div>
       
       <div className="max-w-md w-full space-y-8 relative z-10">
         {/* Logo and Header */}
         <div className="text-center">
-          <span className="inline-block px-4 py-1 bg-[#0891b2]/10 text-[#0891b2] font-medium mb-4 text-sm" style={{ borderRadius: 0 }}>
+          <span className="inline-block px-4 py-1 bg-[#f97316]/10 text-[#f97316] font-medium mb-4 text-sm" style={{ borderRadius: 0 }}>
             Admin Portal
           </span>
-          <h2 className="mt-4 text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#0891b2] to-[#155e75]">
+          <h2 className="mt-4 text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#f97316] to-[#c2410c]">
             Welcome Back
           </h2>
           <p className="mt-3 text-base text-gray-600">
@@ -98,7 +98,7 @@ function LoginPage() {
                 {[...Array(5)].map((_, i) => (
                   <div
                     key={i}
-                    className="w-3 h-3 bg-[#0891b2] animate-bounce"
+                    className="w-3 h-3 bg-[#f97316] animate-bounce"
                     style={{
                       animationDelay: `${i * 0.1}s`,
                       animationDuration: "0.8s",
@@ -107,7 +107,7 @@ function LoginPage() {
                   ></div>
                 ))}
               </div>
-              <p className="text-base font-medium text-[#0891b2]">Authenticating...</p>
+              <p className="text-base font-medium text-[#f97316]">Authenticating...</p>
             </div>
           </div>
         )}
@@ -165,7 +165,7 @@ function LoginPage() {
                   required
                   value={name}
                   onChange={(e) => setName(e.target.value)}
-                  className="appearance-none block w-full pl-10 pr-3 py-3 border-2 border-gray-300 shadow-sm placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-cyan-100 focus:border-[#0891b2] sm:text-base transition-all"
+                  className="appearance-none block w-full pl-10 pr-3 py-3 border-2 border-gray-300 shadow-sm placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-orange-100 focus:border-[#f97316] sm:text-base transition-all"
                   style={{ borderRadius: 0 }}
                   placeholder="Enter your username"
                 />
@@ -194,14 +194,14 @@ function LoginPage() {
                   required
                   value={password}
                   onChange={(e) => setPassword(e.target.value)}
-                  className="appearance-none block w-full pl-10 pr-10 py-3 border-2 border-gray-300 shadow-sm placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-cyan-100 focus:border-[#0891b2] sm:text-base transition-all"
+                  className="appearance-none block w-full pl-10 pr-10 py-3 border-2 border-gray-300 shadow-sm placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-orange-100 focus:border-[#f97316] sm:text-base transition-all"
                   style={{ borderRadius: 0 }}
                   placeholder="Enter your password"
                 />
                 <button
                   type="button"
                   onClick={() => setShowPass(!showPass)}
-                  className="absolute inset-y-0 right-0 pr-3 flex items-center text-gray-400 hover:text-[#0891b2] focus:outline-none transition-colors"
+                  className="absolute inset-y-0 right-0 pr-3 flex items-center text-gray-400 hover:text-[#f97316] focus:outline-none transition-colors"
                 >
                   {showPass ? (
                     <svg
@@ -244,7 +244,7 @@ function LoginPage() {
                 type="checkbox"
                 checked={rem}
                 onChange={() => setRem(!rem)}
-                className="h-5 w-5 text-[#0891b2] focus:ring-[#0891b2] border-gray-300"
+                className="h-5 w-5 text-[#f97316] focus:ring-[#f97316] border-gray-300"
                 style={{ borderRadius: 0 }}
               />
               <label
@@ -263,7 +263,7 @@ function LoginPage() {
               disabled={isLoading || !formValid}
               className={`group relative w-full flex justify-center items-center py-3 px-4 border border-transparent text-base font-semibold text-white shadow-lg transition-all ${
                 formValid
-                  ? "bg-gradient-to-r from-[#0891b2] to-[#0e7490] hover:from-[#0e7490] hover:to-[#155e75] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#0891b2] transform hover:scale-[1.02] active:scale-[0.98]"
+                  ? "bg-gradient-to-r from-[#f97316] to-[#ea580c] hover:from-[#ea580c] hover:to-[#c2410c] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#f97316] transform hover:scale-[1.02] active:scale-[0.98]"
                   : "bg-gray-400 cursor-not-allowed"
               }`}
               style={{ borderRadius: 0 }}
@@ -290,9 +290,9 @@ function LoginPage() {
 
         {/* Help Text */}
         <div className="text-center mt-6">
-          <div className="bg-gradient-to-r from-[#0891b2]/10 to-[#06b6d4]/10 p-4 border-2 border-[#0891b2]/20" style={{ borderRadius: 0 }}>
+          <div className="bg-gradient-to-r from-[#f97316]/10 to-[#fb923c]/10 p-4 border-2 border-[#f97316]/20" style={{ borderRadius: 0 }}>
             <p className="text-sm text-gray-700">
-              <span className="font-semibold text-[#0891b2]">Need help?</span> Contact your administrator for password recovery.
+              <span className="font-semibold text-[#f97316]">Need help?</span> Contact your administrator for password recovery.
             </p>
           </div>
         </div>
