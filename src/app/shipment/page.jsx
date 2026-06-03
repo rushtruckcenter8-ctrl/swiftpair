@@ -368,7 +368,7 @@ function PageContent() {
           <Barcode trackingNumber={trackingNumber} />
         </div>
         {/* Status Badge */}
-        <div className="mb-8 text-center">
+        <div className="mb-8 text-center text-3xl">
           <div
             className={`inline-flex items-center px-6 py-2 shadow-sm ${
               shipments.status.toLowerCase() === "inactive" ||
