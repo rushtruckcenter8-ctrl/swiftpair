@@ -13,13 +13,13 @@ import Image from "next/image";
 const InsightsSection = ({ navigate }) => (
   <section className="w-full max-w-7xl mx-auto px-4 py-16 md:py-24 bg-gradient-to-b from-white to-gray-50">
     <div className="text-center mb-16">
-      <span className="inline-block px-4 py-1 bg-[#0891b2]/10 text-[#0891b2] font-medium mb-4" style={{ borderRadius: 0 }}>
+      <span className="inline-block px-4 py-1 bg-[#f97316]/10 text-[#f97316] font-medium mb-4" style={{ borderRadius: 0 }}>
         Industry Insights
       </span>
-      <h1 className="text-3xl md:text-5xl font-bold mb-4 text-[#0891b2]">
+      <h1 className="text-3xl md:text-5xl font-bold mb-4 text-[#f97316]">
         Latest News & Trends
       </h1>
-      <div className="w-20 h-1 bg-[#0891b2] mx-auto mb-6"></div>
+      <div className="w-20 h-1 bg-[#f97316] mx-auto mb-6"></div>
       <p className="text-gray-600 text-lg max-w-3xl mx-auto">
         Stay informed with our latest insights on logistics trends, industry innovations, and shipping best practices to optimize your supply chain.
       </p>
@@ -33,8 +33,8 @@ const InsightsSection = ({ navigate }) => (
         data-aos-delay={100}
       >
         <div className="w-full md:w-1/2 relative">
-          <div className="absolute -top-6 -left-6 w-24 h-24 bg-[#0891b2]/10 z-0" style={{ borderRadius: 0 }}></div>
-          <div className="absolute -bottom-6 -right-0 w-32 h-32 bg-[#0891b2]/5 z-0" style={{ borderRadius: 0 }}></div>
+          <div className="absolute -top-6 -left-6 w-24 h-24 bg-[#f97316]/10 z-0" style={{ borderRadius: 0 }}></div>
+          <div className="absolute -bottom-6 -right-0 w-32 h-32 bg-[#f97316]/5 z-0" style={{ borderRadius: 0 }}></div>
           <Image
             width={1000}
             height={1000}
@@ -43,7 +43,7 @@ const InsightsSection = ({ navigate }) => (
             alt="Cargo cost savings"
             style={{ borderRadius: 0 }}
           />
-          <div className="absolute -bottom-4 -right-0 bg-[#0891b2] text-white p-4 shadow-lg z-20" style={{ borderRadius: 0 }}>
+          <div className="absolute -bottom-4 -right-0 bg-[#f97316] text-white p-4 shadow-lg z-20" style={{ borderRadius: 0 }}>
             <span className="font-bold">Cost Savings</span>
             <div className="flex items-center mt-1">
               <span className="text-sm">First Sale Rule</span>
@@ -53,15 +53,15 @@ const InsightsSection = ({ navigate }) => (
         </div>
         <div className="w-full md:w-1/2">
           <div className="flex items-center mb-4">
-            <div className="bg-[#0891b2]/10 p-2 mr-4" style={{ borderRadius: 0 }}>
-              <Globe className="h-8 w-8 text-[#0891b2]" />
+            <div className="bg-[#f97316]/10 p-2 mr-4" style={{ borderRadius: 0 }}>
+              <Globe className="h-8 w-8 text-[#f97316]" />
             </div>
-            <h3 className="text-3xl font-bold text-[#0891b2]">
+            <h3 className="text-3xl font-bold text-[#f97316]">
               Importers achieve cost savings through the First Sale rule!
             </h3>
           </div>
 
-          <p className="text-gray-600 text-lg mb-6 border-l-4 border-[#0891b2] pl-4">
+          <p className="text-gray-600 text-lg mb-6 border-l-4 border-[#f97316] pl-4">
             The trade war currently ensuing between the nations around the
             globe, fiercely with China, shows no signs of the first set of
             tariffs levied against solar...
@@ -69,27 +69,27 @@ const InsightsSection = ({ navigate }) => (
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
             <div className="flex items-start">
-              <Calendar className="h-5 w-5 text-[#0891b2] mr-2 mt-1" />
+              <Calendar className="h-5 w-5 text-[#f97316] mr-2 mt-1" />
               <span className="text-gray-700">Jan 20, 2021</span>
             </div>
             <div className="flex items-start">
-              <FileText className="h-5 w-5 text-[#0891b2] mr-2 mt-1" />
+              <FileText className="h-5 w-5 text-[#f97316] mr-2 mt-1" />
               <span className="text-gray-700">Cargo</span>
             </div>
             <div className="flex items-start">
-              <FileText className="h-5 w-5 text-[#0891b2] mr-2 mt-1" />
+              <FileText className="h-5 w-5 text-[#f97316] mr-2 mt-1" />
               <span className="text-gray-700">Insights</span>
             </div>
           </div>
 
-          <div className="bg-white p-4 shadow border-l-4 border-[#0891b2] mb-6" style={{ borderRadius: 0 }}>
+          <div className="bg-white p-4 shadow border-l-4 border-[#f97316] mb-6" style={{ borderRadius: 0 }}>
             <p className="text-gray-600 italic">
               "Understanding the First Sale rule can lead to significant duty
               savings for importers in today's challenging trade environment."
             </p>
           </div>
 
-          <button className="inline-flex items-center text-[#0891b2] font-bold hover:underline transition-all">
+          <button className="inline-flex items-center text-[#f97316] font-bold hover:underline transition-all">
             <span>Read Full Article</span>
             <ArrowRight className="h-5 w-5 ml-1" />
           </button>
@@ -103,8 +103,8 @@ const InsightsSection = ({ navigate }) => (
         data-aos-delay={200}
       >
         <div className="w-full md:w-1/2 relative">
-          <div className="absolute -top-6 -right-0 w-24 h-24 style={{ borderRadius: 0 }} bg-[#0891b2]/10 z-0"></div>
-          <div className="absolute -bottom-6 -left-60w-32 h-32 style={{ borderRadius: 0 }} bg-[#0891b2]/5 z-0"></div>
+          <div className="absolute -top-6 -right-0 w-24 h-24 style={{ borderRadius: 0 }} bg-[#f97316]/10 z-0"></div>
+          <div className="absolute -bottom-6 -left-60w-32 h-32 style={{ borderRadius: 0 }} bg-[#f97316]/5 z-0"></div>
           <Image
             width={1000}
             height={1000}
@@ -112,7 +112,7 @@ const InsightsSection = ({ navigate }) => (
             className="w-full h-auto style={{ borderRadius: 0 }} shadow-xl relative z-10 object-cover aspect-4/3"
             alt="Supply chain visibility"
           />
-          <div className="absolute -bottom-4 -left-4 bg-[#0891b2] text-white p-4 style={{ borderRadius: 0 }} shadow-lg z-20">
+          <div className="absolute -bottom-4 -left-4 bg-[#f97316] text-white p-4 style={{ borderRadius: 0 }} shadow-lg z-20">
             <span className="font-bold">Supply Chain</span>
             <div className="flex items-center mt-1">
               <span className="text-sm">Visibility & Control</span>
@@ -122,15 +122,15 @@ const InsightsSection = ({ navigate }) => (
         </div>
         <div className="w-full md:w-1/2">
           <div className="flex items-center mb-4">
-            <div className="bg-[#0891b2]/10 p-2 mr-4" style={{ borderRadius: 0 }}>
-              <Building2 className="h-8 w-8 text-[#0891b2]" />
+            <div className="bg-[#f97316]/10 p-2 mr-4" style={{ borderRadius: 0 }}>
+              <Building2 className="h-8 w-8 text-[#f97316]" />
             </div>
-            <h3 className="text-3xl font-bold text-[#0891b2]">
+            <h3 className="text-3xl font-bold text-[#f97316]">
               Cargo flow through better supply chain visibility, control.
             </h3>
           </div>
 
-          <p className="text-gray-600 text-lg mb-6 border-l-4 border-[#0891b2] pl-4">
+          <p className="text-gray-600 text-lg mb-6 border-l-4 border-[#f97316] pl-4">
             Global provider connected products for consumers, and enterprises
             worldwide, supply chain control is everything, provide visibility
             and traceability needed for...
@@ -138,27 +138,27 @@ const InsightsSection = ({ navigate }) => (
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
             <div className="flex items-start">
-              <Calendar className="h-5 w-5 text-[#0891b2] mr-2 mt-1" />
+              <Calendar className="h-5 w-5 text-[#f97316] mr-2 mt-1" />
               <span className="text-gray-700">Jan 23, 2021</span>
             </div>
             <div className="flex items-start">
-              <FileText className="h-5 w-5 text-[#0891b2] mr-2 mt-1" />
+              <FileText className="h-5 w-5 text-[#f97316] mr-2 mt-1" />
               <span className="text-gray-700">Warehouse</span>
             </div>
             <div className="flex items-start">
-              <FileText className="h-5 w-5 text-[#0891b2] mr-2 mt-1" />
+              <FileText className="h-5 w-5 text-[#f97316] mr-2 mt-1" />
               <span className="text-gray-700">Construction</span>
             </div>
           </div>
 
-          <div className="bg-white p-4 shadow border-l-4 border-[#0891b2] mb-6" style={{ borderRadius: 0 }}>
+          <div className="bg-white p-4 shadow border-l-4 border-[#f97316] mb-6" style={{ borderRadius: 0 }}>
             <p className="text-gray-600 italic">
               "Enhanced visibility in the supply chain leads to better control,
               improved efficiency, and reduced operational costs."
             </p>
           </div>
 
-          <button className="inline-flex items-center text-[#0891b2] font-bold hover:underline transition-all">
+          <button className="inline-flex items-center text-[#f97316] font-bold hover:underline transition-all">
             <span>Read Full Article</span>
             <ArrowRight className="h-5 w-5 ml-1" />
           </button>
@@ -172,8 +172,8 @@ const InsightsSection = ({ navigate }) => (
         data-aos-delay={300}
       >
         <div className="w-full md:w-1/2 relative">
-          <div className="absolute -top-6 -left-6 w-24 h-24 bg-[#0891b2]/10 z-0" style={{ borderRadius: 0 }}></div>
-          <div className="absolute -bottom-6 -right-0 w-32 h-32 bg-[#0891b2]/5 z-0" style={{ borderRadius: 0 }}></div>
+          <div className="absolute -top-6 -left-6 w-24 h-24 bg-[#f97316]/10 z-0" style={{ borderRadius: 0 }}></div>
+          <div className="absolute -bottom-6 -right-0 w-32 h-32 bg-[#f97316]/5 z-0" style={{ borderRadius: 0 }}></div>
           <Image
             width={1000}
             height={1000}
@@ -182,7 +182,7 @@ const InsightsSection = ({ navigate }) => (
             alt="Oil and gas logistics"
             style={{ borderRadius: 0 }}
           />
-          <div className="absolute -bottom-4 -right-0 bg-[#0891b2] text-white p-4 shadow-lg z-20" style={{ borderRadius: 0 }}>
+          <div className="absolute -bottom-4 -right-0 bg-[#f97316] text-white p-4 shadow-lg z-20" style={{ borderRadius: 0 }}>
             <span className="font-bold">Specialized Focus</span>
             <div className="flex items-center mt-1">
               <span className="text-sm">Oil & Gas Sector</span>
@@ -192,15 +192,15 @@ const InsightsSection = ({ navigate }) => (
         </div>
         <div className="w-full md:w-1/2">
           <div className="flex items-center mb-4">
-            <div className="bg-[#0891b2]/10 p-2 mr-4" style={{ borderRadius: 0 }}>
-              <Truck className="h-8 w-8 text-[#0891b2]" />
+            <div className="bg-[#f97316]/10 p-2 mr-4" style={{ borderRadius: 0 }}>
+              <Truck className="h-8 w-8 text-[#f97316]" />
             </div>
-            <h3 className="text-3xl font-bold text-[#0891b2]">
+            <h3 className="text-3xl font-bold text-[#f97316]">
               Importance of specialized focus in Projects, Oil & Gas Logistics?
             </h3>
           </div>
 
-          <p className="text-gray-600 text-lg mb-6 border-l-4 border-[#0891b2] pl-4">
+          <p className="text-gray-600 text-lg mb-6 border-l-4 border-[#f97316] pl-4">
             Our team provides skilled & experienced managers who know the
             intricacies of this vertical and focus on providing solutions in Oil
             & Gas sector...
@@ -208,27 +208,27 @@ const InsightsSection = ({ navigate }) => (
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
             <div className="flex items-start">
-              <Calendar className="h-5 w-5 text-[#0891b2] mr-2 mt-1" />
+              <Calendar className="h-5 w-5 text-[#f97316] mr-2 mt-1" />
               <span className="text-gray-700">Jan 24, 2021</span>
             </div>
             <div className="flex items-start">
-              <FileText className="h-5 w-5 text-[#0891b2] mr-2 mt-1" />
+              <FileText className="h-5 w-5 text-[#f97316] mr-2 mt-1" />
               <span className="text-gray-700">Logistics</span>
             </div>
             <div className="flex items-start">
-              <FileText className="h-5 w-5 text-[#0891b2] mr-2 mt-1" />
+              <FileText className="h-5 w-5 text-[#f97316] mr-2 mt-1" />
               <span className="text-gray-700">Distribution</span>
             </div>
           </div>
 
-          <div className="bg-white p-4 shadow border-l-4 border-[#0891b2] mb-6" style={{ borderRadius: 0 }}>
+          <div className="bg-white p-4 shadow border-l-4 border-[#f97316] mb-6" style={{ borderRadius: 0 }}>
             <p className="text-gray-600 italic">
               "Specialized knowledge and experience in Oil & Gas logistics
               ensures safe, efficient, and compliant project execution."
             </p>
           </div>
 
-          <button className="inline-flex items-center text-[#0891b2] font-bold hover:underline transition-all">
+          <button className="inline-flex items-center text-[#f97316] font-bold hover:underline transition-all">
             <span>Read Full Article</span>
             <ArrowRight className="h-5 w-5 ml-1" />
           </button>

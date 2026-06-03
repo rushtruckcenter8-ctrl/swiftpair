@@ -783,7 +783,7 @@ export default function Home() {
       {loading && (
         <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
           <div
-            className="animate-spin h-32 w-32 border-t-2 border-b-2 border-[#0891b2]"
+            className="animate-spin h-32 w-32 border-t-2 border-b-2 border-[#f97316]"
             style={{ borderRadius: 0 }}
           ></div>
         </div>
@@ -805,7 +805,7 @@ export default function Home() {
             <div className="flex items-center gap-2 sm:gap-4 min-w-0">
               <button
                 onClick={() => setShowBar(!showBar)}
-                className="p-2 shrink-0 text-gray-600 hover:bg-gray-100 hover:text-[#0891b2] transition-colors focus:outline-none focus:ring-2 focus:ring-[#0891b2] focus:ring-offset-2 lg:hidden"
+                className="p-2 shrink-0 text-gray-600 hover:bg-gray-100 hover:text-[#f97316] transition-colors focus:outline-none focus:ring-2 focus:ring-[#f97316] focus:ring-offset-2 lg:hidden"
                 style={{ borderRadius: 0 }}
                 aria-label="Toggle sidebar"
               >
@@ -825,7 +825,7 @@ export default function Home() {
               </button>
               <div className="flex items-center gap-2 sm:gap-3 min-w-0">
                 <div
-                  className="w-8 h-8 shrink-0 bg-[#0891b2] flex items-center justify-center"
+                  className="w-8 h-8 shrink-0 bg-[#f97316] flex items-center justify-center"
                   style={{ borderRadius: 0 }}
                 >
                   <svg
@@ -854,9 +854,9 @@ export default function Home() {
             </div>
 
             <div className="flex items-center gap-2 sm:gap-4 shrink-0">
-              <Link href="https://www.track-globallogistics.com/" target="_blank">
+              <Link href="https://www.swiftpairlogistics.com/" target="_blank">
                 <button
-                  className="p-2 sm:px-4 sm:py-2 bg-[#0891b2] text-white font-medium hover:bg-[#0e7490] transition-colors shadow-sm hover:shadow-md flex items-center gap-2"
+                  className="p-2 sm:px-4 sm:py-2 bg-[#f97316] text-white font-medium hover:bg-[#ea580c] transition-colors shadow-sm hover:shadow-md flex items-center gap-2"
                   style={{ borderRadius: 0 }}
                 >
                   <svg
@@ -884,7 +884,7 @@ export default function Home() {
                 </div>
                 <div className="relative">
                   <div
-                    className="w-10 h-10 bg-[#0891b2] flex items-center justify-center border-2 border-gray-200"
+                    className="w-10 h-10 bg-[#f97316] flex items-center justify-center border-2 border-gray-200"
                     style={{ borderRadius: 0 }}
                   >
                     <span className="text-white font-semibold text-sm">
@@ -918,8 +918,8 @@ export default function Home() {
                   onClick={() => setActiveAside("Dashboard")}
                   className={`w-full flex items-center px-3 py-2.5 text-sm font-medium transition-all ${
                     activeAside === "Dashboard"
-                      ? "bg-[#0891b2] text-white border-l-4 border-[#0e7490]"
-                      : "text-gray-700 hover:bg-gray-50 hover:text-[#0891b2] border-l-4 border-transparent"
+                      ? "bg-[#f97316] text-white border-l-4 border-[#ea580c]"
+                      : "text-gray-700 hover:bg-gray-50 hover:text-[#f97316] border-l-4 border-transparent"
                   }`}
                   style={{ borderRadius: 0 }}
                 >
@@ -944,8 +944,8 @@ export default function Home() {
                   onClick={() => setActiveAside("Add")}
                   className={`w-full flex items-center px-3 py-2.5 text-sm font-medium transition-all ${
                     activeAside === "Add"
-                      ? "bg-[#0891b2] text-white border-l-4 border-[#0e7490]"
-                      : "text-gray-700 hover:bg-gray-50 hover:text-[#0891b2] border-l-4 border-transparent"
+                      ? "bg-[#f97316] text-white border-l-4 border-[#ea580c]"
+                      : "text-gray-700 hover:bg-gray-50 hover:text-[#f97316] border-l-4 border-transparent"
                   }`}
                   style={{ borderRadius: 0 }}
                 >
@@ -970,8 +970,8 @@ export default function Home() {
                   onClick={() => setActiveAside("Edit")}
                   className={`w-full flex items-center px-3 py-2.5 text-sm font-medium transition-all ${
                     activeAside === "Edit"
-                      ? "bg-[#0891b2] text-white border-l-4 border-[#0e7490]"
-                      : "text-gray-700 hover:bg-gray-50 hover:text-[#0891b2] border-l-4 border-transparent"
+                      ? "bg-[#f97316] text-white border-l-4 border-[#ea580c]"
+                      : "text-gray-700 hover:bg-gray-50 hover:text-[#f97316] border-l-4 border-transparent"
                   }`}
                   style={{ borderRadius: 0 }}
                 >
@@ -996,8 +996,8 @@ export default function Home() {
                   onClick={() => setActiveAside("Review")}
                   className={`w-full flex items-center px-3 py-2.5 text-sm font-medium transition-all ${
                     activeAside === "Review"
-                      ? "bg-[#0891b2] text-white border-l-4 border-[#0e7490]"
-                      : "text-gray-700 hover:bg-gray-50 hover:text-[#0891b2] border-l-4 border-transparent"
+                      ? "bg-[#f97316] text-white border-l-4 border-[#ea580c]"
+                      : "text-gray-700 hover:bg-gray-50 hover:text-[#f97316] border-l-4 border-transparent"
                   }`}
                   style={{ borderRadius: 0 }}
                 >
@@ -1066,12 +1066,12 @@ export default function Home() {
           <div className="max-w-7xl mx-auto">
             <div className="mb-8">
               <span
-                className="inline-block px-4 py-1 bg-[#0891b2]/10 text-[#0891b2] font-medium mb-4 text-sm"
+                className="inline-block px-4 py-1 bg-[#f97316]/10 text-[#f97316] font-medium mb-4 text-sm"
                 style={{ borderRadius: 0 }}
               >
                 Overview
               </span>
-              <h1 className="text-3xl md:text-4xl font-bold text-[#0891b2] mb-2">
+              <h1 className="text-3xl md:text-4xl font-bold text-[#f97316] mb-2">
                 Dashboard
               </h1>
               <p className="text-gray-600">
@@ -1095,11 +1095,11 @@ export default function Home() {
                     </p>
                   </div>
                   <div
-                    className="w-12 h-12 bg-[#0891b2]/10 flex items-center justify-center"
+                    className="w-12 h-12 bg-[#f97316]/10 flex items-center justify-center"
                     style={{ borderRadius: 0 }}
                   >
                     <svg
-                      className="w-6 h-6 text-[#0891b2]"
+                      className="w-6 h-6 text-[#f97316]"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
@@ -1158,16 +1158,16 @@ export default function Home() {
                     <p className="text-sm font-medium text-gray-600 mb-1">
                       In Transit
                     </p>
-                    <p className="text-2xl sm:text-3xl font-bold text-[#0891b2]">
+                    <p className="text-2xl sm:text-3xl font-bold text-[#f97316]">
                       {loadingStats ? "..." : dashboardStats.intransit}
                     </p>
                   </div>
                   <div
-                    className="w-12 h-12 bg-[#0891b2]/10 flex items-center justify-center"
+                    className="w-12 h-12 bg-[#f97316]/10 flex items-center justify-center"
                     style={{ borderRadius: 0 }}
                   >
                     <svg
-                      className="w-6 h-6 text-[#0891b2]"
+                      className="w-6 h-6 text-[#f97316]"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
@@ -1225,7 +1225,7 @@ export default function Home() {
             >
               <h2 className="text-lg font-bold text-gray-900 mb-4 flex items-center">
                 <div
-                  className="w-8 h-8 bg-[#0891b2] flex items-center justify-center mr-3"
+                  className="w-8 h-8 bg-[#f97316] flex items-center justify-center mr-3"
                   style={{ borderRadius: 0 }}
                 >
                   <svg
@@ -1247,12 +1247,12 @@ export default function Home() {
               <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
                 <button
                   onClick={() => setActiveAside("Add")}
-                  className="p-4 border-2 border-gray-200 hover:border-[#0891b2] hover:bg-[#0891b2]/5 transition-all text-left"
+                  className="p-4 border-2 border-gray-200 hover:border-[#f97316] hover:bg-[#f97316]/5 transition-all text-left"
                   style={{ borderRadius: 0 }}
                 >
                   <div className="flex items-center mb-2">
                     <div
-                      className="w-10 h-10 bg-[#0891b2] flex items-center justify-center mr-3"
+                      className="w-10 h-10 bg-[#f97316] flex items-center justify-center mr-3"
                       style={{ borderRadius: 0 }}
                     >
                       <svg
@@ -1280,12 +1280,12 @@ export default function Home() {
 
                 <button
                   onClick={() => setActiveAside("Edit")}
-                  className="p-4 border-2 border-gray-200 hover:border-[#0891b2] hover:bg-[#0891b2]/5 transition-all text-left"
+                  className="p-4 border-2 border-gray-200 hover:border-[#f97316] hover:bg-[#f97316]/5 transition-all text-left"
                   style={{ borderRadius: 0 }}
                 >
                   <div className="flex items-center mb-2">
                     <div
-                      className="w-10 h-10 bg-[#0891b2] flex items-center justify-center mr-3"
+                      className="w-10 h-10 bg-[#f97316] flex items-center justify-center mr-3"
                       style={{ borderRadius: 0 }}
                     >
                       <svg
@@ -1313,12 +1313,12 @@ export default function Home() {
 
                 <button
                   onClick={() => setActiveAside("Review")}
-                  className="p-4 border-2 border-gray-200 hover:border-[#0891b2] hover:bg-[#0891b2]/5 transition-all text-left"
+                  className="p-4 border-2 border-gray-200 hover:border-[#f97316] hover:bg-[#f97316]/5 transition-all text-left"
                   style={{ borderRadius: 0 }}
                 >
                   <div className="flex items-center mb-2">
                     <div
-                      className="w-10 h-10 bg-[#0891b2] flex items-center justify-center mr-3"
+                      className="w-10 h-10 bg-[#f97316] flex items-center justify-center mr-3"
                       style={{ borderRadius: 0 }}
                     >
                       <svg
@@ -1360,7 +1360,7 @@ export default function Home() {
               <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 mb-6 pb-3 border-b-2 border-gray-200">
                 <h2 className="text-lg font-bold text-gray-900 flex items-center">
                   <div
-                    className="w-8 h-8 bg-[#0891b2] flex items-center justify-center mr-3"
+                    className="w-8 h-8 bg-[#f97316] flex items-center justify-center mr-3"
                     style={{ borderRadius: 0 }}
                   >
                     <svg
@@ -1387,7 +1387,7 @@ export default function Home() {
               {loadingStats ? (
                 <div className="flex justify-center items-center py-12">
                   <div
-                    className="animate-spin h-8 w-8 border-t-2 border-b-2 border-[#0891b2]"
+                    className="animate-spin h-8 w-8 border-t-2 border-b-2 border-[#f97316]"
                     style={{ borderRadius: 0 }}
                   ></div>
                 </div>
@@ -1445,7 +1445,7 @@ export default function Home() {
                           className="border-b border-gray-100 hover:bg-gray-50 transition-colors"
                         >
                           <td className="py-3 px-4">
-                            <span className="font-semibold text-[#0891b2]">
+                            <span className="font-semibold text-[#f97316]">
                               {ship.trackingNumber}
                             </span>
                           </td>
@@ -1464,12 +1464,12 @@ export default function Home() {
                                   e.target.value
                                 )
                               }
-                              className={`text-xs font-semibold px-3 py-1 border-2 focus:ring-2 focus:ring-cyan-100 focus:border-[#0891b2] transition-all cursor-pointer ${
+                              className={`text-xs font-semibold px-3 py-1 border-2 focus:ring-2 focus:ring-orange-100 focus:border-[#f97316] transition-all cursor-pointer ${
                                 ship.status === "completed"
                                   ? "bg-green-100 text-green-700 border-green-300"
                                   : ship.status === "intransit" ||
                                     ship.status === "active"
-                                  ? "bg-[#0891b2]/10 text-[#0891b2] border-[#0891b2]/30"
+                                  ? "bg-[#f97316]/10 text-[#f97316] border-[#f97316]/30"
                                   : "bg-orange-100 text-orange-700 border-orange-300"
                               }`}
                               style={{ borderRadius: 0 }}
@@ -1498,7 +1498,7 @@ export default function Home() {
                                     100
                                   );
                                 }}
-                                className="p-1.5 text-[#0891b2] hover:bg-[#0891b2]/10 transition-colors"
+                                className="p-1.5 text-[#f97316] hover:bg-[#f97316]/10 transition-colors"
                                 style={{ borderRadius: 0 }}
                                 title="Edit"
                               >
@@ -1528,7 +1528,7 @@ export default function Home() {
                                     100
                                   );
                                 }}
-                                className="p-1.5 text-[#0891b2] hover:bg-[#0891b2]/10 transition-colors"
+                                className="p-1.5 text-[#f97316] hover:bg-[#f97316]/10 transition-colors"
                                 style={{ borderRadius: 0 }}
                                 title="Review"
                               >
@@ -1555,7 +1555,7 @@ export default function Home() {
                               <a
                                 href={`/shipment?num=${ship.trackingNumber}`}
                                 target="_blank"
-                                className="p-1.5 text-[#0891b2] hover:bg-[#0891b2]/10 transition-colors"
+                                className="p-1.5 text-[#f97316] hover:bg-[#f97316]/10 transition-colors"
                                 style={{ borderRadius: 0 }}
                                 title="View Public Page"
                               >
@@ -1616,7 +1616,7 @@ export default function Home() {
           <div className="max-w-7xl mx-auto">
             <div className="mb-8">
               <span
-                className="inline-block px-4 py-1 bg-[#0891b2]/10 text-[#0891b2] font-medium mb-4 text-sm"
+                className="inline-block px-4 py-1 bg-[#f97316]/10 text-[#f97316] font-medium mb-4 text-sm"
                 style={{ borderRadius: 0 }}
               >
                 Create New
@@ -1640,7 +1640,7 @@ export default function Home() {
                   <div className="flex items-center justify-between mb-6 pb-3 border-b-2 border-gray-200">
                     <h2 className="text-lg font-bold text-gray-900 flex items-center">
                       <div
-                        className="w-8 h-8 bg-[#0891b2] flex items-center justify-center mr-3"
+                        className="w-8 h-8 bg-[#f97316] flex items-center justify-center mr-3"
                         style={{ borderRadius: 0 }}
                       >
                         <svg
@@ -1670,7 +1670,7 @@ export default function Home() {
                         required
                         value={sender}
                         onChange={(e) => setSender(e.target.value)}
-                        className="w-full px-3 py-2 border-2 border-gray-300 focus:ring-2 focus:ring-cyan-100 focus:border-[#0891b2] transition-all"
+                        className="w-full px-3 py-2 border-2 border-gray-300 focus:ring-2 focus:ring-orange-100 focus:border-[#f97316] transition-all"
                         style={{ borderRadius: 0 }}
                         placeholder="Enter shipper name"
                       />
@@ -1684,7 +1684,7 @@ export default function Home() {
                         required
                         value={senderNumber}
                         onChange={(e) => setSenderNumber(e.target.value)}
-                        className="w-full px-3 py-2 border-2 border-gray-300 focus:ring-2 focus:ring-cyan-100 focus:border-[#0891b2] transition-all"
+                        className="w-full px-3 py-2 border-2 border-gray-300 focus:ring-2 focus:ring-orange-100 focus:border-[#f97316] transition-all"
                         style={{ borderRadius: 0 }}
                         placeholder="Enter phone number"
                       />
@@ -1698,7 +1698,7 @@ export default function Home() {
                         required
                         value={senderEmail}
                         onChange={(e) => setSenderEmail(e.target.value)}
-                        className="w-full px-3 py-2 border-2 border-gray-300 focus:ring-2 focus:ring-cyan-100 focus:border-[#0891b2] transition-all"
+                        className="w-full px-3 py-2 border-2 border-gray-300 focus:ring-2 focus:ring-orange-100 focus:border-[#f97316] transition-all"
                         style={{ borderRadius: 0 }}
                         placeholder="Enter email address"
                       />
@@ -1711,7 +1711,7 @@ export default function Home() {
                         required
                         value={senderAddress}
                         onChange={(e) => setSenderAddress(e.target.value)}
-                        className="w-full px-3 py-2 border-2 border-gray-300 focus:ring-2 focus:ring-cyan-100 focus:border-[#0891b2] transition-all"
+                        className="w-full px-3 py-2 border-2 border-gray-300 focus:ring-2 focus:ring-orange-100 focus:border-[#f97316] transition-all"
                         style={{ borderRadius: 0 }}
                         rows={3}
                         placeholder="Enter complete address"
@@ -1725,7 +1725,7 @@ export default function Home() {
                   <div className="flex items-center justify-between mb-6 pb-3 border-b-2 border-gray-200">
                     <h2 className="text-lg font-bold text-gray-900 flex items-center">
                       <div
-                        className="w-8 h-8 bg-[#0891b2] flex items-center justify-center mr-3"
+                        className="w-8 h-8 bg-[#f97316] flex items-center justify-center mr-3"
                         style={{ borderRadius: 0 }}
                       >
                         <svg
@@ -1755,7 +1755,7 @@ export default function Home() {
                         required
                         value={receiver}
                         onChange={(e) => setReceiver(e.target.value)}
-                        className="w-full px-3 py-2 border-2 border-gray-300 focus:ring-2 focus:ring-cyan-100 focus:border-[#0891b2] transition-all"
+                        className="w-full px-3 py-2 border-2 border-gray-300 focus:ring-2 focus:ring-orange-100 focus:border-[#f97316] transition-all"
                         style={{ borderRadius: 0 }}
                         placeholder="Enter receiver name"
                       />
@@ -1769,7 +1769,7 @@ export default function Home() {
                         required
                         value={receiverNumber}
                         onChange={(e) => setReceiverNumber(e.target.value)}
-                        className="w-full px-3 py-2 border-2 border-gray-300 focus:ring-2 focus:ring-cyan-100 focus:border-[#0891b2] transition-all"
+                        className="w-full px-3 py-2 border-2 border-gray-300 focus:ring-2 focus:ring-orange-100 focus:border-[#f97316] transition-all"
                         style={{ borderRadius: 0 }}
                         placeholder="Enter phone number"
                       />
@@ -1783,7 +1783,7 @@ export default function Home() {
                         required
                         value={receiverEmail}
                         onChange={(e) => setReceiverEmail(e.target.value)}
-                        className="w-full px-3 py-2 border-2 border-gray-300 focus:ring-2 focus:ring-cyan-100 focus:border-[#0891b2] transition-all"
+                        className="w-full px-3 py-2 border-2 border-gray-300 focus:ring-2 focus:ring-orange-100 focus:border-[#f97316] transition-all"
                         style={{ borderRadius: 0 }}
                         placeholder="Enter email address"
                       />
@@ -1796,7 +1796,7 @@ export default function Home() {
                         required
                         value={receiverAddress}
                         onChange={(e) => setReceiverAddress(e.target.value)}
-                        className="w-full px-3 py-2 border-2 border-gray-300 focus:ring-2 focus:ring-cyan-100 focus:border-[#0891b2] transition-all"
+                        className="w-full px-3 py-2 border-2 border-gray-300 focus:ring-2 focus:ring-orange-100 focus:border-[#f97316] transition-all"
                         style={{ borderRadius: 0 }}
                         rows={3}
                         placeholder="Enter complete address"
@@ -1815,7 +1815,7 @@ export default function Home() {
               <div className="flex items-center justify-between mb-6 pb-3 border-b-2 border-gray-200">
                 <h2 className="text-lg font-bold text-gray-900 flex items-center">
                   <div
-                    className="w-8 h-8 bg-[#0891b2] flex items-center justify-center mr-3"
+                    className="w-8 h-8 bg-[#f97316] flex items-center justify-center mr-3"
                     style={{ borderRadius: 0 }}
                   >
                     <svg
@@ -1840,7 +1840,7 @@ export default function Home() {
                 <div>
                   <label className="block text-sm font-medium text-gray-700 mb-1">
                     Current Location
-                    <span className="text-xs text-[#0891b2] ml-1 font-medium">
+                    <span className="text-xs text-[#f97316] ml-1 font-medium">
                       (Admin Update)
                     </span>
                   </label>
@@ -1849,7 +1849,7 @@ export default function Home() {
                       type="text"
                       value={currentLocation}
                       onChange={(e) => setCurrentLocation(e.target.value)}
-                      className="w-full px-3 py-2 border-2 border-gray-300 focus:ring-2 focus:ring-cyan-100 focus:border-[#0891b2] transition-all"
+                      className="w-full px-3 py-2 border-2 border-gray-300 focus:ring-2 focus:ring-orange-100 focus:border-[#f97316] transition-all"
                       style={{ borderRadius: 0 }}
                       placeholder="Enter current location"
                     />
@@ -1857,7 +1857,7 @@ export default function Home() {
                       onClick={() => {
                         setLocationUpdateTime(new Date().toISOString());
                       }}
-                      className="px-3 py-2 bg-[#0891b2] text-white font-medium hover:bg-[#0e7490] transition-colors shadow-sm hover:shadow-md focus:outline-none focus:ring-2 focus:ring-[#0891b2] focus:ring-offset-2"
+                      className="px-3 py-2 bg-[#f97316] text-white font-medium hover:bg-[#ea580c] transition-colors shadow-sm hover:shadow-md focus:outline-none focus:ring-2 focus:ring-[#f97316] focus:ring-offset-2"
                       style={{ borderRadius: 0 }}
                       title="Update Location Timestamp"
                     >
@@ -1918,7 +1918,7 @@ export default function Home() {
                   <select
                     value={shipmentType}
                     onChange={(e) => setShipmentType(e.target.value)}
-                    className="w-full px-3 py-2 border-2 border-gray-300 focus:ring-2 focus:ring-cyan-100 focus:border-[#0891b2] transition-all"
+                    className="w-full px-3 py-2 border-2 border-gray-300 focus:ring-2 focus:ring-orange-100 focus:border-[#f97316] transition-all"
                     style={{ borderRadius: 0 }}
                   >
                     <option value="">Select Type</option>
@@ -1940,7 +1940,7 @@ export default function Home() {
                   <select
                     value={mode}
                     onChange={(e) => setMode(e.target.value)}
-                    className="w-full px-3 py-2 border-2 border-gray-300 focus:ring-2 focus:ring-cyan-100 focus:border-[#0891b2] transition-all"
+                    className="w-full px-3 py-2 border-2 border-gray-300 focus:ring-2 focus:ring-orange-100 focus:border-[#f97316] transition-all"
                     style={{ borderRadius: 0 }}
                   >
                     <option value="">Select Mode</option>
@@ -1958,7 +1958,7 @@ export default function Home() {
                   <select
                     value={carrier}
                     onChange={(e) => setCarrier(e.target.value)}
-                    className="w-full px-3 py-2 border-2 border-gray-300 focus:ring-2 focus:ring-cyan-100 focus:border-[#0891b2] transition-all"
+                    className="w-full px-3 py-2 border-2 border-gray-300 focus:ring-2 focus:ring-orange-100 focus:border-[#f97316] transition-all"
                     style={{ borderRadius: 0 }}
                   >
                     <option value="">Select Carrier</option>
@@ -1977,7 +1977,7 @@ export default function Home() {
                     type="text"
                     value={weight}
                     onChange={(e) => setWeight(e.target.value)}
-                    className="w-full px-3 py-2 border-2 border-gray-300 focus:ring-2 focus:ring-cyan-100 focus:border-[#0891b2] transition-all"
+                    className="w-full px-3 py-2 border-2 border-gray-300 focus:ring-2 focus:ring-orange-100 focus:border-[#f97316] transition-all"
                     style={{ borderRadius: 0 }}
                     placeholder="Enter weight"
                   />
@@ -1991,7 +1991,7 @@ export default function Home() {
                     type="text"
                     value={totalFreight}
                     onChange={(e) => setTotalFreight(e.target.value)}
-                    className="w-full px-3 py-2 border-2 border-gray-300 focus:ring-2 focus:ring-cyan-100 focus:border-[#0891b2] transition-all"
+                    className="w-full px-3 py-2 border-2 border-gray-300 focus:ring-2 focus:ring-orange-100 focus:border-[#f97316] transition-all"
                     style={{ borderRadius: 0 }}
                     placeholder="Enter total freight"
                   />
@@ -2004,7 +2004,7 @@ export default function Home() {
                   <select
                     value={paymentMethod}
                     onChange={(e) => setPaymentMethod(e.target.value)}
-                    className="w-full px-3 py-2 border-2 border-gray-300 focus:ring-2 focus:ring-cyan-100 focus:border-[#0891b2] transition-all"
+                    className="w-full px-3 py-2 border-2 border-gray-300 focus:ring-2 focus:ring-orange-100 focus:border-[#f97316] transition-all"
                     style={{ borderRadius: 0 }}
                   >
                     <option value="">Select Payment</option>
@@ -2040,7 +2040,7 @@ export default function Home() {
                     type="text"
                     value={courier}
                     onChange={(e) => setCourier(e.target.value)}
-                    className="w-full px-3 py-2 border-2 border-gray-300 focus:ring-2 focus:ring-cyan-100 focus:border-[#0891b2] transition-all"
+                    className="w-full px-3 py-2 border-2 border-gray-300 focus:ring-2 focus:ring-orange-100 focus:border-[#f97316] transition-all"
                     style={{ borderRadius: 0 }}
                     placeholder="Enter courier name"
                   />
@@ -2054,7 +2054,7 @@ export default function Home() {
                     type="text"
                     value={packages}
                     onChange={(e) => setPackages(e.target.value)}
-                    className="w-full px-3 py-2 border-2 border-gray-300 focus:ring-2 focus:ring-cyan-100 focus:border-[#0891b2] transition-all"
+                    className="w-full px-3 py-2 border-2 border-gray-300 focus:ring-2 focus:ring-orange-100 focus:border-[#f97316] transition-all"
                     style={{ borderRadius: 0 }}
                     placeholder="Enter number of packages"
                   />
@@ -2068,7 +2068,7 @@ export default function Home() {
                     type="text"
                     value={product}
                     onChange={(e) => setProduct(e.target.value)}
-                    className="w-full px-3 py-2 border-2 border-gray-300 focus:ring-2 focus:ring-cyan-100 focus:border-[#0891b2] transition-all"
+                    className="w-full px-3 py-2 border-2 border-gray-300 focus:ring-2 focus:ring-orange-100 focus:border-[#f97316] transition-all"
                     style={{ borderRadius: 0 }}
                     placeholder="Enter product name"
                   />
@@ -2082,7 +2082,7 @@ export default function Home() {
                     type="number"
                     value={quantity}
                     onChange={(e) => setQuantity(e.target.value)}
-                    className="w-full px-3 py-2 border-2 border-gray-300 focus:ring-2 focus:ring-cyan-100 focus:border-[#0891b2] transition-all"
+                    className="w-full px-3 py-2 border-2 border-gray-300 focus:ring-2 focus:ring-orange-100 focus:border-[#f97316] transition-all"
                     style={{ borderRadius: 0 }}
                     placeholder="Enter quantity"
                   />
@@ -2096,7 +2096,7 @@ export default function Home() {
                     type="text"
                     value={carrierReferenceNo}
                     onChange={(e) => setCarrierReferenceNo(e.target.value)}
-                    className="w-full px-3 py-2 border-2 border-gray-300 focus:ring-2 focus:ring-cyan-100 focus:border-[#0891b2] transition-all"
+                    className="w-full px-3 py-2 border-2 border-gray-300 focus:ring-2 focus:ring-orange-100 focus:border-[#f97316] transition-all"
                     style={{ borderRadius: 0 }}
                     placeholder="Enter carrier reference number"
                   />
@@ -2110,7 +2110,7 @@ export default function Home() {
                     type="time"
                     value={departureTime}
                     onChange={(e) => setDepartureTime(e.target.value)}
-                    className="w-full px-3 py-2 border-2 border-gray-300 focus:ring-2 focus:ring-cyan-100 focus:border-[#0891b2] transition-all"
+                    className="w-full px-3 py-2 border-2 border-gray-300 focus:ring-2 focus:ring-orange-100 focus:border-[#f97316] transition-all"
                     style={{ borderRadius: 0 }}
                   />
                 </div>
@@ -2123,7 +2123,7 @@ export default function Home() {
                     type="time"
                     value={pickupTime}
                     onChange={(e) => setPickupTime(e.target.value)}
-                    className="w-full px-3 py-2 border-2 border-gray-300 focus:ring-2 focus:ring-cyan-100 focus:border-[#0891b2] transition-all"
+                    className="w-full px-3 py-2 border-2 border-gray-300 focus:ring-2 focus:ring-orange-100 focus:border-[#f97316] transition-all"
                     style={{ borderRadius: 0 }}
                   />
                 </div>
@@ -2136,7 +2136,7 @@ export default function Home() {
                     type="text"
                     value={origin}
                     onChange={(e) => setOrigin(e.target.value)}
-                    className="w-full px-3 py-2 border-2 border-gray-300 focus:ring-2 focus:ring-cyan-100 focus:border-[#0891b2] transition-all"
+                    className="w-full px-3 py-2 border-2 border-gray-300 focus:ring-2 focus:ring-orange-100 focus:border-[#f97316] transition-all"
                     style={{ borderRadius: 0 }}
                     placeholder="Enter origin"
                   />
@@ -2150,7 +2150,7 @@ export default function Home() {
                     type="text"
                     value={destination}
                     onChange={(e) => setDestination(e.target.value)}
-                    className="w-full px-3 py-2 border-2 border-gray-300 focus:ring-2 focus:ring-cyan-100 focus:border-[#0891b2] transition-all"
+                    className="w-full px-3 py-2 border-2 border-gray-300 focus:ring-2 focus:ring-orange-100 focus:border-[#f97316] transition-all"
                     style={{ borderRadius: 0 }}
                     placeholder="Enter destination"
                   />
@@ -2164,7 +2164,7 @@ export default function Home() {
                     type="date"
                     value={pickupDate}
                     onChange={(e) => setPickupDate(e.target.value)}
-                    className="w-full px-3 py-2 border-2 border-gray-300 focus:ring-2 focus:ring-cyan-100 focus:border-[#0891b2] transition-all"
+                    className="w-full px-3 py-2 border-2 border-gray-300 focus:ring-2 focus:ring-orange-100 focus:border-[#f97316] transition-all"
                     style={{ borderRadius: 0 }}
                   />
                 </div>
@@ -2177,7 +2177,7 @@ export default function Home() {
                     type="date"
                     value={estimatedDeliveryDate}
                     onChange={(e) => setEstimatedDeliveryDate(e.target.value)}
-                    className="w-full px-3 py-2 border-2 border-gray-300 focus:ring-2 focus:ring-cyan-100 focus:border-[#0891b2] transition-all"
+                    className="w-full px-3 py-2 border-2 border-gray-300 focus:ring-2 focus:ring-orange-100 focus:border-[#f97316] transition-all"
                     style={{ borderRadius: 0 }}
                   />
                 </div>
@@ -2189,7 +2189,7 @@ export default function Home() {
                   <textarea
                     value={comments}
                     onChange={(e) => setComments(e.target.value)}
-                    className="w-full px-3 py-2 border-2 border-gray-300 focus:ring-2 focus:ring-cyan-100 focus:border-[#0891b2] transition-all"
+                    className="w-full px-3 py-2 border-2 border-gray-300 focus:ring-2 focus:ring-orange-100 focus:border-[#f97316] transition-all"
                     style={{ borderRadius: 0 }}
                     rows={3}
                     placeholder="Enter any additional comments"
@@ -2206,7 +2206,7 @@ export default function Home() {
               <div className="flex items-center justify-between mb-6 pb-3 border-b-2 border-gray-200">
                 <h2 className="text-lg font-bold text-gray-900 flex items-center">
                   <div
-                    className="w-8 h-8 bg-[#0891b2] flex items-center justify-center mr-3"
+                    className="w-8 h-8 bg-[#f97316] flex items-center justify-center mr-3"
                     style={{ borderRadius: 0 }}
                   >
                     <svg
@@ -2235,7 +2235,7 @@ export default function Home() {
                     type="number"
                     value={productQuantity}
                     onChange={(e) => setProductQuantity(e.target.value)}
-                    className="w-full px-3 py-2 border-2 border-gray-300 focus:ring-2 focus:ring-cyan-100 focus:border-[#0891b2] transition-all"
+                    className="w-full px-3 py-2 border-2 border-gray-300 focus:ring-2 focus:ring-orange-100 focus:border-[#f97316] transition-all"
                     style={{ borderRadius: 0 }}
                     placeholder="Enter quantity"
                   />
@@ -2248,7 +2248,7 @@ export default function Home() {
                   <select
                     value={productType}
                     onChange={(e) => setProductType(e.target.value)}
-                    className="w-full px-3 py-2 border-2 border-gray-300 focus:ring-2 focus:ring-cyan-100 focus:border-[#0891b2] transition-all"
+                    className="w-full px-3 py-2 border-2 border-gray-300 focus:ring-2 focus:ring-orange-100 focus:border-[#f97316] transition-all"
                     style={{ borderRadius: 0 }}
                   >
                     <option value="">Select Type</option>
@@ -2272,7 +2272,7 @@ export default function Home() {
                     type="text"
                     value={description}
                     onChange={(e) => setDescription(e.target.value)}
-                    className="w-full px-3 py-2 border-2 border-gray-300 focus:ring-2 focus:ring-cyan-100 focus:border-[#0891b2] transition-all"
+                    className="w-full px-3 py-2 border-2 border-gray-300 focus:ring-2 focus:ring-orange-100 focus:border-[#f97316] transition-all"
                     style={{ borderRadius: 0 }}
                     placeholder="Enter package description"
                   />
@@ -2286,7 +2286,7 @@ export default function Home() {
                     type="number"
                     value={length}
                     onChange={(e) => setLength(e.target.value)}
-                    className="w-full px-3 py-2 border-2 border-gray-300 focus:ring-2 focus:ring-cyan-100 focus:border-[#0891b2] transition-all"
+                    className="w-full px-3 py-2 border-2 border-gray-300 focus:ring-2 focus:ring-orange-100 focus:border-[#f97316] transition-all"
                     style={{ borderRadius: 0 }}
                     placeholder="Enter length"
                   />
@@ -2300,7 +2300,7 @@ export default function Home() {
                     type="number"
                     value={width}
                     onChange={(e) => setWidth(e.target.value)}
-                    className="w-full px-3 py-2 border-2 border-gray-300 focus:ring-2 focus:ring-cyan-100 focus:border-[#0891b2] transition-all"
+                    className="w-full px-3 py-2 border-2 border-gray-300 focus:ring-2 focus:ring-orange-100 focus:border-[#f97316] transition-all"
                     style={{ borderRadius: 0 }}
                     placeholder="Enter width"
                   />
@@ -2314,7 +2314,7 @@ export default function Home() {
                     type="number"
                     value={height}
                     onChange={(e) => setHeight(e.target.value)}
-                    className="w-full px-3 py-2 border-2 border-gray-300 focus:ring-2 focus:ring-cyan-100 focus:border-[#0891b2] transition-all"
+                    className="w-full px-3 py-2 border-2 border-gray-300 focus:ring-2 focus:ring-orange-100 focus:border-[#f97316] transition-all"
                     style={{ borderRadius: 0 }}
                     placeholder="Enter height"
                   />
@@ -2328,7 +2328,7 @@ export default function Home() {
                     type="number"
                     value={productWeight}
                     onChange={(e) => setProductWeight(e.target.value)}
-                    className="w-full px-3 py-2 border-2 border-gray-300 focus:ring-2 focus:ring-cyan-100 focus:border-[#0891b2] transition-all"
+                    className="w-full px-3 py-2 border-2 border-gray-300 focus:ring-2 focus:ring-orange-100 focus:border-[#f97316] transition-all"
                     style={{ borderRadius: 0 }}
                     placeholder="Enter weight"
                   />
@@ -2343,7 +2343,7 @@ export default function Home() {
               <div className="flex items-center justify-between mb-6 pb-3 border-b-2 border-gray-200">
                 <h2 className="text-lg font-bold text-gray-900 flex items-center">
                   <div
-                    className="w-8 h-8 bg-[#0891b2] flex items-center justify-center mr-3"
+                    className="w-8 h-8 bg-[#f97316] flex items-center justify-center mr-3"
                     style={{ borderRadius: 0 }}
                   >
                     <svg
@@ -2374,7 +2374,7 @@ export default function Home() {
                     accept="image/jpeg,image/png,image/gif,image/webp"
                     onChange={handleImageChange}
                     disabled={isUploading}
-                    className="block w-full text-sm text-gray-500 file:mr-4 file:py-2 file:px-4 file:border-0 file:text-sm file:font-semibold file:bg-[#0891b2]/10 file:text-[#0891b2] hover:file:bg-[#0891b2]/20 transition-colors"
+                    className="block w-full text-sm text-gray-500 file:mr-4 file:py-2 file:px-4 file:border-0 file:text-sm file:font-semibold file:bg-[#f97316]/10 file:text-[#f97316] hover:file:bg-[#f97316]/20 transition-colors"
                     style={{ borderRadius: 0 }}
                   />
                 </div>
@@ -2398,10 +2398,10 @@ export default function Home() {
             <button
               onClick={handleSubmit}
               disabled={isSubmitting}
-              className={`w-full py-3 font-semibold shadow-md hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-[#0891b2] focus:ring-offset-2 transition-all ${
+              className={`w-full py-3 font-semibold shadow-md hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-[#f97316] focus:ring-offset-2 transition-all ${
                 isSubmitting
                   ? "bg-gray-400 cursor-not-allowed text-white"
-                  : "bg-[#0891b2] hover:bg-[#0e7490] text-white"
+                  : "bg-[#f97316] hover:bg-[#ea580c] text-white"
               }`}
               style={{ borderRadius: 0 }}
             >
@@ -2462,12 +2462,12 @@ export default function Home() {
           <div className="max-w-7xl mx-auto">
             <div className="mb-8">
               <span
-                className="inline-block px-4 py-1 bg-[#0891b2]/10 text-[#0891b2] font-medium mb-4 text-sm"
+                className="inline-block px-4 py-1 bg-[#f97316]/10 text-[#f97316] font-medium mb-4 text-sm"
                 style={{ borderRadius: 0 }}
               >
                 Edit Shipment
               </span>
-              <h1 className="text-3xl md:text-4xl font-bold text-[#0891b2] mb-2">
+              <h1 className="text-3xl md:text-4xl font-bold text-[#f97316] mb-2">
                 Edit Shipment
               </h1>
               <p className="text-gray-600">
@@ -2482,7 +2482,7 @@ export default function Home() {
                 style={{ borderRadius: 0 }}
               >
                 <div className="flex items-center justify-between mb-4">
-                  <h2 className="text-lg font-bold text-[#0891b2] flex items-center">
+                  <h2 className="text-lg font-bold text-[#f97316] flex items-center">
                     <svg
                       className="w-5 h-5 mr-2"
                       fill="none"
@@ -2509,11 +2509,11 @@ export default function Home() {
                       onClick={() =>
                         handleRecentShipmentClick(ship.trackingNumber)
                       }
-                      className="text-left p-4 border-2 border-gray-200 hover:border-[#0891b2] transition-all hover:shadow-md bg-gray-50 hover:bg-[#0891b2]/5 cursor-pointer"
+                      className="text-left p-4 border-2 border-gray-200 hover:border-[#f97316] transition-all hover:shadow-md bg-gray-50 hover:bg-[#f97316]/5 cursor-pointer"
                       style={{ borderRadius: 0 }}
                     >
                       <div className="flex items-center justify-between mb-2">
-                        <span className="font-semibold text-[#0891b2] text-sm">
+                        <span className="font-semibold text-[#f97316] text-sm">
                           {ship.trackingNumber}
                         </span>
                         <span
@@ -2522,7 +2522,7 @@ export default function Home() {
                               ? "bg-green-100 text-green-700"
                               : ship.status === "intransit" ||
                                 ship.status === "active"
-                              ? "bg-[#0891b2]/10 text-[#0891b2]"
+                              ? "bg-[#f97316]/10 text-[#f97316]"
                               : "bg-red-100 text-red-700"
                           }`}
                           style={{ borderRadius: 0 }}
@@ -2554,7 +2554,7 @@ export default function Home() {
                   onClick={handleFocus}
                   onChange={(e) => setTrackingNumber(e.target.value)}
                   placeholder="Enter tracking number"
-                  className="flex-1 min-w-0 px-4 py-2 border-2 border-gray-300 focus:ring-2 focus:ring-cyan-100 focus:border-[#0891b2] transition-all"
+                  className="flex-1 min-w-0 px-4 py-2 border-2 border-gray-300 focus:ring-2 focus:ring-orange-100 focus:border-[#f97316] transition-all"
                   style={{ borderRadius: 0 }}
                 />
 
@@ -2562,10 +2562,10 @@ export default function Home() {
                 <button
                   onClick={handleSearch}
                   disabled={isSearching}
-                  className={`w-full sm:w-auto px-6 py-2 font-semibold transition-all shadow-md hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-[#0891b2] focus:ring-offset-2 ${
+                  className={`w-full sm:w-auto px-6 py-2 font-semibold transition-all shadow-md hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-[#f97316] focus:ring-offset-2 ${
                     isSearching
                       ? "bg-gray-400 cursor-not-allowed text-white"
-                      : "bg-[#0891b2] hover:bg-[#0e7490] text-white"
+                      : "bg-[#f97316] hover:bg-[#ea580c] text-white"
                   }`}
                   style={{ borderRadius: 0 }}
                 >
@@ -2622,7 +2622,7 @@ export default function Home() {
                       <div className="flex items-center justify-between mb-6 pb-3 border-b-2 border-gray-200">
                         <h2 className="text-lg font-bold text-gray-900 flex items-center">
                           <div
-                            className="w-8 h-8 bg-[#0891b2] flex items-center justify-center mr-3"
+                            className="w-8 h-8 bg-[#f97316] flex items-center justify-center mr-3"
                             style={{ borderRadius: 0 }}
                           >
                             <svg
@@ -2657,7 +2657,7 @@ export default function Home() {
                                 sender: e.target.value,
                               })
                             }
-                            className="w-full px-3 py-2 border-2 border-gray-300 focus:ring-2 focus:ring-cyan-100 focus:border-[#0891b2] transition-all"
+                            className="w-full px-3 py-2 border-2 border-gray-300 focus:ring-2 focus:ring-orange-100 focus:border-[#f97316] transition-all"
                             style={{ borderRadius: 0 }}
                           />
                         </div>
@@ -2675,7 +2675,7 @@ export default function Home() {
                                 senderNumber: e.target.value,
                               })
                             }
-                            className="w-full px-3 py-2 border-2 border-gray-300 focus:ring-2 focus:ring-cyan-100 focus:border-[#0891b2] transition-all"
+                            className="w-full px-3 py-2 border-2 border-gray-300 focus:ring-2 focus:ring-orange-100 focus:border-[#f97316] transition-all"
                             style={{ borderRadius: 0 }}
                           />
                         </div>
@@ -2693,7 +2693,7 @@ export default function Home() {
                                 senderAddress: e.target.value,
                               })
                             }
-                            className="w-full px-3 py-2 border-2 border-gray-300 focus:ring-2 focus:ring-cyan-100 focus:border-[#0891b2] transition-all"
+                            className="w-full px-3 py-2 border-2 border-gray-300 focus:ring-2 focus:ring-orange-100 focus:border-[#f97316] transition-all"
                             style={{ borderRadius: 0 }}
                           />
                         </div>
@@ -2711,7 +2711,7 @@ export default function Home() {
                                 senderEmail: e.target.value,
                               })
                             }
-                            className="w-full px-3 py-2 border-2 border-gray-300 focus:ring-2 focus:ring-cyan-100 focus:border-[#0891b2] transition-all"
+                            className="w-full px-3 py-2 border-2 border-gray-300 focus:ring-2 focus:ring-orange-100 focus:border-[#f97316] transition-all"
                             style={{ borderRadius: 0 }}
                           />
                         </div>
@@ -2723,7 +2723,7 @@ export default function Home() {
                       <div className="flex items-center justify-between mb-6 pb-3 border-b-2 border-gray-200">
                         <h2 className="text-lg font-bold text-gray-900 flex items-center">
                           <div
-                            className="w-8 h-8 bg-[#0891b2] flex items-center justify-center mr-3"
+                            className="w-8 h-8 bg-[#f97316] flex items-center justify-center mr-3"
                             style={{ borderRadius: 0 }}
                           >
                             <svg
@@ -2758,7 +2758,7 @@ export default function Home() {
                                 receiver: e.target.value,
                               })
                             }
-                            className="w-full px-3 py-2 border-2 border-gray-300 focus:ring-2 focus:ring-cyan-100 focus:border-[#0891b2] transition-all"
+                            className="w-full px-3 py-2 border-2 border-gray-300 focus:ring-2 focus:ring-orange-100 focus:border-[#f97316] transition-all"
                             style={{ borderRadius: 0 }}
                           />
                         </div>
@@ -2776,7 +2776,7 @@ export default function Home() {
                                 receiverNumber: e.target.value,
                               })
                             }
-                            className="w-full px-3 py-2 border-2 border-gray-300 focus:ring-2 focus:ring-cyan-100 focus:border-[#0891b2] transition-all"
+                            className="w-full px-3 py-2 border-2 border-gray-300 focus:ring-2 focus:ring-orange-100 focus:border-[#f97316] transition-all"
                             style={{ borderRadius: 0 }}
                           />
                         </div>
@@ -2794,7 +2794,7 @@ export default function Home() {
                                 receiverAddress: e.target.value,
                               })
                             }
-                            className="w-full px-3 py-2 border-2 border-gray-300 focus:ring-2 focus:ring-cyan-100 focus:border-[#0891b2] transition-all"
+                            className="w-full px-3 py-2 border-2 border-gray-300 focus:ring-2 focus:ring-orange-100 focus:border-[#f97316] transition-all"
                             style={{ borderRadius: 0 }}
                           />
                         </div>
@@ -2812,7 +2812,7 @@ export default function Home() {
                                 receiverEmail: e.target.value,
                               })
                             }
-                            className="w-full px-3 py-2 border-2 border-gray-300 focus:ring-2 focus:ring-cyan-100 focus:border-[#0891b2] transition-all"
+                            className="w-full px-3 py-2 border-2 border-gray-300 focus:ring-2 focus:ring-orange-100 focus:border-[#f97316] transition-all"
                             style={{ borderRadius: 0 }}
                           />
                         </div>
@@ -2829,7 +2829,7 @@ export default function Home() {
                   <div className="flex items-center justify-between mb-6 pb-3 border-b-2 border-gray-200">
                     <h2 className="text-lg font-bold text-gray-900 flex items-center">
                       <div
-                        className="w-8 h-8 bg-[#0891b2] flex items-center justify-center mr-3"
+                        className="w-8 h-8 bg-[#f97316] flex items-center justify-center mr-3"
                         style={{ borderRadius: 0 }}
                       >
                         <svg
@@ -2860,7 +2860,7 @@ export default function Home() {
                         onChange={(e) =>
                           setShipment({ ...shipment, status: e.target.value })
                         }
-                        className="w-full px-3 py-2 border-2 border-gray-300 focus:ring-2 focus:ring-cyan-100 focus:border-[#0891b2] transition-all"
+                        className="w-full px-3 py-2 border-2 border-gray-300 focus:ring-2 focus:ring-orange-100 focus:border-[#f97316] transition-all"
                         style={{ borderRadius: 0 }}
                       />
                     </div>
@@ -2947,7 +2947,7 @@ export default function Home() {
                             shipmentType: e.target.value,
                           })
                         }
-                        className="w-full px-3 py-2 border-2 border-gray-300 focus:ring-2 focus:ring-cyan-100 focus:border-[#0891b2] transition-all"
+                        className="w-full px-3 py-2 border-2 border-gray-300 focus:ring-2 focus:ring-orange-100 focus:border-[#f97316] transition-all"
                         style={{ borderRadius: 0 }}
                       >
                         <option value="">Select Type</option>
@@ -2972,7 +2972,7 @@ export default function Home() {
                         onChange={(e) =>
                           setShipment({ ...shipment, weight: e.target.value })
                         }
-                        className="w-full px-3 py-2 border-2 border-gray-300 focus:ring-2 focus:ring-cyan-100 focus:border-[#0891b2] transition-all"
+                        className="w-full px-3 py-2 border-2 border-gray-300 focus:ring-2 focus:ring-orange-100 focus:border-[#f97316] transition-all"
                         style={{ borderRadius: 0 }}
                       />
                     </div>
@@ -2987,7 +2987,7 @@ export default function Home() {
                         onChange={(e) =>
                           setShipment({ ...shipment, courier: e.target.value })
                         }
-                        className="w-full px-3 py-2 border-2 border-gray-300 focus:ring-2 focus:ring-cyan-100 focus:border-[#0891b2] transition-all"
+                        className="w-full px-3 py-2 border-2 border-gray-300 focus:ring-2 focus:ring-orange-100 focus:border-[#f97316] transition-all"
                         style={{ borderRadius: 0 }}
                       />
                     </div>
@@ -3002,7 +3002,7 @@ export default function Home() {
                         onChange={(e) =>
                           setShipment({ ...shipment, packages: e.target.value })
                         }
-                        className="w-full px-3 py-2 border-2 border-gray-300 focus:ring-2 focus:ring-cyan-100 focus:border-[#0891b2] transition-all"
+                        className="w-full px-3 py-2 border-2 border-gray-300 focus:ring-2 focus:ring-orange-100 focus:border-[#f97316] transition-all"
                         style={{ borderRadius: 0 }}
                       />
                     </div>
@@ -3016,7 +3016,7 @@ export default function Home() {
                         onChange={(e) =>
                           setShipment({ ...shipment, mode: e.target.value })
                         }
-                        className="w-full px-3 py-2 border-2 border-gray-300 focus:ring-2 focus:ring-cyan-100 focus:border-[#0891b2] transition-all"
+                        className="w-full px-3 py-2 border-2 border-gray-300 focus:ring-2 focus:ring-orange-100 focus:border-[#f97316] transition-all"
                         style={{ borderRadius: 0 }}
                       >
                         <option value="">Select Mode</option>
@@ -3037,7 +3037,7 @@ export default function Home() {
                         onChange={(e) =>
                           setShipment({ ...shipment, product: e.target.value })
                         }
-                        className="w-full px-3 py-2 border-2 border-gray-300 focus:ring-2 focus:ring-cyan-100 focus:border-[#0891b2] transition-all"
+                        className="w-full px-3 py-2 border-2 border-gray-300 focus:ring-2 focus:ring-orange-100 focus:border-[#f97316] transition-all"
                         style={{ borderRadius: 0 }}
                       />
                     </div>
@@ -3052,7 +3052,7 @@ export default function Home() {
                         onChange={(e) =>
                           setShipment({ ...shipment, quantity: e.target.value })
                         }
-                        className="w-full px-3 py-2 border-2 border-gray-300 focus:ring-2 focus:ring-cyan-100 focus:border-[#0891b2] transition-all"
+                        className="w-full px-3 py-2 border-2 border-gray-300 focus:ring-2 focus:ring-orange-100 focus:border-[#f97316] transition-all"
                         style={{ borderRadius: 0 }}
                       />
                     </div>
@@ -3069,7 +3069,7 @@ export default function Home() {
                             paymentMethod: e.target.value,
                           })
                         }
-                        className="w-full px-3 py-2 border-2 border-gray-300 focus:ring-2 focus:ring-cyan-100 focus:border-[#0891b2] transition-all"
+                        className="w-full px-3 py-2 border-2 border-gray-300 focus:ring-2 focus:ring-orange-100 focus:border-[#f97316] transition-all"
                         style={{ borderRadius: 0 }}
                       >
                         <option value="">Select Payment</option>
@@ -3109,7 +3109,7 @@ export default function Home() {
                             totalFreight: e.target.value,
                           })
                         }
-                        className="w-full px-3 py-2 border-2 border-gray-300 focus:ring-2 focus:ring-cyan-100 focus:border-[#0891b2] transition-all"
+                        className="w-full px-3 py-2 border-2 border-gray-300 focus:ring-2 focus:ring-orange-100 focus:border-[#f97316] transition-all"
                         style={{ borderRadius: 0 }}
                       />
                     </div>
@@ -3123,7 +3123,7 @@ export default function Home() {
                         onChange={(e) =>
                           setShipment({ ...shipment, carrier: e.target.value })
                         }
-                        className="w-full px-3 py-2 border-2 border-gray-300 focus:ring-2 focus:ring-cyan-100 focus:border-[#0891b2] transition-all"
+                        className="w-full px-3 py-2 border-2 border-gray-300 focus:ring-2 focus:ring-orange-100 focus:border-[#f97316] transition-all"
                         style={{ borderRadius: 0 }}
                       >
                         <option value="">Select Carrier</option>
@@ -3147,7 +3147,7 @@ export default function Home() {
                             carrierReferenceNo: e.target.value,
                           })
                         }
-                        className="w-full px-3 py-2 border-2 border-gray-300 focus:ring-2 focus:ring-cyan-100 focus:border-[#0891b2] transition-all"
+                        className="w-full px-3 py-2 border-2 border-gray-300 focus:ring-2 focus:ring-orange-100 focus:border-[#f97316] transition-all"
                         style={{ borderRadius: 0 }}
                       />
                     </div>
@@ -3165,7 +3165,7 @@ export default function Home() {
                             departureTime: e.target.value,
                           })
                         }
-                        className="w-full px-3 py-2 border-2 border-gray-300 focus:ring-2 focus:ring-cyan-100 focus:border-[#0891b2] transition-all"
+                        className="w-full px-3 py-2 border-2 border-gray-300 focus:ring-2 focus:ring-orange-100 focus:border-[#f97316] transition-all"
                         style={{ borderRadius: 0 }}
                       />
                     </div>
@@ -3180,7 +3180,7 @@ export default function Home() {
                         onChange={(e) =>
                           setShipment({ ...shipment, origin: e.target.value })
                         }
-                        className="w-full px-3 py-2 border-2 border-gray-300 focus:ring-2 focus:ring-cyan-100 focus:border-[#0891b2] transition-all"
+                        className="w-full px-3 py-2 border-2 border-gray-300 focus:ring-2 focus:ring-orange-100 focus:border-[#f97316] transition-all"
                         style={{ borderRadius: 0 }}
                       />
                     </div>
@@ -3198,7 +3198,7 @@ export default function Home() {
                             destination: e.target.value,
                           })
                         }
-                        className="w-full px-3 py-2 border-2 border-gray-300 focus:ring-2 focus:ring-cyan-100 focus:border-[#0891b2] transition-all"
+                        className="w-full px-3 py-2 border-2 border-gray-300 focus:ring-2 focus:ring-orange-100 focus:border-[#f97316] transition-all"
                         style={{ borderRadius: 0 }}
                       />
                     </div>
@@ -3216,7 +3216,7 @@ export default function Home() {
                             pickupDate: e.target.value,
                           })
                         }
-                        className="w-full px-3 py-2 border-2 border-gray-300 focus:ring-2 focus:ring-cyan-100 focus:border-[#0891b2] transition-all"
+                        className="w-full px-3 py-2 border-2 border-gray-300 focus:ring-2 focus:ring-orange-100 focus:border-[#f97316] transition-all"
                         style={{ borderRadius: 0 }}
                       />
                     </div>
@@ -3234,7 +3234,7 @@ export default function Home() {
                             pickupTime: e.target.value,
                           })
                         }
-                        className="w-full px-3 py-2 border-2 border-gray-300 focus:ring-2 focus:ring-cyan-100 focus:border-[#0891b2] transition-all"
+                        className="w-full px-3 py-2 border-2 border-gray-300 focus:ring-2 focus:ring-orange-100 focus:border-[#f97316] transition-all"
                         style={{ borderRadius: 0 }}
                       />
                     </div>
@@ -3252,7 +3252,7 @@ export default function Home() {
                             expectedDeliveryDate: e.target.value,
                           })
                         }
-                        className="w-full px-3 py-2 border-2 border-gray-300 focus:ring-2 focus:ring-cyan-100 focus:border-[#0891b2] transition-all"
+                        className="w-full px-3 py-2 border-2 border-gray-300 focus:ring-2 focus:ring-orange-100 focus:border-[#f97316] transition-all"
                         style={{ borderRadius: 0 }}
                       />
                     </div>
@@ -3267,7 +3267,7 @@ export default function Home() {
                           setShipment({ ...shipment, comments: e.target.value })
                         }
                         rows={4}
-                        className="w-full px-3 py-2 border-2 border-gray-300 focus:ring-2 focus:ring-cyan-100 focus:border-[#0891b2] transition-all"
+                        className="w-full px-3 py-2 border-2 border-gray-300 focus:ring-2 focus:ring-orange-100 focus:border-[#f97316] transition-all"
                         style={{ borderRadius: 0 }}
                       />
                     </div>
@@ -3281,7 +3281,7 @@ export default function Home() {
                 >
                   <h2 className="text-lg font-semibold text-gray-800 mb-6 flex items-center">
                     <svg
-                      className="w-5 h-5 mr-2 text-[#0891b2]"
+                      className="w-5 h-5 mr-2 text-[#f97316]"
                       fill="none"
                       stroke="currentColor"
                       viewBox="0 0 24 24"
@@ -3309,7 +3309,7 @@ export default function Home() {
                             productQuantity: e.target.value,
                           })
                         }
-                        className="w-full px-3 py-2 border-2 border-gray-300 focus:ring-2 focus:ring-cyan-100 focus:border-[#0891b2] transition-all"
+                        className="w-full px-3 py-2 border-2 border-gray-300 focus:ring-2 focus:ring-orange-100 focus:border-[#f97316] transition-all"
                         style={{ borderRadius: 0 }}
                       />
                     </div>
@@ -3326,7 +3326,7 @@ export default function Home() {
                             productType: e.target.value,
                           })
                         }
-                        className="w-full px-3 py-2 border-2 border-gray-300 focus:ring-2 focus:ring-cyan-100 focus:border-[#0891b2] transition-all"
+                        className="w-full px-3 py-2 border-2 border-gray-300 focus:ring-2 focus:ring-orange-100 focus:border-[#f97316] transition-all"
                         style={{ borderRadius: 0 }}
                       >
                         <option value="">Select Type</option>
@@ -3354,7 +3354,7 @@ export default function Home() {
                             description: e.target.value,
                           })
                         }
-                        className="w-full px-3 py-2 border-2 border-gray-300 focus:ring-2 focus:ring-cyan-100 focus:border-[#0891b2] transition-all"
+                        className="w-full px-3 py-2 border-2 border-gray-300 focus:ring-2 focus:ring-orange-100 focus:border-[#f97316] transition-all"
                         style={{ borderRadius: 0 }}
                       />
                     </div>
@@ -3369,7 +3369,7 @@ export default function Home() {
                         onChange={(e) =>
                           setShipment({ ...shipment, length: e.target.value })
                         }
-                        className="w-full px-3 py-2 border-2 border-gray-300 focus:ring-2 focus:ring-cyan-100 focus:border-[#0891b2] transition-all"
+                        className="w-full px-3 py-2 border-2 border-gray-300 focus:ring-2 focus:ring-orange-100 focus:border-[#f97316] transition-all"
                         style={{ borderRadius: 0 }}
                       />
                     </div>
@@ -3384,7 +3384,7 @@ export default function Home() {
                         onChange={(e) =>
                           setShipment({ ...shipment, width: e.target.value })
                         }
-                        className="w-full px-3 py-2 border-2 border-gray-300 focus:ring-2 focus:ring-cyan-100 focus:border-[#0891b2] transition-all"
+                        className="w-full px-3 py-2 border-2 border-gray-300 focus:ring-2 focus:ring-orange-100 focus:border-[#f97316] transition-all"
                         style={{ borderRadius: 0 }}
                       />
                     </div>
@@ -3399,7 +3399,7 @@ export default function Home() {
                         onChange={(e) =>
                           setShipment({ ...shipment, height: e.target.value })
                         }
-                        className="w-full px-3 py-2 border-2 border-gray-300 focus:ring-2 focus:ring-cyan-100 focus:border-[#0891b2] transition-all"
+                        className="w-full px-3 py-2 border-2 border-gray-300 focus:ring-2 focus:ring-orange-100 focus:border-[#f97316] transition-all"
                         style={{ borderRadius: 0 }}
                       />
                     </div>
@@ -3417,7 +3417,7 @@ export default function Home() {
                             productWeight: e.target.value,
                           })
                         }
-                        className="w-full px-3 py-2 border-2 border-gray-300 focus:ring-2 focus:ring-cyan-100 focus:border-[#0891b2] transition-all"
+                        className="w-full px-3 py-2 border-2 border-gray-300 focus:ring-2 focus:ring-orange-100 focus:border-[#f97316] transition-all"
                         style={{ borderRadius: 0 }}
                       />
                     </div>
@@ -3430,7 +3430,7 @@ export default function Home() {
                 >
                   <h2 className="text-lg font-semibold text-gray-800 mb-4 flex items-center">
                     <svg
-                      className="w-5 h-5 mr-2 text-[#0891b2]"
+                      className="w-5 h-5 mr-2 text-[#f97316]"
                       fill="none"
                       stroke="currentColor"
                       viewBox="0 0 24 24"
@@ -3454,7 +3454,7 @@ export default function Home() {
                         type="file"
                         accept="image/*"
                         onChange={handleImageChange}
-                        className="block w-full text-sm text-gray-500 file:mr-4 file:py-2 file:px-4 file:border-0 file:text-sm file:font-semibold file:bg-[#0891b2]/10 file:text-[#0891b2] hover:file:bg-[#0891b2]/20 transition-colors"
+                        className="block w-full text-sm text-gray-500 file:mr-4 file:py-2 file:px-4 file:border-0 file:text-sm file:font-semibold file:bg-[#f97316]/10 file:text-[#f97316] hover:file:bg-[#f97316]/20 transition-colors"
                         style={{ borderRadius: 0 }}
                       />
                     </div>
@@ -3483,10 +3483,10 @@ export default function Home() {
                   <button
                     onClick={handleUpdate}
                     disabled={isUpdating}
-                    className={`w-full py-3 font-semibold shadow-md hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-[#0891b2] focus:ring-offset-2 transition-all ${
+                    className={`w-full py-3 font-semibold shadow-md hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-[#f97316] focus:ring-offset-2 transition-all ${
                       isUpdating
                         ? "bg-gray-400 cursor-not-allowed text-white"
-                        : "bg-[#0891b2] hover:bg-[#0e7490] text-white"
+                        : "bg-[#f97316] hover:bg-[#ea580c] text-white"
                     }`}
                     style={{ borderRadius: 0 }}
                   >
@@ -3532,12 +3532,12 @@ export default function Home() {
           <div className="max-w-7xl mx-auto">
             <div className="mb-8">
               <span
-                className="inline-block px-4 py-1 bg-[#0891b2]/10 text-[#0891b2] font-medium mb-4 text-sm"
+                className="inline-block px-4 py-1 bg-[#f97316]/10 text-[#f97316] font-medium mb-4 text-sm"
                 style={{ borderRadius: 0 }}
               >
                 Review Shipment
               </span>
-              <h1 className="text-3xl md:text-4xl font-bold text-[#0891b2] mb-2">
+              <h1 className="text-3xl md:text-4xl font-bold text-[#f97316] mb-2">
                 Review Shipment
               </h1>
               <p className="text-gray-600">View and review shipment details</p>
@@ -3550,7 +3550,7 @@ export default function Home() {
                 style={{ borderRadius: 0 }}
               >
                 <div className="flex items-center justify-between mb-4">
-                  <h2 className="text-lg font-bold text-[#0891b2] flex items-center">
+                  <h2 className="text-lg font-bold text-[#f97316] flex items-center">
                     <svg
                       className="w-5 h-5 mr-2"
                       fill="none"
@@ -3577,11 +3577,11 @@ export default function Home() {
                       onClick={() =>
                         handleRecentShipmentClick(ship.trackingNumber)
                       }
-                      className="text-left p-4 border-2 border-gray-200 hover:border-[#0891b2] transition-all hover:shadow-md bg-gray-50 hover:bg-[#0891b2]/5 cursor-pointer"
+                      className="text-left p-4 border-2 border-gray-200 hover:border-[#f97316] transition-all hover:shadow-md bg-gray-50 hover:bg-[#f97316]/5 cursor-pointer"
                       style={{ borderRadius: 0 }}
                     >
                       <div className="flex items-center justify-between mb-2">
-                        <span className="font-semibold text-[#0891b2] text-sm">
+                        <span className="font-semibold text-[#f97316] text-sm">
                           {ship.trackingNumber}
                         </span>
                         <span
@@ -3590,7 +3590,7 @@ export default function Home() {
                               ? "bg-green-100 text-green-700"
                               : ship.status === "intransit" ||
                                 ship.status === "active"
-                              ? "bg-[#0891b2]/10 text-[#0891b2]"
+                              ? "bg-[#f97316]/10 text-[#f97316]"
                               : "bg-red-100 text-red-700"
                           }`}
                           style={{ borderRadius: 0 }}
@@ -3622,12 +3622,12 @@ export default function Home() {
                   onClick={handleFocus}
                   onChange={(e) => setTrackingNumber(e.target.value)}
                   placeholder="Enter tracking number"
-                  className="flex-1 min-w-0 px-4 py-2 border-2 border-gray-300 focus:ring-2 focus:ring-cyan-100 focus:border-[#0891b2] transition-all"
+                  className="flex-1 min-w-0 px-4 py-2 border-2 border-gray-300 focus:ring-2 focus:ring-orange-100 focus:border-[#f97316] transition-all"
                   style={{ borderRadius: 0 }}
                 />
                 <button
                   onClick={handleSearch}
-                  className="w-full sm:w-auto px-6 py-2 bg-[#0891b2] hover:bg-[#0e7490] text-white font-semibold transition-all shadow-md hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-[#0891b2] focus:ring-offset-2"
+                  className="w-full sm:w-auto px-6 py-2 bg-[#f97316] hover:bg-[#ea580c] text-white font-semibold transition-all shadow-md hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-[#f97316] focus:ring-offset-2"
                   style={{ borderRadius: 0 }}
                 >
                   Search Shipment
@@ -3649,8 +3649,8 @@ export default function Home() {
                 className="bg-white border-2 border-gray-100 shadow-lg p-6 mb-6"
                 style={{ borderRadius: 0 }}
               >
-                <div className="flex items-center justify-between mb-6 pb-4 border-b-2 border-[#0891b2]/20">
-                  <h2 className="text-2xl font-bold text-[#0891b2]">
+                <div className="flex items-center justify-between mb-6 pb-4 border-b-2 border-[#f97316]/20">
+                  <h2 className="text-2xl font-bold text-[#f97316]">
                     Shipment Details
                   </h2>
                   <span
@@ -3659,7 +3659,7 @@ export default function Home() {
                         ? "bg-green-100 text-green-700"
                         : shipment.status === "intransit" ||
                           shipment.status === "active"
-                        ? "bg-[#0891b2]/10 text-[#0891b2]"
+                        ? "bg-[#f97316]/10 text-[#f97316]"
                         : "bg-red-100 text-red-700"
                     }`}
                     style={{ borderRadius: 0 }}

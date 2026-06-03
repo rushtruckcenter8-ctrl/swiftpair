@@ -33,7 +33,7 @@ function Page() {
         img={
           "/images_now/african-american-worker-writing-inventory-list-while-checking-stock-storage-room_637285-4716.jpg"
         }
-        h2Text={"About Track-Global Logistics"}
+        h2Text={"About SwiftPair Logistics"}
         location={""}
         spanText={"Your Trusted Logistics Partner Since 1995"}
       />
@@ -46,7 +46,7 @@ function Page() {
             data-aos="fade-up"
             style={{ borderRadius: 0 }}
           >
-            <div className="p-10 md:p-16 bg-gradient-to-br from-[#0e7490] via-[#0891b2] to-[#06b6d4] text-white relative overflow-hidden">
+            <div className="p-10 md:p-16 bg-gradient-to-br from-[#ea580c] via-[#f97316] to-[#fb923c] text-white relative overflow-hidden">
               <div
                 className="absolute top-0 right-0 w-96 h-96 bg-white/5 -translate-y-1/2 translate-x-1/2"
                 style={{ borderRadius: 0 }}
@@ -87,10 +87,10 @@ function Page() {
                 <h2 className="text-4xl md:text-5xl font-bold mb-6">
                   Your Trusted Partner for Global Deliveries
                 </h2>
-                <div className="w-20 h-1 bg-cyan-300 mb-8"></div>
+                <div className="w-20 h-1 bg-orange-300 mb-8"></div>
                 <div className="md:max-w-4xl">
                   <p className="text-xl mb-6 leading-relaxed text-white/95">
-                    At Track-Global Logistics Courier, every package receives
+                    At SwiftPair Logistics Courier, every package receives
                     meticulous attention and care, ensuring complete
                     satisfaction for deliveries both locally and globally. Our
                     commitment extends beyond shipping—we create seamless,
@@ -107,7 +107,7 @@ function Page() {
                   <div className="flex flex-col sm:flex-row gap-4">
                     <button
                       onClick={() => navigate.push("/contact")}
-                      className="bg-white text-[#0891b2] hover:bg-gray-100 font-bold py-4 px-10 transition-all shadow-lg hover:shadow-xl transform hover:scale-105 flex items-center justify-center"
+                      className="bg-white text-[#f97316] hover:bg-gray-100 font-bold py-4 px-10 transition-all shadow-lg hover:shadow-xl transform hover:scale-105 flex items-center justify-center"
                       style={{ borderRadius: 0 }}
                     >
                       CONTACT US TODAY
@@ -127,7 +127,7 @@ function Page() {
                     </button>
                     <Link
                       href="/#track-shipment"
-                      className="border-2 border-white hover:bg-white hover:text-[#0891b2] text-white font-bold py-4 px-10 transition-all flex items-center justify-center"
+                      className="border-2 border-white hover:bg-white hover:text-[#f97316] text-white font-bold py-4 px-10 transition-all flex items-center justify-center"
                       style={{ borderRadius: 0 }}
                     >
                       TRACK SHIPMENT
@@ -159,11 +159,11 @@ function Page() {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="relative" data-aos="fade-right">
               <div
-                className="absolute -top-6 -left-6 w-64 h-64 bg-[#0891b2]/10 z-0"
+                className="absolute -top-6 -left-6 w-64 h-64 bg-[#f97316]/10 z-0"
                 style={{ borderRadius: 0 }}
               ></div>
               <div
-                className="absolute -bottom-6 -right-6 w-48 h-48 bg-cyan-400/20 z-0"
+                className="absolute -bottom-6 -right-6 w-48 h-48 bg-orange-400/20 z-0"
                 style={{ borderRadius: 0 }}
               ></div>
               <div className="relative z-10">
@@ -171,12 +171,12 @@ function Page() {
                   width={600}
                   height={600}
                   src="/images_now/african-american-deliverer-using-digital-tablet-while-unloading-packages-from-van_637285-2186.jpg"
-                  alt="Track-Global Logistics Courier Team"
+                  alt="SwiftPair Logistics Courier Team"
                   className="shadow-2xl"
                   style={{ borderRadius: 0 }}
                 />
                 <div
-                  className="absolute bottom-0 right-0 bg-gradient-to-r from-[#0891b2] to-[#0e7490] text-white font-bold py-4 px-8 shadow-xl"
+                  className="absolute bottom-0 right-0 bg-gradient-to-r from-[#f97316] to-[#ea580c] text-white font-bold py-4 px-8 shadow-xl"
                   style={{ borderRadius: 0 }}
                 >
                   <div className="text-2xl mb-1">Since 1995</div>
@@ -190,15 +190,15 @@ function Page() {
             <div data-aos="fade-left">
               <div className="mb-6">
                 <span
-                  className="inline-block px-4 py-1 bg-[#0891b2]/10 text-[#0891b2] font-medium mb-4"
+                  className="inline-block px-4 py-1 bg-[#f97316]/10 text-[#f97316] font-medium mb-4"
                   style={{ borderRadius: 0 }}
                 >
                   Our Story
                 </span>
-                <h2 className="text-3xl md:text-4xl font-bold mb-4 text-transparent bg-clip-text bg-gradient-to-r from-[#0891b2] to-[#155e75]">
+                <h2 className="text-3xl md:text-4xl font-bold mb-4 text-transparent bg-clip-text bg-gradient-to-r from-[#f97316] to-[#c2410c]">
                   A Success Story Spanning Three Decades
                 </h2>
-                <div className="w-20 h-1 bg-[#0891b2] mb-8"></div>
+                <div className="w-20 h-1 bg-[#f97316] mb-8"></div>
               </div>
 
               <div className="space-y-6 text-gray-700 mb-8">
@@ -210,11 +210,11 @@ function Page() {
                 </p>
                 <p className="leading-relaxed">
                   With over{" "}
-                  <span className="font-semibold text-[#0891b2]">
+                  <span className="font-semibold text-[#f97316]">
                     25 years of experience
                   </span>
                   , we now serve more than{" "}
-                  <span className="font-semibold text-[#0891b2]">
+                  <span className="font-semibold text-[#f97316]">
                     220 destinations worldwide
                   </span>
                   . Our reputation is built on reliability, efficiency, and an
@@ -222,7 +222,7 @@ function Page() {
                   prioritizing the well-being of our team.
                 </p>
                 <p className="leading-relaxed">
-                  At Track-Global Logistics, we adapt to your unique shipping
+                  At SwiftPair Logistics, we adapt to your unique shipping
                   requirements, providing premium courier services across
                   diverse industries including manufacturing, textiles,
                   automotive, furniture, engineering, and architecture.
@@ -239,11 +239,11 @@ function Page() {
 
               <div className="grid grid-cols-2 gap-4">
                 <div
-                  className="bg-gradient-to-br from-[#0891b2]/10 to-[#06b6d4]/10 p-6 border-2 border-[#0891b2]/20"
+                  className="bg-gradient-to-br from-[#f97316]/10 to-[#fb923c]/10 p-6 border-2 border-[#f97316]/20"
                   style={{ borderRadius: 0 }}
                 >
                   <div
-                    className="bg-gradient-to-br from-[#0891b2] to-[#0e7490] text-white p-4 mb-4 flex items-center justify-center w-16 h-16"
+                    className="bg-gradient-to-br from-[#f97316] to-[#ea580c] text-white p-4 mb-4 flex items-center justify-center w-16 h-16"
                     style={{ borderRadius: 0 }}
                   >
                     <svg
@@ -260,7 +260,7 @@ function Page() {
                       />
                     </svg>
                   </div>
-                  <h3 className="font-bold text-[#0891b2] mb-2 text-lg">
+                  <h3 className="font-bold text-[#f97316] mb-2 text-lg">
                     Trusted Worldwide
                   </h3>
                   <p className="text-sm text-gray-600">
@@ -268,11 +268,11 @@ function Page() {
                   </p>
                 </div>
                 <div
-                  className="bg-gradient-to-br from-[#0891b2]/10 to-[#06b6d4]/10 p-6 border-2 border-[#0891b2]/20"
+                  className="bg-gradient-to-br from-[#f97316]/10 to-[#fb923c]/10 p-6 border-2 border-[#f97316]/20"
                   style={{ borderRadius: 0 }}
                 >
                   <div
-                    className="bg-gradient-to-br from-[#06b6d4] to-[#0891b2] text-white p-4 mb-4 flex items-center justify-center w-16 h-16"
+                    className="bg-gradient-to-br from-[#fb923c] to-[#f97316] text-white p-4 mb-4 flex items-center justify-center w-16 h-16"
                     style={{ borderRadius: 0 }}
                   >
                     <svg
@@ -289,7 +289,7 @@ function Page() {
                       />
                     </svg>
                   </div>
-                  <h3 className="font-bold text-[#0891b2] mb-2 text-lg">
+                  <h3 className="font-bold text-[#f97316] mb-2 text-lg">
                     On-Time Delivery
                   </h3>
                   <p className="text-sm text-gray-600">98%+ success rate</p>
@@ -301,16 +301,16 @@ function Page() {
       </section>
 
       {/* Stats Section */}
-      <section className="py-16 md:py-24 px-4 bg-gradient-to-br from-[#0e7490] via-[#0891b2] to-[#06b6d4] text-white">
+      <section className="py-16 md:py-24 px-4 bg-gradient-to-br from-[#ea580c] via-[#f97316] to-[#fb923c] text-white">
         <div className="max-w-7xl mx-auto text-center" data-aos="fade-up">
           <h2 className="text-3xl md:text-5xl font-bold mb-6">
             Excellence in Numbers
           </h2>
-          <div className="w-20 h-1 bg-cyan-300 mx-auto mb-12"></div>
+          <div className="w-20 h-1 bg-orange-300 mx-auto mb-12"></div>
           <p className="max-w-3xl mx-auto text-white/90 text-lg mb-12">
             Our commitment to reliability and customer satisfaction is reflected
             in every statistic. Join thousands of satisfied customers who trust
-            Track-Global Logistics for their shipping needs.
+            SwiftPair Logistics for their shipping needs.
           </p>
 
           <div className="grid grid-cols-2 md:grid-cols-5 gap-6">
@@ -318,7 +318,7 @@ function Page() {
               className="bg-white/10 p-8 backdrop-blur-sm hover:bg-white/20 transition-all hover:-translate-y-2 border-2 border-white/20"
               style={{ borderRadius: 0 }}
             >
-              <h3 className="text-5xl font-bold text-cyan-300 mb-3">12M+</h3>
+              <h3 className="text-5xl font-bold text-orange-300 mb-3">12M+</h3>
               <p className="text-sm text-white/90 leading-relaxed">
                 Orders processed with unwavering dedication
               </p>
@@ -328,7 +328,7 @@ function Page() {
               className="bg-white/10 p-8 backdrop-blur-sm hover:bg-white/20 transition-all hover:-translate-y-2 border-2 border-white/20"
               style={{ borderRadius: 0 }}
             >
-              <h3 className="text-5xl font-bold text-cyan-300 mb-3">98%</h3>
+              <h3 className="text-5xl font-bold text-orange-300 mb-3">98%</h3>
               <p className="text-sm text-white/90 leading-relaxed">
                 On-time delivery rate – Your time matters
               </p>
@@ -338,7 +338,7 @@ function Page() {
               className="bg-white/10 p-8 backdrop-blur-sm hover:bg-white/20 transition-all hover:-translate-y-2 border-2 border-white/20"
               style={{ borderRadius: 0 }}
             >
-              <h3 className="text-5xl font-bold text-cyan-300 mb-3">350+</h3>
+              <h3 className="text-5xl font-bold text-orange-300 mb-3">350+</h3>
               <p className="text-sm text-white/90 leading-relaxed">
                 Professional delivery drivers across our network
               </p>
@@ -348,7 +348,7 @@ function Page() {
               className="bg-white/10 p-8 backdrop-blur-sm hover:bg-white/20 transition-all hover:-translate-y-2 border-2 border-white/20"
               style={{ borderRadius: 0 }}
             >
-              <h3 className="text-5xl font-bold text-cyan-300 mb-3">250K+</h3>
+              <h3 className="text-5xl font-bold text-orange-300 mb-3">250K+</h3>
               <p className="text-sm text-white/90 leading-relaxed">
                 Satisfied customers – Join our growing family
               </p>
@@ -358,7 +358,7 @@ function Page() {
               className="bg-white/10 p-8 backdrop-blur-sm hover:bg-white/20 transition-all hover:-translate-y-2 border-2 border-white/20"
               style={{ borderRadius: 0 }}
             >
-              <h3 className="text-5xl font-bold text-cyan-300 mb-3">4.8/5</h3>
+              <h3 className="text-5xl font-bold text-orange-300 mb-3">4.8/5</h3>
               <p className="text-sm text-white/90 leading-relaxed">
                 Average rating on Google – Trusted by thousands
               </p>
@@ -372,17 +372,17 @@ function Page() {
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16" data-aos="fade-up">
             <span
-              className="inline-block px-4 py-1 bg-[#0891b2]/10 text-[#0891b2] font-medium mb-4"
+              className="inline-block px-4 py-1 bg-[#f97316]/10 text-[#f97316] font-medium mb-4"
               style={{ borderRadius: 0 }}
             >
               Our Approach
             </span>
-            <h2 className="text-3xl md:text-5xl font-bold mb-6 text-transparent bg-clip-text bg-gradient-to-r from-[#0891b2] to-[#155e75]">
+            <h2 className="text-3xl md:text-5xl font-bold mb-6 text-transparent bg-clip-text bg-gradient-to-r from-[#f97316] to-[#c2410c]">
               Adaptable Solutions for Every Challenge
             </h2>
-            <div className="w-20 h-1 bg-[#0891b2] mx-auto mb-8"></div>
+            <div className="w-20 h-1 bg-[#f97316] mx-auto mb-8"></div>
             <p className="max-w-3xl mx-auto text-lg text-gray-700 leading-relaxed">
-              Your challenge is our mission! At Track-Global Logistics, we
+              Your challenge is our mission! At SwiftPair Logistics, we
               understand that every delivery is unique. We adapt to your
               specific shipping needs with custom courier solutions. Our expert
               team is ready to meet the transport and delivery requirements of
@@ -398,7 +398,7 @@ function Page() {
               style={{ borderRadius: 0 }}
             >
               <div
-                className="bg-gradient-to-br from-[#0891b2] to-[#0e7490] p-5 w-20 h-20 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform"
+                className="bg-gradient-to-br from-[#f97316] to-[#ea580c] p-5 w-20 h-20 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform"
                 style={{ borderRadius: 0 }}
               >
                 <svg
@@ -415,7 +415,7 @@ function Page() {
                   />
                 </svg>
               </div>
-              <h3 className="text-2xl font-bold mb-4 text-[#0891b2]">
+              <h3 className="text-2xl font-bold mb-4 text-[#f97316]">
                 Custom Solutions
               </h3>
               <p className="text-gray-700 mb-6 leading-relaxed">
@@ -423,7 +423,7 @@ function Page() {
                 requirements, ensuring your packages are delivered exactly how
                 you need them, when you need them.
               </p>
-              <div className="flex items-center text-[#0891b2] font-semibold group-hover:gap-3 transition-all">
+              <div className="flex items-center text-[#f97316] font-semibold group-hover:gap-3 transition-all">
                 <span>Learn more</span>
                 <svg
                   className="w-5 h-5 ml-2"
@@ -448,7 +448,7 @@ function Page() {
               style={{ borderRadius: 0 }}
             >
               <div
-                className="bg-gradient-to-br from-[#06b6d4] to-[#0891b2] p-5 w-20 h-20 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform"
+                className="bg-gradient-to-br from-[#fb923c] to-[#f97316] p-5 w-20 h-20 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform"
                 style={{ borderRadius: 0 }}
               >
                 <svg
@@ -465,7 +465,7 @@ function Page() {
                   />
                 </svg>
               </div>
-              <h3 className="text-2xl font-bold mb-4 text-[#0891b2]">
+              <h3 className="text-2xl font-bold mb-4 text-[#f97316]">
                 Global Network
               </h3>
               <p className="text-gray-700 mb-6 leading-relaxed">
@@ -473,7 +473,7 @@ function Page() {
                 worldwide, enabling efficient and reliable delivery of your
                 packages anywhere on the globe.
               </p>
-              <div className="flex items-center text-[#0891b2] font-semibold group-hover:gap-3 transition-all">
+              <div className="flex items-center text-[#f97316] font-semibold group-hover:gap-3 transition-all">
                 <span>Learn more</span>
                 <svg
                   className="w-5 h-5 ml-2"
@@ -498,7 +498,7 @@ function Page() {
               style={{ borderRadius: 0 }}
             >
               <div
-                className="bg-gradient-to-br from-[#0e7490] to-[#155e75] p-5 w-20 h-20 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform"
+                className="bg-gradient-to-br from-[#ea580c] to-[#c2410c] p-5 w-20 h-20 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform"
                 style={{ borderRadius: 0 }}
               >
                 <svg
@@ -515,7 +515,7 @@ function Page() {
                   />
                 </svg>
               </div>
-              <h3 className="text-2xl font-bold mb-4 text-[#0891b2]">
+              <h3 className="text-2xl font-bold mb-4 text-[#f97316]">
                 Expert Support
               </h3>
               <p className="text-gray-700 mb-6 leading-relaxed">
@@ -523,7 +523,7 @@ function Page() {
                 assist you with any shipping challenges, providing personalized
                 support and strategic guidance.
               </p>
-              <div className="flex items-center text-[#0891b2] font-semibold group-hover:gap-3 transition-all">
+              <div className="flex items-center text-[#f97316] font-semibold group-hover:gap-3 transition-all">
                 <span>Learn more</span>
                 <svg
                   className="w-5 h-5 ml-2"
@@ -543,7 +543,7 @@ function Page() {
           </div>
 
           <div
-            className="bg-gradient-to-br from-[#0e7490] via-[#0891b2] to-[#06b6d4] shadow-2xl overflow-hidden border-2 border-white/20"
+            className="bg-gradient-to-br from-[#ea580c] via-[#f97316] to-[#fb923c] shadow-2xl overflow-hidden border-2 border-white/20"
             data-aos="fade-up"
             style={{ borderRadius: 0 }}
           >
@@ -562,7 +562,7 @@ function Page() {
                   More Than a Courier Company – Your Strategic Logistics Partner
                 </h3>
                 <p className="mb-8 text-lg text-white/95 leading-relaxed">
-                  Contact us today and discover the Track-Global Logistics
+                  Contact us today and discover the SwiftPair Logistics
                   difference. Our expert team is ready to provide you with the
                   best shipping solutions tailored to your specific needs,
                   backed by decades of experience and a commitment to
@@ -571,7 +571,7 @@ function Page() {
                 <div className="flex flex-col sm:flex-row gap-4">
                   <button
                     onClick={() => navigate.push("/contact")}
-                    className="bg-white text-[#0891b2] hover:bg-gray-100 font-bold py-4 px-10 transition-all shadow-lg hover:shadow-xl transform hover:scale-105 flex items-center justify-center"
+                    className="bg-white text-[#f97316] hover:bg-gray-100 font-bold py-4 px-10 transition-all shadow-lg hover:shadow-xl transform hover:scale-105 flex items-center justify-center"
                     style={{ borderRadius: 0 }}
                   >
                     CONTACT US TODAY
@@ -591,7 +591,7 @@ function Page() {
                   </button>
                   <Link
                     href="/#track-shipment"
-                    className="border-2 border-white hover:bg-white hover:text-[#0891b2] text-white font-bold py-4 px-10 transition-all flex items-center justify-center"
+                    className="border-2 border-white hover:bg-white hover:text-[#f97316] text-white font-bold py-4 px-10 transition-all flex items-center justify-center"
                     style={{ borderRadius: 0 }}
                   >
                     TRACK SHIPMENT

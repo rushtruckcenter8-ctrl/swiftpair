@@ -22,21 +22,21 @@ const styles = {
 
   // Header styles
   header: "mb-8 text-center space-y-3",
-  title: "text-3xl md:text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#0891b2] to-[#155e75] mb-2",
+  title: "text-3xl md:text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#f97316] to-[#c2410c] mb-2",
   subtitle: "text-lg md:text-xl text-gray-600",
 
   // Card styles
   card: "bg-white mb-8 transition-all duration-300 border-2 border-gray-100 shadow-lg",
   cardTitle:
-    "text-xl md:text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#0891b2] to-[#155e75] bg-gray-50 p-4 mb-6 border-b-2 border-[#0891b2]/20",
+    "text-xl md:text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#f97316] to-[#c2410c] bg-gray-50 p-4 mb-6 border-b-2 border-[#f97316]/20",
 
   // Status styles
   currentLocation:
-    "inline-flex items-center px-4 py-2 bg-gradient-to-r from-[#0891b2]/10 to-[#06b6d4]/10 text-[#0891b2] font-bold border-2 border-[#0891b2]/20",
-  currentLocationDot: "w-2 h-2 bg-[#0891b2] mr-2 animate-pulse",
+    "inline-flex items-center px-4 py-2 bg-gradient-to-r from-[#f97316]/10 to-[#fb923c]/10 text-[#f97316] font-bold border-2 border-[#f97316]/20",
+  currentLocationDot: "w-2 h-2 bg-[#f97316] mr-2 animate-pulse",
   checkingStatus:
-    "inline-flex text-lg items-center px-4 py-2 bg-[#0891b2]/10 text-[#0891b2] font-bold animate-pulse border-2 border-[#0891b2]/20",
-  checkingPulse: "w-2 h-2 bg-[#0891b2] mr-2 animate-pulse",
+    "inline-flex text-lg items-center px-4 py-2 bg-[#f97316]/10 text-[#f97316] font-bold animate-pulse border-2 border-[#f97316]/20",
+  checkingPulse: "w-2 h-2 bg-[#f97316] mr-2 animate-pulse",
 
   // Grid and Layout
   grid: "grid md:grid-cols-2 gap-8",
@@ -45,9 +45,9 @@ const styles = {
 
   // Section styles
   infoSection: "mb-6 space-y-4",
-  sectionHeader: "text-lg font-semibold text-white bg-gradient-to-r from-[#0891b2] to-[#0e7490] p-4",
+  sectionHeader: "text-lg font-semibold text-white bg-gradient-to-r from-[#f97316] to-[#ea580c] p-4",
   infoTitle:
-    "text-lg font-semibold text-gray-700 mb-4 border-l-4 border-[#0891b2] pl-3",
+    "text-lg font-semibold text-gray-700 mb-4 border-l-4 border-[#f97316] pl-3",
 
   // Row and value styles
   infoRow:
@@ -70,7 +70,7 @@ const styles = {
   statusBadge:
     "inline-block px-6 py-2 text-white font-medium shadow-sm transform transition-transform duration-200 hover:scale-105",
   button:
-    "bg-gradient-to-r from-[#0891b2] to-[#0e7490] hover:from-[#0e7490] hover:to-[#155e75] text-white font-medium py-3 px-6 transition duration-200 inline-flex items-center shadow-md hover:shadow-xl active:transform active:scale-95",
+    "bg-gradient-to-r from-[#f97316] to-[#ea580c] hover:from-[#ea580c] hover:to-[#c2410c] text-white font-medium py-3 px-6 transition duration-200 inline-flex items-center shadow-md hover:shadow-xl active:transform active:scale-95",
   buttonIcon: "mr-2 h-5 w-5",
   printButton: "mb-6 flex justify-end space-x-4",
 
@@ -84,7 +84,7 @@ const styles = {
 
   // Loading and error styles
   loader: "flex space-x-2",
-  loaderSquare: "w-4 h-4 bg-[#0891b2] animate-pulse",
+  loaderSquare: "w-4 h-4 bg-[#f97316] animate-pulse",
   errorMessage: "text-red-600 text-lg font-medium",
 
   // Additional layout styles
@@ -93,7 +93,7 @@ const styles = {
   statusTimeline:
     "relative pl-8 space-y-6 before:content-[''] before:absolute before:left-4 before:top-0 before:h-full before:w-0.5 before:bg-gray-200",
   timelineItem:
-    "relative before:content-[''] before:absolute before:left-[-2rem] before:top-2 before:w-4 before:h-4 before:bg-[#0891b2]",
+    "relative before:content-[''] before:absolute before:left-[-2rem] before:top-2 before:w-4 before:h-4 before:bg-[#f97316]",
 };
 
 // Dynamic import of MapComponent with SSR disabled
@@ -119,9 +119,9 @@ const getStatusColor = (status) => {
   switch (status.toLowerCase()) {
     case "active":
     case "intransit":
-      return "bg-gradient-to-r from-[#0891b2] to-[#06b6d4]";
+      return "bg-gradient-to-r from-[#f97316] to-[#fb923c]";
     case "completed":
-      return "bg-gradient-to-r from-[#0e7490] to-[#0891b2]";
+      return "bg-gradient-to-r from-[#ea580c] to-[#f97316]";
     case "inactive":
       return "bg-red-50";
     case "pending":
@@ -621,16 +621,16 @@ function PageContent() {
                     <td className={styles.label}>Current Location</td>
                     <td className={styles.value}>
                       {shipments.currentLocation ? (
-                        <div className="inline-flex items-center px-3 py-1 bg-gradient-to-r from-[#0891b2]/10 to-[#06b6d4]/10 border-2 border-[#0891b2]/20" style={{ borderRadius: 0 }}>
-                          <div className="w-2 h-2 bg-[#0891b2] mr-2" style={{ borderRadius: 0 }}></div>
-                          <span className="text-[#0891b2] font-semibold">
+                        <div className="inline-flex items-center px-3 py-1 bg-gradient-to-r from-[#f97316]/10 to-[#fb923c]/10 border-2 border-[#f97316]/20" style={{ borderRadius: 0 }}>
+                          <div className="w-2 h-2 bg-[#f97316] mr-2" style={{ borderRadius: 0 }}></div>
+                          <span className="text-[#f97316] font-semibold">
                             {shipments.currentLocation}
                           </span>
                         </div>
                       ) : (
-                        <div className="inline-flex items-center px-3 py-1 bg-[#0891b2]/10 border-2 border-[#0891b2]/20" style={{ borderRadius: 0 }}>
-                          <div className="w-2 h-2 bg-[#0891b2] mr-2 animate-[locationPulse_2s_ease-in-out_infinite]" style={{ borderRadius: 0 }}></div>
-                          <span className="text-[#0891b2] animate-[locationPulse_2s_ease-in-out_infinite] font-semibold">
+                        <div className="inline-flex items-center px-3 py-1 bg-[#f97316]/10 border-2 border-[#f97316]/20" style={{ borderRadius: 0 }}>
+                          <div className="w-2 h-2 bg-[#f97316] mr-2 animate-[locationPulse_2s_ease-in-out_infinite]" style={{ borderRadius: 0 }}></div>
+                          <span className="text-[#f97316] animate-[locationPulse_2s_ease-in-out_infinite] font-semibold">
                             Checking...
                           </span>
                         </div>
@@ -724,7 +724,7 @@ function Page() {
               {[0, 1, 2].map((i) => (
                 <div
                   key={i}
-                  className="w-3 h-3 bg-[#0891b2] animate-bounce"
+                  className="w-3 h-3 bg-[#f97316] animate-bounce"
                   style={{
                     animationDelay: `${i * 150}ms`,
                     animationDuration: "1s",

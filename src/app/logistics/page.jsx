@@ -77,7 +77,7 @@ function Page() {
             <div className="p-8 md:p-12">
               <div className="flex items-center gap-3 mb-6">
                 <div
-                  className="w-12 h-12 bg-gradient-to-br from-[#0891b2] to-[#0e7490] flex items-center justify-center"
+                  className="w-12 h-12 bg-gradient-to-br from-[#f97316] to-[#ea580c] flex items-center justify-center"
                   style={{ borderRadius: 0 }}
                 >
                   <svg
@@ -95,21 +95,21 @@ function Page() {
                   </svg>
                 </div>
                 <span
-                  className="px-4 py-1 bg-[#0891b2]/10 text-[#0891b2] font-medium text-sm"
+                  className="px-4 py-1 bg-[#f97316]/10 text-[#f97316] font-medium text-sm"
                   style={{ borderRadius: 0 }}
                 >
                   Logistics Excellence
                 </span>
               </div>
 
-              <h1 className="text-4xl md:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#0891b2] to-[#155e75] mb-8">
+              <h1 className="text-4xl md:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#f97316] to-[#c2410c] mb-8">
                 Comprehensive Global Logistics & Supply Chain Solutions
               </h1>
 
               <div className="grid md:grid-cols-2 gap-8 mb-8">
                 <div className="space-y-4 text-gray-700">
                   <p className="leading-relaxed text-lg">
-                    Track-Global Logistics delivers end-to-end logistics solutions
+                    SwiftPair Logistics delivers end-to-end logistics solutions
                     that optimize your supply chain operations. Our
                     comprehensive services span air, ocean, and ground freight
                     forwarding, ensuring reliable and efficient transportation
@@ -117,11 +117,11 @@ function Page() {
                   </p>
                   <p className="leading-relaxed">
                     With over{" "}
-                    <span className="font-semibold text-[#0891b2]">
+                    <span className="font-semibold text-[#f97316]">
                       25 years of experience
                     </span>{" "}
                     and a network covering{" "}
-                    <span className="font-semibold text-[#0891b2]">
+                    <span className="font-semibold text-[#f97316]">
                       220+ countries
                     </span>
                     , we provide tailored logistics solutions that adapt to your
@@ -131,11 +131,11 @@ function Page() {
                 <div className="space-y-4 text-gray-700">
                   <p className="leading-relaxed">
                     Whether you need{" "}
-                    <span className="font-semibold text-[#0891b2]">
+                    <span className="font-semibold text-[#f97316]">
                       Full Container Load (FCL)
                     </span>{" "}
                     or{" "}
-                    <span className="font-semibold text-[#0891b2]">
+                    <span className="font-semibold text-[#f97316]">
                       Less than Container Load (LCL)
                     </span>{" "}
                     services, our flexible approach ensures secure, reliable,
@@ -152,25 +152,25 @@ function Page() {
               {/* Key Benefits Grid */}
               <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-8 pt-8 border-t-2 border-gray-100">
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-[#0891b2] mb-2">
+                  <div className="text-3xl font-bold text-[#f97316] mb-2">
                     220+
                   </div>
                   <div className="text-sm text-gray-600">Destinations</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-[#0891b2] mb-2">
+                  <div className="text-3xl font-bold text-[#f97316] mb-2">
                     24/7
                   </div>
                   <div className="text-sm text-gray-600">Support</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-[#0891b2] mb-2">
+                  <div className="text-3xl font-bold text-[#f97316] mb-2">
                     98%
                   </div>
                   <div className="text-sm text-gray-600">On-Time Rate</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-[#0891b2] mb-2">
+                  <div className="text-3xl font-bold text-[#f97316] mb-2">
                     25+
                   </div>
                   <div className="text-sm text-gray-600">Years Experience</div>
@@ -186,15 +186,15 @@ function Page() {
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16" data-aos="fade-up">
             <span
-              className="inline-block px-4 py-1 bg-[#0891b2]/10 text-[#0891b2] font-medium mb-4"
+              className="inline-block px-4 py-1 bg-[#f97316]/10 text-[#f97316] font-medium mb-4"
               style={{ borderRadius: 0 }}
             >
               Our Services
             </span>
-            <h2 className="text-3xl md:text-5xl font-bold text-[#0891b2] mb-6">
+            <h2 className="text-3xl md:text-5xl font-bold text-[#f97316] mb-6">
               Multi-Modal Freight Solutions
             </h2>
-            <div className="w-20 h-1 bg-[#0891b2] mx-auto mb-6"></div>
+            <div className="w-20 h-1 bg-[#f97316] mx-auto mb-6"></div>
             <div className="max-w-4xl mx-auto space-y-4 text-gray-700 text-lg leading-relaxed">
               <p>
                 From cross-border shipments to streamlined pallet services,
@@ -221,8 +221,8 @@ function Page() {
               data-aos-delay="100"
               style={{ borderRadius: 0 }}
             >
-              <div className="bg-gradient-to-br from-[#0891b2] to-[#0e7490] p-8 flex items-center justify-between relative overflow-hidden">
-                <div className="absolute inset-0 bg-[#0891b2]/20 opacity-0 group-hover:opacity-100 transition-opacity"></div>
+              <div className="bg-gradient-to-br from-[#f97316] to-[#ea580c] p-8 flex items-center justify-between relative overflow-hidden">
+                <div className="absolute inset-0 bg-[#f97316]/20 opacity-0 group-hover:opacity-100 transition-opacity"></div>
                 <div className="flex items-center relative z-10">
                   <div
                     className="w-16 h-16 flex-shrink-0 mr-4 bg-white/20 flex items-center justify-center"
@@ -246,13 +246,13 @@ function Page() {
                 </div>
               </div>
               <div className="p-8">
-                <h4 className="font-bold text-[#0891b2] mb-4 text-lg">
+                <h4 className="font-bold text-[#f97316] mb-4 text-lg">
                   International Air Freight Options
                 </h4>
                 <ul className="mb-8 space-y-3">
                   <li className="flex items-start">
                     <svg
-                      className="w-5 h-5 text-[#0891b2] mr-3 mt-0.5 flex-shrink-0"
+                      className="w-5 h-5 text-[#f97316] mr-3 mt-0.5 flex-shrink-0"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
@@ -268,7 +268,7 @@ function Page() {
                   </li>
                   <li className="flex items-start">
                     <svg
-                      className="w-5 h-5 text-[#0891b2] mr-3 mt-0.5 flex-shrink-0"
+                      className="w-5 h-5 text-[#f97316] mr-3 mt-0.5 flex-shrink-0"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
@@ -286,13 +286,13 @@ function Page() {
                   </li>
                 </ul>
 
-                <h4 className="font-bold text-[#0891b2] mb-4 text-lg">
+                <h4 className="font-bold text-[#f97316] mb-4 text-lg">
                   Included Services
                 </h4>
                 <ul className="space-y-3">
                   <li className="flex items-start">
                     <svg
-                      className="w-5 h-5 text-[#0891b2] mr-3 mt-0.5 flex-shrink-0"
+                      className="w-5 h-5 text-[#f97316] mr-3 mt-0.5 flex-shrink-0"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
@@ -308,7 +308,7 @@ function Page() {
                   </li>
                   <li className="flex items-start">
                     <svg
-                      className="w-5 h-5 text-[#0891b2] mr-3 mt-0.5 flex-shrink-0"
+                      className="w-5 h-5 text-[#f97316] mr-3 mt-0.5 flex-shrink-0"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
@@ -326,7 +326,7 @@ function Page() {
                   </li>
                   <li className="flex items-start">
                     <svg
-                      className="w-5 h-5 text-[#0891b2] mr-3 mt-0.5 flex-shrink-0"
+                      className="w-5 h-5 text-[#f97316] mr-3 mt-0.5 flex-shrink-0"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
@@ -353,8 +353,8 @@ function Page() {
               data-aos-delay="200"
               style={{ borderRadius: 0 }}
             >
-              <div className="bg-gradient-to-br from-[#06b6d4] to-[#0891b2] p-8 flex items-center justify-between relative overflow-hidden">
-                <div className="absolute inset-0 bg-[#0891b2]/20 opacity-0 group-hover:opacity-100 transition-opacity"></div>
+              <div className="bg-gradient-to-br from-[#fb923c] to-[#f97316] p-8 flex items-center justify-between relative overflow-hidden">
+                <div className="absolute inset-0 bg-[#f97316]/20 opacity-0 group-hover:opacity-100 transition-opacity"></div>
                 <div className="flex items-center relative z-10">
                   <div
                     className="w-16 h-16 flex-shrink-0 mr-4 bg-white/20 flex items-center justify-center"
@@ -380,13 +380,13 @@ function Page() {
                 </div>
               </div>
               <div className="p-8">
-                <h4 className="font-bold text-[#0891b2] mb-4 text-lg">
+                <h4 className="font-bold text-[#f97316] mb-4 text-lg">
                   International Ocean Freight Options
                 </h4>
                 <ul className="mb-8 space-y-3">
                   <li className="flex items-start">
                     <svg
-                      className="w-5 h-5 text-[#0891b2] mr-3 mt-0.5 flex-shrink-0"
+                      className="w-5 h-5 text-[#f97316] mr-3 mt-0.5 flex-shrink-0"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
@@ -404,7 +404,7 @@ function Page() {
                   </li>
                   <li className="flex items-start">
                     <svg
-                      className="w-5 h-5 text-[#0891b2] mr-3 mt-0.5 flex-shrink-0"
+                      className="w-5 h-5 text-[#f97316] mr-3 mt-0.5 flex-shrink-0"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
@@ -422,13 +422,13 @@ function Page() {
                   </li>
                 </ul>
 
-                <h4 className="font-bold text-[#0891b2] mb-4 text-lg">
+                <h4 className="font-bold text-[#f97316] mb-4 text-lg">
                   Included Services
                 </h4>
                 <ul className="space-y-3">
                   <li className="flex items-start">
                     <svg
-                      className="w-5 h-5 text-[#0891b2] mr-3 mt-0.5 flex-shrink-0"
+                      className="w-5 h-5 text-[#f97316] mr-3 mt-0.5 flex-shrink-0"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
@@ -444,7 +444,7 @@ function Page() {
                   </li>
                   <li className="flex items-start">
                     <svg
-                      className="w-5 h-5 text-[#0891b2] mr-3 mt-0.5 flex-shrink-0"
+                      className="w-5 h-5 text-[#f97316] mr-3 mt-0.5 flex-shrink-0"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
@@ -460,7 +460,7 @@ function Page() {
                   </li>
                   <li className="flex items-start">
                     <svg
-                      className="w-5 h-5 text-[#0891b2] mr-3 mt-0.5 flex-shrink-0"
+                      className="w-5 h-5 text-[#f97316] mr-3 mt-0.5 flex-shrink-0"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
@@ -478,7 +478,7 @@ function Page() {
                   </li>
                   <li className="flex items-start">
                     <svg
-                      className="w-5 h-5 text-[#0891b2] mr-3 mt-0.5 flex-shrink-0"
+                      className="w-5 h-5 text-[#f97316] mr-3 mt-0.5 flex-shrink-0"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
@@ -505,8 +505,8 @@ function Page() {
               data-aos-delay="300"
               style={{ borderRadius: 0 }}
             >
-              <div className="bg-gradient-to-br from-[#0e7490] to-[#155e75] p-8 flex items-center justify-between relative overflow-hidden">
-                <div className="absolute inset-0 bg-[#0891b2]/20 opacity-0 group-hover:opacity-100 transition-opacity"></div>
+              <div className="bg-gradient-to-br from-[#ea580c] to-[#c2410c] p-8 flex items-center justify-between relative overflow-hidden">
+                <div className="absolute inset-0 bg-[#f97316]/20 opacity-0 group-hover:opacity-100 transition-opacity"></div>
                 <div className="flex items-center relative z-10">
                   <div
                     className="w-16 h-16 flex-shrink-0 mr-4 bg-white/20 flex items-center justify-center"
@@ -530,13 +530,13 @@ function Page() {
                 </div>
               </div>
               <div className="p-8">
-                <h4 className="font-bold text-[#0891b2] mb-4 text-lg">
+                <h4 className="font-bold text-[#f97316] mb-4 text-lg">
                   Ground Transportation Options
                 </h4>
                 <ul className="mb-8 space-y-3">
                   <li className="flex items-start">
                     <svg
-                      className="w-5 h-5 text-[#0891b2] mr-3 mt-0.5 flex-shrink-0"
+                      className="w-5 h-5 text-[#f97316] mr-3 mt-0.5 flex-shrink-0"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
@@ -552,7 +552,7 @@ function Page() {
                   </li>
                   <li className="flex items-start">
                     <svg
-                      className="w-5 h-5 text-[#0891b2] mr-3 mt-0.5 flex-shrink-0"
+                      className="w-5 h-5 text-[#f97316] mr-3 mt-0.5 flex-shrink-0"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
@@ -570,7 +570,7 @@ function Page() {
                   </li>
                   <li className="flex items-start">
                     <svg
-                      className="w-5 h-5 text-[#0891b2] mr-3 mt-0.5 flex-shrink-0"
+                      className="w-5 h-5 text-[#f97316] mr-3 mt-0.5 flex-shrink-0"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
@@ -586,7 +586,7 @@ function Page() {
                   </li>
                   <li className="flex items-start">
                     <svg
-                      className="w-5 h-5 text-[#0891b2] mr-3 mt-0.5 flex-shrink-0"
+                      className="w-5 h-5 text-[#f97316] mr-3 mt-0.5 flex-shrink-0"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
@@ -604,13 +604,13 @@ function Page() {
                   </li>
                 </ul>
 
-                <h4 className="font-bold text-[#0891b2] mb-4 text-lg">
+                <h4 className="font-bold text-[#f97316] mb-4 text-lg">
                   Included Services
                 </h4>
                 <ul className="space-y-3">
                   <li className="flex items-start">
                     <svg
-                      className="w-5 h-5 text-[#0891b2] mr-3 mt-0.5 flex-shrink-0"
+                      className="w-5 h-5 text-[#f97316] mr-3 mt-0.5 flex-shrink-0"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
@@ -626,7 +626,7 @@ function Page() {
                   </li>
                   <li className="flex items-start">
                     <svg
-                      className="w-5 h-5 text-[#0891b2] mr-3 mt-0.5 flex-shrink-0"
+                      className="w-5 h-5 text-[#f97316] mr-3 mt-0.5 flex-shrink-0"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
@@ -650,7 +650,7 @@ function Page() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-16 md:py-24 px-4 bg-gradient-to-br from-[#0e7490] via-[#0891b2] to-[#06b6d4]">
+      <section className="py-16 md:py-24 px-4 bg-gradient-to-br from-[#ea580c] via-[#f97316] to-[#fb923c]">
         <div className="max-w-7xl mx-auto" data-aos="fade-up">
           <div
             className="overflow-hidden shadow-2xl border-2 border-white/20"
@@ -677,7 +677,7 @@ function Page() {
                   consultants will discuss your specific requirements, provide
                   strategic insights, and answer all your questions. With our
                   commitment to excellence and customer satisfaction, trust
-                  Track-Global Logistics to deliver reliable, efficient solutions
+                  SwiftPair Logistics to deliver reliable, efficient solutions
                   tailored to your business needs.
                 </p>
 
@@ -711,7 +711,7 @@ function Page() {
                 <div className="flex flex-wrap gap-4">
                   <button
                     onClick={() => router.push("/contact")}
-                    className="bg-white text-[#0891b2] hover:bg-gray-100 font-bold py-4 px-10 transition-all shadow-lg hover:shadow-xl transform hover:scale-105"
+                    className="bg-white text-[#f97316] hover:bg-gray-100 font-bold py-4 px-10 transition-all shadow-lg hover:shadow-xl transform hover:scale-105"
                     style={{ borderRadius: 0 }}
                   >
                     GET EXPERT ADVICE
@@ -740,7 +740,7 @@ function Page() {
               data-aos="fade-right"
               style={{ borderRadius: 0 }}
             >
-              <div className="absolute inset-0 bg-gradient-to-r from-[#0891b2]/90 to-[#0e7490]/70 z-10">
+              <div className="absolute inset-0 bg-gradient-to-r from-[#f97316]/90 to-[#ea580c]/70 z-10">
                 <div className="absolute bottom-0 left-0 p-8">
                   <h3 className="text-white text-3xl md:text-4xl font-bold mb-3">
                     Global Logistics Network
@@ -763,15 +763,15 @@ function Page() {
             <div data-aos="fade-left">
               <div className="mb-8">
                 <span
-                  className="inline-block px-4 py-1 bg-[#0891b2]/10 text-[#0891b2] font-medium mb-4"
+                  className="inline-block px-4 py-1 bg-[#f97316]/10 text-[#f97316] font-medium mb-4"
                   style={{ borderRadius: 0 }}
                 >
                   Service Details
                 </span>
-                <h3 className="text-3xl md:text-4xl font-bold text-[#0891b2] mb-2">
+                <h3 className="text-3xl md:text-4xl font-bold text-[#f97316] mb-2">
                   Comprehensive Logistics Services
                 </h3>
-                <div className="w-20 h-1 bg-[#0891b2] mb-6"></div>
+                <div className="w-20 h-1 bg-[#f97316] mb-6"></div>
               </div>
               <div
                 className="bg-white shadow-xl overflow-hidden border-2 border-gray-100"
@@ -788,11 +788,11 @@ function Page() {
                         setActiveTab(activeTab === index ? null : index)
                       }
                     >
-                      <span className="font-semibold text-lg capitalize text-gray-800 group-hover:text-[#0891b2] transition-colors">
+                      <span className="font-semibold text-lg capitalize text-gray-800 group-hover:text-[#f97316] transition-colors">
                         {tab.title}
                       </span>
                       <span
-                        className={`text-[#0891b2] transition-transform ${
+                        className={`text-[#f97316] transition-transform ${
                           activeTab === index ? "rotate-180" : ""
                         }`}
                       >
@@ -845,13 +845,13 @@ function Page() {
       <section className="py-16 md:py-24 px-4 bg-white">
         <div className="max-w-7xl mx-auto">
           <div
-            className="bg-gradient-to-br from-gray-50 to-white border-2 border-[#0891b2]/20 shadow-xl overflow-hidden"
+            className="bg-gradient-to-br from-gray-50 to-white border-2 border-[#f97316]/20 shadow-xl overflow-hidden"
             data-aos="fade-up"
             style={{ borderRadius: 0 }}
           >
             <div className="p-10 md:p-16">
               <div className="max-w-4xl mb-10">
-                <h2 className="text-3xl md:text-4xl font-bold text-[#0891b2] mb-6">
+                <h2 className="text-3xl md:text-4xl font-bold text-[#f97316] mb-6">
                   Advanced Supply Chain Management Solutions
                 </h2>
                 <p className="text-gray-700 mb-6 text-lg leading-relaxed">
@@ -863,7 +863,7 @@ function Page() {
                 </p>
 
                 <p className="text-gray-700 mb-10 text-lg leading-relaxed">
-                  Track-Global Logistics offers a comprehensive Lead Logistics
+                  SwiftPair Logistics offers a comprehensive Lead Logistics
                   Provider (LLP/4PL) solution designed to address these
                   challenges and deliver measurable results:
                 </p>
@@ -871,12 +871,12 @@ function Page() {
 
               <div className="grid md:grid-cols-2 gap-8">
                 <div
-                  className="bg-white border-2 border-[#0891b2]/20 p-8 shadow-lg"
+                  className="bg-white border-2 border-[#f97316]/20 p-8 shadow-lg"
                   style={{ borderRadius: 0 }}
                 >
                   <div className="flex items-center mb-6">
                     <div
-                      className="w-12 h-12 bg-gradient-to-br from-[#0891b2] to-[#0e7490] flex items-center justify-center mr-4"
+                      className="w-12 h-12 bg-gradient-to-br from-[#f97316] to-[#ea580c] flex items-center justify-center mr-4"
                       style={{ borderRadius: 0 }}
                     >
                       <svg
@@ -893,14 +893,14 @@ function Page() {
                         />
                       </svg>
                     </div>
-                    <h3 className="text-2xl font-bold text-[#0891b2] uppercase">
+                    <h3 className="text-2xl font-bold text-[#f97316] uppercase">
                       Strategic Approach
                     </h3>
                   </div>
                   <ul className="space-y-4">
                     <li className="flex items-start">
                       <svg
-                        className="w-6 h-6 text-[#0891b2] mr-3 mt-0.5 flex-shrink-0"
+                        className="w-6 h-6 text-[#f97316] mr-3 mt-0.5 flex-shrink-0"
                         fill="none"
                         viewBox="0 0 24 24"
                         stroke="currentColor"
@@ -918,7 +918,7 @@ function Page() {
                     </li>
                     <li className="flex items-start">
                       <svg
-                        className="w-6 h-6 text-[#0891b2] mr-3 mt-0.5 flex-shrink-0"
+                        className="w-6 h-6 text-[#f97316] mr-3 mt-0.5 flex-shrink-0"
                         fill="none"
                         viewBox="0 0 24 24"
                         stroke="currentColor"
@@ -936,7 +936,7 @@ function Page() {
                     </li>
                     <li className="flex items-start">
                       <svg
-                        className="w-6 h-6 text-[#0891b2] mr-3 mt-0.5 flex-shrink-0"
+                        className="w-6 h-6 text-[#f97316] mr-3 mt-0.5 flex-shrink-0"
                         fill="none"
                         viewBox="0 0 24 24"
                         stroke="currentColor"
@@ -954,7 +954,7 @@ function Page() {
                     </li>
                     <li className="flex items-start">
                       <svg
-                        className="w-6 h-6 text-[#0891b2] mr-3 mt-0.5 flex-shrink-0"
+                        className="w-6 h-6 text-[#f97316] mr-3 mt-0.5 flex-shrink-0"
                         fill="none"
                         viewBox="0 0 24 24"
                         stroke="currentColor"
@@ -974,12 +974,12 @@ function Page() {
                 </div>
 
                 <div
-                  className="bg-white border-2 border-[#0891b2]/20 p-8 shadow-lg"
+                  className="bg-white border-2 border-[#f97316]/20 p-8 shadow-lg"
                   style={{ borderRadius: 0 }}
                 >
                   <div className="flex items-center mb-6">
                     <div
-                      className="w-12 h-12 bg-gradient-to-br from-[#06b6d4] to-[#0891b2] flex items-center justify-center mr-4"
+                      className="w-12 h-12 bg-gradient-to-br from-[#fb923c] to-[#f97316] flex items-center justify-center mr-4"
                       style={{ borderRadius: 0 }}
                     >
                       <svg
@@ -996,14 +996,14 @@ function Page() {
                         />
                       </svg>
                     </div>
-                    <h3 className="text-2xl font-bold text-[#0891b2] uppercase">
+                    <h3 className="text-2xl font-bold text-[#f97316] uppercase">
                       Operational Planning
                     </h3>
                   </div>
                   <ul className="space-y-4">
                     <li className="flex items-start">
                       <svg
-                        className="w-6 h-6 text-[#0891b2] mr-3 mt-0.5 flex-shrink-0"
+                        className="w-6 h-6 text-[#f97316] mr-3 mt-0.5 flex-shrink-0"
                         fill="none"
                         viewBox="0 0 24 24"
                         stroke="currentColor"
@@ -1021,7 +1021,7 @@ function Page() {
                     </li>
                     <li className="flex items-start">
                       <svg
-                        className="w-6 h-6 text-[#0891b2] mr-3 mt-0.5 flex-shrink-0"
+                        className="w-6 h-6 text-[#f97316] mr-3 mt-0.5 flex-shrink-0"
                         fill="none"
                         viewBox="0 0 24 24"
                         stroke="currentColor"
@@ -1039,7 +1039,7 @@ function Page() {
                     </li>
                     <li className="flex items-start">
                       <svg
-                        className="w-6 h-6 text-[#0891b2] mr-3 mt-0.5 flex-shrink-0"
+                        className="w-6 h-6 text-[#f97316] mr-3 mt-0.5 flex-shrink-0"
                         fill="none"
                         viewBox="0 0 24 24"
                         stroke="currentColor"
@@ -1057,7 +1057,7 @@ function Page() {
                     </li>
                     <li className="flex items-start">
                       <svg
-                        className="w-6 h-6 text-[#0891b2] mr-3 mt-0.5 flex-shrink-0"
+                        className="w-6 h-6 text-[#f97316] mr-3 mt-0.5 flex-shrink-0"
                         fill="none"
                         viewBox="0 0 24 24"
                         stroke="currentColor"

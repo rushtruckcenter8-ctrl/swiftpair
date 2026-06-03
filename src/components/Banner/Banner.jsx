@@ -38,7 +38,7 @@ function Banner({ spanText, h2Text, pText, img, button, location, height }) {
         <div className="flex flex-col justify-center h-full max-w-2xl">
           <span
             className="
-              text-cyan-300 font-semibold text-base md:text-lg mb-4 uppercase tracking-wider
+              text-orange-300 font-semibold text-base md:text-lg mb-4 uppercase tracking-wider
               opacity-0 translate-y-8
               animate-[slideUp_0.8s_ease-out_0.2s_forwards]
             "
@@ -78,10 +78,10 @@ function Banner({ spanText, h2Text, pText, img, button, location, height }) {
             <Link
               href={location || "/contact"}
               className="
-                inline-flex items-center justify-center px-8 py-4 bg-white text-[#0891b2]
+                inline-flex items-center justify-center px-8 py-4 bg-white text-[#f97316]
                 font-semibold text-lg transition-all duration-300
-                hover:bg-cyan-50 hover:scale-105 hover:shadow-xl group
-                border-2 border-transparent hover:border-cyan-200
+                hover:bg-orange-50 hover:scale-105 hover:shadow-xl group
+                border-2 border-transparent hover:border-orange-200
               "
             >
               {button || "Get Started"}
@@ -92,7 +92,7 @@ function Banner({ spanText, h2Text, pText, img, button, location, height }) {
               className="
                 inline-flex items-center justify-center px-8 py-4 bg-transparent text-white
                 border-2 border-white font-semibold text-lg transition-all duration-300
-                hover:bg-white hover:text-[#0891b2] hover:scale-105 hover:shadow-xl group
+                hover:bg-white hover:text-[#f97316] hover:scale-105 hover:shadow-xl group
               "
             >
               <Package className="mr-2 w-5 h-5" />

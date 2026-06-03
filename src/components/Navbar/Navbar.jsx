@@ -158,7 +158,7 @@ function Navbar() {
         {/* Top Bar */}
         <div
           className={`
-            bg-gradient-to-r from-[#0891b2] via-[#0e7490] to-[#155e75] text-white hidden lg:block
+            bg-gradient-to-r from-[#f97316] via-[#ea580c] to-[#c2410c] text-white hidden lg:block
             transition-all duration-300 ease-in-out overflow-hidden
             ${topBarHeight}
           `}
@@ -184,12 +184,12 @@ function Navbar() {
                   <span>(630) 392-6723</span>
                 </a> */}
                 <a
-                  href="mailto:contact@track-globallogistics.com"
+                  href="mailto:contact@swiftpairlogistics.com"
                   className="flex items-center space-x-2 hover:text-white/90 transition-colors font-medium"
                 >
                   <Mail className="h-4 w-4" />
                   <span className="hidden xl:inline">
-                    contact@track-globallogistics.com
+                    contact@swiftpairlogistics.com
                   </span>
                   <span className="xl:hidden">Email Us</span>
                 </a>
@@ -220,7 +220,7 @@ function Navbar() {
               >
                 <Image
                   src="/images/track_logo.png"
-                  alt="Track-Global Logistics - International Transport and Logistics"
+                  alt="SwiftPair Logistics - International Transport and Logistics"
                  width={150}
                  height={150}
                   className="object-cover"
@@ -239,15 +239,15 @@ function Navbar() {
                       transition-all duration-200 group
                       ${
                         path === link.href
-                          ? "text-[#0891b2] font-semibold bg-cyan-50"
-                          : "text-gray-700 hover:text-[#0891b2] hover:bg-gray-50"
+                          ? "text-[#f97316] font-semibold bg-orange-50"
+                          : "text-gray-700 hover:text-[#f97316] hover:bg-gray-50"
                       }
                     `}
                   >
                     {link.label}
                     <span
                       className={`
-                        absolute bottom-1 left-1/2 transform -translate-x-1/2 w-0 h-0.5 bg-[#0891b2]
+                        absolute bottom-1 left-1/2 transform -translate-x-1/2 w-0 h-0.5 bg-[#f97316]
                         transition-all duration-200 group-hover:w-3/4
                         ${path === link.href ? "w-3/4" : ""}
                       `}
@@ -260,7 +260,7 @@ function Navbar() {
               <div className="hidden lg:flex items-center space-x-3 ml-4">
                 <form
                   onSubmit={handleTrackShipment}
-                  className="flex items-center space-x-2 bg-gray-50 px-3 py-2 border border-gray-200 focus-within:border-[#0891b2] focus-within:ring-2 focus-within:ring-cyan-100 transition-all"
+                  className="flex items-center space-x-2 bg-gray-50 px-3 py-2 border border-gray-200 focus-within:border-[#f97316] focus-within:ring-2 focus-within:ring-orange-100 transition-all"
                 >
                   <Package className="h-4 w-4 text-gray-400" />
                   <input
@@ -272,7 +272,7 @@ function Navbar() {
                   />
                   <button
                     type="submit"
-                    className="p-1.5 bg-gradient-to-r from-[#0891b2] to-[#0e7490] text-white hover:from-[#0e7490] hover:to-[#155e75] transition-all shadow-sm hover:shadow-md"
+                    className="p-1.5 bg-gradient-to-r from-[#f97316] to-[#ea580c] text-white hover:from-[#ea580c] hover:to-[#c2410c] transition-all shadow-sm hover:shadow-md"
                     aria-label="Track shipment"
                   >
                     <Search className="h-4 w-4" />
@@ -322,7 +322,7 @@ function Navbar() {
             <div className="p-4 border-b border-gray-200 bg-gray-50">
               <form
                 onSubmit={handleTrackShipment}
-                className="flex items-center space-x-2 bg-white px-3 py-2.5 border border-gray-200 shadow-sm focus-within:border-[#0891b2] focus-within:ring-2 focus-within:ring-cyan-100 transition-all"
+                className="flex items-center space-x-2 bg-white px-3 py-2.5 border border-gray-200 shadow-sm focus-within:border-[#f97316] focus-within:ring-2 focus-within:ring-orange-100 transition-all"
               >
                 <Package className="h-5 w-5 text-gray-400 flex-shrink-0" />
                 <input
@@ -334,7 +334,7 @@ function Navbar() {
                 />
                 <button
                   type="submit"
-                  className="p-2 bg-gradient-to-r from-[#0891b2] to-[#0e7490] text-white hover:from-[#0e7490] hover:to-[#155e75] transition-all shadow-sm hover:shadow-md flex-shrink-0"
+                  className="p-2 bg-gradient-to-r from-[#f97316] to-[#ea580c] text-white hover:from-[#ea580c] hover:to-[#c2410c] transition-all shadow-sm hover:shadow-md flex-shrink-0"
                   aria-label="Track shipment"
                 >
                   <Search className="h-4 w-4" />
@@ -354,8 +354,8 @@ function Navbar() {
                       transition-all duration-200 group
                       ${
                         path === link.href
-                          ? "bg-cyan-50 text-[#0891b2] font-semibold"
-                          : "text-gray-700 hover:bg-gray-50 hover:text-[#0891b2]"
+                          ? "bg-orange-50 text-[#f97316] font-semibold"
+                          : "text-gray-700 hover:bg-gray-50 hover:text-[#f97316]"
                       }
                     `}
                     onClick={() => setIsMenuOpen(false)}
@@ -363,7 +363,7 @@ function Navbar() {
                     <span className="font-medium">{link.label}</span>
                     <ChevronRight
                       className={`h-5 w-5 transition-transform group-hover:translate-x-1 ${
-                        path === link.href ? "text-[#0891b2]" : "text-gray-400"
+                        path === link.href ? "text-[#f97316]" : "text-gray-400"
                       }`}
                     />
                   </Link>
@@ -375,18 +375,18 @@ function Navbar() {
             <div className="border-t border-gray-200 bg-gray-50 p-4 space-y-3">
               {/* <a
                 href="tel:+16303926723"
-                className="flex items-center space-x-3 text-gray-700 hover:text-[#0891b2] transition-colors p-2 rounded-lg hover:bg-white"
+                className="flex items-center space-x-3 text-gray-700 hover:text-[#f97316] transition-colors p-2 rounded-lg hover:bg-white"
               >
                 <Phone className="h-5 w-5" />
                 <span className="font-medium">(630) 392-6723</span>
               </a> */}
               <a
-                href="mailto:contact@track-globallogistics.com"
-                className="flex items-center space-x-3 text-gray-700 hover:text-[#0891b2] transition-colors p-2 rounded-lg hover:bg-white"
+                href="mailto:contact@swiftpairlogistics.com"
+                className="flex items-center space-x-3 text-gray-700 hover:text-[#f97316] transition-colors p-2 rounded-lg hover:bg-white"
               >
                 <Mail className="h-5 w-5" />
                 <span className="font-medium text-sm">
-                  contact@track-globallogistics.com
+                  contact@swiftpairlogistics.com
                 </span>
               </a>
               <div className="flex items-center space-x-3 text-gray-600 p-2">

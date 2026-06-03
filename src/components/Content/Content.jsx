@@ -237,20 +237,20 @@ function Content() {
         {loading && (
           <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50">
             <div className="flex gap-2">
-              <div className="w-4 h-4 bg-[#0891b2] rounded-sm animate-pulse"></div>
-              <div className="w-4 h-4 bg-[#0891b2] rounded-sm animate-pulse delay-100"></div>
-              <div className="w-4 h-4 bg-[#0891b2] rounded-sm animate-pulse delay-200"></div>
-              <div className="w-4 h-4 bg-[#0891b2] rounded-sm animate-pulse delay-300"></div>
-              <div className="w-4 h-4 bg-[#0891b2] rounded-sm animate-pulse delay-400"></div>
-              <div className="w-4 h-4 bg-[#0891b2] rounded-sm animate-pulse delay-500"></div>
-              <div className="w-4 h-4 bg-[#0891b2] rounded-sm animate-pulse delay-600"></div>
+              <div className="w-4 h-4 bg-[#f97316] rounded-sm animate-pulse"></div>
+              <div className="w-4 h-4 bg-[#f97316] rounded-sm animate-pulse delay-100"></div>
+              <div className="w-4 h-4 bg-[#f97316] rounded-sm animate-pulse delay-200"></div>
+              <div className="w-4 h-4 bg-[#f97316] rounded-sm animate-pulse delay-300"></div>
+              <div className="w-4 h-4 bg-[#f97316] rounded-sm animate-pulse delay-400"></div>
+              <div className="w-4 h-4 bg-[#f97316] rounded-sm animate-pulse delay-500"></div>
+              <div className="w-4 h-4 bg-[#f97316] rounded-sm animate-pulse delay-600"></div>
             </div>
           </div>
         )}
         <div id="track-shipment" className="relative w-full mb-16 scroll-mt-24">
           <div className="bg-white border border-gray-200 shadow-lg p-8 md:p-10">
             <div className="border-b border-gray-200 pb-6 mb-8">
-              <h1 className="text-3xl md:text-4xl font-bold text-left text-[#0891b2]">
+              <h1 className="text-3xl md:text-4xl font-bold text-left text-[#f97316]">
                 Track Your Shipment
               </h1>
             </div>
@@ -267,7 +267,7 @@ function Content() {
                   <div className="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      className="h-5 w-5 text-[#0891b2]"
+                      className="h-5 w-5 text-[#f97316]"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
@@ -287,14 +287,14 @@ function Content() {
                     onChange={(e) => setTrackingNumber(e.target.value)}
                     placeholder="Enter your tracking number"
                     required
-                    className="w-full pl-12 pr-4 py-4 border-2 border-gray-300 focus:outline-none focus:border-[#0891b2] focus:ring-2 focus:ring-cyan-100 transition-all text-gray-700 text-base"
+                    className="w-full pl-12 pr-4 py-4 border-2 border-gray-300 focus:outline-none focus:border-[#f97316] focus:ring-2 focus:ring-orange-100 transition-all text-gray-700 text-base"
                     style={{ borderRadius: 0 }}
                   />
                 </div>
                 <button
                   onClick={handleTrack}
                   disabled={loading}
-                  className="md:w-auto px-8 py-4 bg-gradient-to-r from-[#0891b2] to-[#0e7490] text-white flex items-center justify-center gap-2 hover:from-[#0e7490] hover:to-[#155e75] transition-all font-semibold text-base shadow-md hover:shadow-lg disabled:opacity-70 disabled:cursor-not-allowed"
+                  className="md:w-auto px-8 py-4 bg-gradient-to-r from-[#f97316] to-[#ea580c] text-white flex items-center justify-center gap-2 hover:from-[#ea580c] hover:to-[#c2410c] transition-all font-semibold text-base shadow-md hover:shadow-lg disabled:opacity-70 disabled:cursor-not-allowed"
                   style={{ borderRadius: 0 }}
                 >
                   {loading ? (
@@ -348,7 +348,7 @@ function Content() {
                 <p className="flex items-center gap-1.5 text-gray-600">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    className="h-4 w-4 text-[#0891b2]"
+                    className="h-4 w-4 text-[#f97316]"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -388,7 +388,7 @@ function Content() {
             </div>
           </div>
 
-          <div className="absolute -bottom-2 left-0 w-full h-1 bg-[#0891b2]"></div>
+          <div className="absolute -bottom-2 left-0 w-full h-1 bg-[#f97316]"></div>
         </div>
       </section>
       <section className="w-full max-w-7xl mx-auto px-4 py-12 md:py-16">
@@ -405,24 +405,24 @@ function Content() {
                 className="w-full h-auto border border-gray-200 shadow-md"
                 alt="Global logistics network"
               />
-              <div className="absolute bottom-0 left-0 w-full h-1 bg-[#0891b2]"></div>
-              <div className="absolute -bottom-4 -right-4 bg-[#0891b2] text-white py-2 px-4 text-sm font-medium">
+              <div className="absolute bottom-0 left-0 w-full h-1 bg-[#f97316]"></div>
+              <div className="absolute -bottom-4 -right-4 bg-[#f97316] text-white py-2 px-4 text-sm font-medium">
                 Global Reach, Local Expertise
               </div>
             </div>
           </div>
           <div className="w-full lg:w-1/2 animate-fade-in" data-aos="fade-up">
-            <div className="border-l-4 border-[#0891b2] pl-4 mb-6">
-              <h1 className="text-3xl md:text-4xl font-bold mb-2 text-[#0891b2]">
+            <div className="border-l-4 border-[#f97316] pl-4 mb-6">
+              <h1 className="text-3xl md:text-4xl font-bold mb-2 text-[#f97316]">
                 Delivering Excellence Worldwide
               </h1>
-              <p className="text-[#0891b2] font-medium">
+              <p className="text-[#f97316] font-medium">
                 Domestic & International Courier Services
               </p>
             </div>
 
             <p className="text-gray-600 mb-4 text-lg">
-              With over 25 years of experience, Track-Global Logistics has
+              With over 25 years of experience, SwiftPair Logistics has
               established itself as a trusted leader in express courier
               services. We connect businesses and individuals across 220+
               destinations worldwide, delivering packages with speed, security,
@@ -438,8 +438,8 @@ function Content() {
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 bg-gray-50 p-6 border-t border-b border-gray-200">
-              <div className="border-l-4 border-[#0891b2] pl-4 transition-all hover:pl-5 hover:bg-white">
-                <div className="flex items-end text-[#0891b2]">
+              <div className="border-l-4 border-[#f97316] pl-4 transition-all hover:pl-5 hover:bg-white">
+                <div className="flex items-end text-[#f97316]">
                   {isVisible && (
                     <Counter
                       start={0}
@@ -454,8 +454,8 @@ function Content() {
                   Orders Processed Since 1995
                 </p>
               </div>
-              <div className="border-l-4 border-[#0891b2] pl-4 transition-all hover:pl-5 hover:bg-white">
-                <div className="flex items-end text-[#0891b2]">
+              <div className="border-l-4 border-[#f97316] pl-4 transition-all hover:pl-5 hover:bg-white">
+                <div className="flex items-end text-[#f97316]">
                   {isVisible && (
                     <Counter
                       start={0}
@@ -469,8 +469,8 @@ function Content() {
                   Active Customers
                 </p>
               </div>
-              <div className="border-l-4 border-[#0891b2] pl-4 transition-all hover:pl-5 hover:bg-white">
-                <div className="flex items-end text-[#0891b2]">
+              <div className="border-l-4 border-[#f97316] pl-4 transition-all hover:pl-5 hover:bg-white">
+                <div className="flex items-end text-[#f97316]">
                   <h1 className="text-4xl font-bold">+</h1>
                   {isVisible && (
                     <Counter
@@ -486,8 +486,8 @@ function Content() {
                   On-Time Delivery Rate
                 </p>
               </div>
-              <div className="border-l-4 border-[#0891b2] pl-4 transition-all hover:pl-5 hover:bg-white">
-                <div className="flex items-end text-[#0891b2]">
+              <div className="border-l-4 border-[#f97316] pl-4 transition-all hover:pl-5 hover:bg-white">
+                <div className="flex items-end text-[#f97316]">
                   {isVisible && (
                     <Counter
                       start={0}
@@ -506,7 +506,7 @@ function Content() {
 
             <div className="mt-8 flex flex-wrap gap-4">
               <button
-                className="px-6 py-3 bg-gradient-to-r from-[#0891b2] to-[#0e7490] text-white font-medium flex items-center gap-2 hover:from-[#0e7490] hover:to-[#155e75] transition-all shadow-md hover:shadow-lg"
+                className="px-6 py-3 bg-gradient-to-r from-[#f97316] to-[#ea580c] text-white font-medium flex items-center gap-2 hover:from-[#ea580c] hover:to-[#c2410c] transition-all shadow-md hover:shadow-lg"
                 style={{ borderRadius: 0 }}
               >
                 <span>Our Services</span>
@@ -526,7 +526,7 @@ function Content() {
                 </svg>
               </button>
               <button
-                className="px-6 py-3 border-2 border-[#0891b2] text-[#0891b2] font-medium hover:bg-[#0891b2] hover:text-white transition-all"
+                className="px-6 py-3 border-2 border-[#f97316] text-[#f97316] font-medium hover:bg-[#f97316] hover:text-white transition-all"
                 style={{ borderRadius: 0 }}
               >
                 Contact Us
@@ -539,13 +539,13 @@ function Content() {
       <section className="bg-gray-50 py-16 md:py-24">
         <div className="w-full max-w-7xl mx-auto px-4">
           <div className="text-center max-w-3xl mx-auto mb-12">
-            <span className="inline-block px-4 py-1 bg-[#0891b2]/10 text-[#0891b2] font-medium rounded-sm mb-4">
+            <span className="inline-block px-4 py-1 bg-[#f97316]/10 text-[#f97316] font-medium rounded-sm mb-4">
               Specialized Service
             </span>
-            <h1 className="text-3xl md:text-4xl font-bold mb-4 text-[#0891b2]">
+            <h1 className="text-3xl md:text-4xl font-bold mb-4 text-[#f97316]">
               Express International Shipping
             </h1>
-            <div className="w-20 h-1 bg-[#0891b2] mx-auto mb-6"></div>
+            <div className="w-20 h-1 bg-[#f97316] mx-auto mb-6"></div>
             <p className="text-gray-600 text-lg">
               Fast, reliable, and secure international shipping solutions. We
               deliver your packages across borders with precision and care,
@@ -555,8 +555,8 @@ function Content() {
 
           <div className="flex flex-col lg:flex-row gap-12 items-center">
             <div className="w-full lg:w-1/2 order-2 lg:order-1">
-              <div className="border-l-4 border-[#0891b2] pl-6 mb-6">
-                <h2 className="text-2xl md:text-3xl font-bold mb-2 text-[#0891b2]">
+              <div className="border-l-4 border-[#f97316] pl-6 mb-6">
+                <h2 className="text-2xl md:text-3xl font-bold mb-2 text-[#f97316]">
                   Premium Logistics Solutions
                 </h2>
                 <p className="text-gray-700 font-medium">
@@ -565,7 +565,7 @@ function Content() {
               </div>
 
               <p className="text-gray-600 mb-6 text-lg">
-                At Track-Global Logistics, we leverage advanced logistics technology
+                At SwiftPair Logistics, we leverage advanced logistics technology
                 and a global network of partners to ensure your shipments reach
                 their destination quickly and securely. Our experienced team
                 handles everything from customs clearance to final delivery.
@@ -573,13 +573,13 @@ function Content() {
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
                 <div
-                  className="bg-white p-5 shadow-md border-t-2 border-[#0891b2]"
+                  className="bg-white p-5 shadow-md border-t-2 border-[#f97316]"
                   style={{ borderRadius: 0 }}
                 >
                   <div className="flex items-center mb-3">
-                    <div className="bg-[#0891b2]/10 p-2 rounded-full mr-3">
+                    <div className="bg-[#f97316]/10 p-2 rounded-full mr-3">
                       <svg
-                        className="h-6 w-6 text-[#0891b2]"
+                        className="h-6 w-6 text-[#f97316]"
                         fill="none"
                         viewBox="0 0 24 24"
                         stroke="currentColor"
@@ -602,13 +602,13 @@ function Content() {
                 </div>
 
                 <div
-                  className="bg-white p-5 shadow-md border-t-2 border-[#0891b2]"
+                  className="bg-white p-5 shadow-md border-t-2 border-[#f97316]"
                   style={{ borderRadius: 0 }}
                 >
                   <div className="flex items-center mb-3">
-                    <div className="bg-[#0891b2]/10 p-2 rounded-full mr-3">
+                    <div className="bg-[#f97316]/10 p-2 rounded-full mr-3">
                       <svg
-                        className="h-6 w-6 text-[#0891b2]"
+                        className="h-6 w-6 text-[#f97316]"
                         fill="none"
                         viewBox="0 0 24 24"
                         stroke="currentColor"
@@ -630,13 +630,13 @@ function Content() {
                 </div>
 
                 <div
-                  className="bg-white p-5 shadow-md border-t-2 border-[#0891b2]"
+                  className="bg-white p-5 shadow-md border-t-2 border-[#f97316]"
                   style={{ borderRadius: 0 }}
                 >
                   <div className="flex items-center mb-3">
-                    <div className="bg-[#0891b2]/10 p-2 rounded-full mr-3">
+                    <div className="bg-[#f97316]/10 p-2 rounded-full mr-3">
                       <svg
-                        className="h-6 w-6 text-[#0891b2]"
+                        className="h-6 w-6 text-[#f97316]"
                         fill="none"
                         viewBox="0 0 24 24"
                         stroke="currentColor"
@@ -657,13 +657,13 @@ function Content() {
                 </div>
 
                 <div
-                  className="bg-white p-5 shadow-md border-t-2 border-[#0891b2]"
+                  className="bg-white p-5 shadow-md border-t-2 border-[#f97316]"
                   style={{ borderRadius: 0 }}
                 >
                   <div className="flex items-center mb-3">
-                    <div className="bg-[#0891b2]/10 p-2 rounded-full mr-3">
+                    <div className="bg-[#f97316]/10 p-2 rounded-full mr-3">
                       <svg
-                        className="h-6 w-6 text-[#0891b2]"
+                        className="h-6 w-6 text-[#f97316]"
                         fill="none"
                         viewBox="0 0 24 24"
                         stroke="currentColor"
@@ -684,7 +684,7 @@ function Content() {
                 </div>
               </div>
 
-              <div className="bg-white p-6 border-l-4 border-[#0891b2] shadow-md mb-8">
+              <div className="bg-white p-6 border-l-4 border-[#f97316] shadow-md mb-8">
                 <p className="text-gray-700 italic">
                   "Our international shipping service has successfully delivered
                   over 12 million packages worldwide with a 98% on-time delivery
@@ -742,8 +742,8 @@ function Content() {
                 </div>
 
                 {/* Decorative elements */}
-                <div className="absolute -z-10 top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-64 h-64 bg-[#0891b2]/5 rounded-full"></div>
-                <div className="absolute -z-10 bottom-10 right-10 w-40 h-40 bg-[#0891b2]/10 rounded-full"></div>
+                <div className="absolute -z-10 top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-64 h-64 bg-[#f97316]/5 rounded-full"></div>
+                <div className="absolute -z-10 bottom-10 right-10 w-40 h-40 bg-[#f97316]/10 rounded-full"></div>
               </div>
             </div>
           </div>
@@ -753,17 +753,17 @@ function Content() {
         <div className="w-full max-w-7xl mx-auto px-4">
           <div className="text-center max-w-3xl mx-auto mb-16">
             <span
-              className="inline-block px-4 py-1 bg-[#0891b2]/10 text-[#0891b2] font-medium mb-4"
+              className="inline-block px-4 py-1 bg-[#f97316]/10 text-[#f97316] font-medium mb-4"
               style={{ borderRadius: 0 }}
             >
               Our Process
             </span>
-            <h1 className="text-3xl md:text-4xl font-bold mb-4 text-[#0891b2]">
+            <h1 className="text-3xl md:text-4xl font-bold mb-4 text-[#f97316]">
               Your Journey to Effortless Shipping
             </h1>
-            <div className="w-20 h-1 bg-[#0891b2] mx-auto mb-6"></div>
+            <div className="w-20 h-1 bg-[#f97316] mx-auto mb-6"></div>
             <p className="text-gray-600 text-lg">
-              At Track-Global Logistics Courier, we've streamlined the shipping
+              At SwiftPair Logistics Courier, we've streamlined the shipping
               process to make your experience seamless and worry-free. From
               booking to delivery, we handle every step with precision and care.
             </p>
@@ -771,7 +771,7 @@ function Content() {
 
           <div className="relative">
             {/* Connection line */}
-            <div className="hidden md:block absolute top-1/2 left-0 right-0 h-1 bg-[#0891b2]/20 z-0"></div>
+            <div className="hidden md:block absolute top-1/2 left-0 right-0 h-1 bg-[#f97316]/20 z-0"></div>
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
               {/* Step 1 */}
@@ -781,7 +781,7 @@ function Content() {
                 style={{ borderRadius: 0 }}
               >
                 <div
-                  className="absolute -top-6 left-1/2 transform -translate-x-1/2 w-12 h-12 bg-[#0891b2] text-white flex items-center justify-center font-bold text-xl shadow-md"
+                  className="absolute -top-6 left-1/2 transform -translate-x-1/2 w-12 h-12 bg-[#f97316] text-white flex items-center justify-center font-bold text-xl shadow-md"
                   style={{ borderRadius: 0 }}
                 >
                   1
@@ -789,11 +789,11 @@ function Content() {
 
                 <div className="flex flex-col items-center mb-6 relative">
                   <div
-                    className="absolute -left-4 -top-4 w-20 h-20 bg-[#0891b2]/5 z-0"
+                    className="absolute -left-4 -top-4 w-20 h-20 bg-[#f97316]/5 z-0"
                     style={{ borderRadius: 0 }}
                   ></div>
                   <div
-                    className="absolute -right-4 -bottom-4 w-16 h-16 bg-[#0891b2]/10 z-0"
+                    className="absolute -right-4 -bottom-4 w-16 h-16 bg-[#f97316]/10 z-0"
                     style={{ borderRadius: 0 }}
                   ></div>
                   <Image
@@ -805,14 +805,14 @@ function Content() {
                   />
                 </div>
 
-                <h1 className="text-2xl font-bold mb-4 text-[#0891b2] text-center">
+                <h1 className="text-2xl font-bold mb-4 text-[#f97316] text-center">
                   Book & Schedule
                 </h1>
 
                 <ul className="space-y-3 text-gray-600 mb-6">
                   <li className="flex items-start">
                     <svg
-                      className="h-5 w-5 text-[#0891b2] mr-2 mt-0.5"
+                      className="h-5 w-5 text-[#f97316] mr-2 mt-0.5"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
@@ -828,7 +828,7 @@ function Content() {
                   </li>
                   <li className="flex items-start">
                     <svg
-                      className="h-5 w-5 text-[#0891b2] mr-2 mt-0.5"
+                      className="h-5 w-5 text-[#f97316] mr-2 mt-0.5"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
@@ -846,7 +846,7 @@ function Content() {
                   </li>
                   <li className="flex items-start">
                     <svg
-                      className="h-5 w-5 text-[#0891b2] mr-2 mt-0.5"
+                      className="h-5 w-5 text-[#f97316] mr-2 mt-0.5"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
@@ -865,7 +865,7 @@ function Content() {
                 </ul>
 
                 <div
-                  className="bg-gray-50 p-4 border-l-4 border-[#0891b2]"
+                  className="bg-gray-50 p-4 border-l-4 border-[#f97316]"
                   style={{ borderRadius: 0 }}
                 >
                   <p className="text-sm text-gray-600 italic">
@@ -883,7 +883,7 @@ function Content() {
                 style={{ borderRadius: 0 }}
               >
                 <div
-                  className="absolute -top-6 left-1/2 transform -translate-x-1/2 w-12 h-12 bg-[#0891b2] text-white flex items-center justify-center font-bold text-xl shadow-md"
+                  className="absolute -top-6 left-1/2 transform -translate-x-1/2 w-12 h-12 bg-[#f97316] text-white flex items-center justify-center font-bold text-xl shadow-md"
                   style={{ borderRadius: 0 }}
                 >
                   2
@@ -891,11 +891,11 @@ function Content() {
 
                 <div className="flex flex-col items-center mb-6 relative">
                   <div
-                    className="absolute -right-4 -top-4 w-20 h-20 bg-[#0891b2]/5 z-0"
+                    className="absolute -right-4 -top-4 w-20 h-20 bg-[#f97316]/5 z-0"
                     style={{ borderRadius: 0 }}
                   ></div>
                   <div
-                    className="absolute -left-4 -bottom-4 w-16 h-16 bg-[#0891b2]/10 z-0"
+                    className="absolute -left-4 -bottom-4 w-16 h-16 bg-[#f97316]/10 z-0"
                     style={{ borderRadius: 0 }}
                   ></div>
                   <Image
@@ -907,14 +907,14 @@ function Content() {
                   />
                 </div>
 
-                <h1 className="text-2xl font-bold mb-4 text-[#0891b2] text-center">
+                <h1 className="text-2xl font-bold mb-4 text-[#f97316] text-center">
                   Collection & Tracking
                 </h1>
 
                 <ul className="space-y-3 text-gray-600 mb-6">
                   <li className="flex items-start">
                     <svg
-                      className="h-5 w-5 text-[#0891b2] mr-2 mt-0.5"
+                      className="h-5 w-5 text-[#f97316] mr-2 mt-0.5"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
@@ -930,7 +930,7 @@ function Content() {
                   </li>
                   <li className="flex items-start">
                     <svg
-                      className="h-5 w-5 text-[#0891b2] mr-2 mt-0.5"
+                      className="h-5 w-5 text-[#f97316] mr-2 mt-0.5"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
@@ -948,7 +948,7 @@ function Content() {
                   </li>
                   <li className="flex items-start">
                     <svg
-                      className="h-5 w-5 text-[#0891b2] mr-2 mt-0.5"
+                      className="h-5 w-5 text-[#f97316] mr-2 mt-0.5"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
@@ -967,7 +967,7 @@ function Content() {
                 </ul>
 
                 <div
-                  className="bg-gray-50 p-4 border-l-4 border-[#0891b2]"
+                  className="bg-gray-50 p-4 border-l-4 border-[#f97316]"
                   style={{ borderRadius: 0 }}
                 >
                   <p className="text-sm text-gray-600 italic">
@@ -985,7 +985,7 @@ function Content() {
                 style={{ borderRadius: 0 }}
               >
                 <div
-                  className="absolute -top-6 left-1/2 transform -translate-x-1/2 w-12 h-12 bg-[#0891b2] text-white flex items-center justify-center font-bold text-xl shadow-md"
+                  className="absolute -top-6 left-1/2 transform -translate-x-1/2 w-12 h-12 bg-[#f97316] text-white flex items-center justify-center font-bold text-xl shadow-md"
                   style={{ borderRadius: 0 }}
                 >
                   3
@@ -993,11 +993,11 @@ function Content() {
 
                 <div className="flex flex-col items-center mb-6 relative">
                   <div
-                    className="absolute -left-4 -top-4 w-20 h-20 bg-[#0891b2]/5 z-0"
+                    className="absolute -left-4 -top-4 w-20 h-20 bg-[#f97316]/5 z-0"
                     style={{ borderRadius: 0 }}
                   ></div>
                   <div
-                    className="absolute -right-4 -bottom-4 w-16 h-16 bg-[#0891b2]/10 z-0"
+                    className="absolute -right-4 -bottom-4 w-16 h-16 bg-[#f97316]/10 z-0"
                     style={{ borderRadius: 0 }}
                   ></div>
                   <Image
@@ -1009,14 +1009,14 @@ function Content() {
                   />
                 </div>
 
-                <h1 className="text-2xl font-bold mb-4 text-[#0891b2] text-center">
+                <h1 className="text-2xl font-bold mb-4 text-[#f97316] text-center">
                   Delivery & Confirmation
                 </h1>
 
                 <ul className="space-y-3 text-gray-600 mb-6">
                   <li className="flex items-start">
                     <svg
-                      className="h-5 w-5 text-[#0891b2] mr-2 mt-0.5"
+                      className="h-5 w-5 text-[#f97316] mr-2 mt-0.5"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
@@ -1032,7 +1032,7 @@ function Content() {
                   </li>
                   <li className="flex items-start">
                     <svg
-                      className="h-5 w-5 text-[#0891b2] mr-2 mt-0.5"
+                      className="h-5 w-5 text-[#f97316] mr-2 mt-0.5"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
@@ -1050,7 +1050,7 @@ function Content() {
                   </li>
                   <li className="flex items-start">
                     <svg
-                      className="h-5 w-5 text-[#0891b2] mr-2 mt-0.5"
+                      className="h-5 w-5 text-[#f97316] mr-2 mt-0.5"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
@@ -1069,7 +1069,7 @@ function Content() {
                 </ul>
 
                 <div
-                  className="bg-gray-50 p-4 border-l-4 border-[#0891b2]"
+                  className="bg-gray-50 p-4 border-l-4 border-[#f97316]"
                   style={{ borderRadius: 0 }}
                 >
                   <p className="text-sm text-gray-600 italic">
@@ -1083,7 +1083,7 @@ function Content() {
 
           <div className="mt-16 text-center">
             <button
-              className="px-8 py-4 bg-gradient-to-r from-[#0891b2] to-[#0e7490] text-white font-medium shadow-md hover:from-[#0e7490] hover:to-[#155e75] transition-all inline-flex items-center gap-2"
+              className="px-8 py-4 bg-gradient-to-r from-[#f97316] to-[#ea580c] text-white font-medium shadow-md hover:from-[#ea580c] hover:to-[#c2410c] transition-all inline-flex items-center gap-2"
               style={{ borderRadius: 0 }}
             >
               <span>Start Shipping Today</span>
@@ -1106,15 +1106,15 @@ function Content() {
             <p className="mt-4 text-gray-600">
               Need assistance?{" "}
               <a
-                href="mailto:contact@track-globallogistics.com"
-                className="text-[#0891b2] font-medium hover:underline"
+                href="mailto:contact@swiftpairlogistics.com"
+                className="text-[#f97316] font-medium hover:underline"
               >
                 Email us
               </a>{" "}
               {/* or call{" "}
               <a
                 href="tel:+16303926723"
-                className="text-[#0891b2] font-medium hover:underline"
+                className="text-[#f97316] font-medium hover:underline"
               >
                 (630) 392-6723
               </a> */}
@@ -1127,11 +1127,11 @@ function Content() {
       <section className="bg-gradient-to-b from-gray-50 to-gray-100 py-16 md:py-24 overflow-hidden relative">
         {/* Background Elements */}
         <div
-          className="absolute top-0 left-0 w-64 h-64 bg-[#0891b2]/5 -translate-x-1/2 -translate-y-1/2"
+          className="absolute top-0 left-0 w-64 h-64 bg-[#f97316]/5 -translate-x-1/2 -translate-y-1/2"
           style={{ borderRadius: 0 }}
         ></div>
         <div
-          className="absolute bottom-0 right-0 w-96 h-96 bg-[#0891b2]/5 translate-x-1/3 translate-y-1/3"
+          className="absolute bottom-0 right-0 w-96 h-96 bg-[#f97316]/5 translate-x-1/3 translate-y-1/3"
           style={{ borderRadius: 0 }}
         ></div>
         <div className="absolute top-1/4 right-1/4 w-20 h-20 bg-yellow-400/20 rounded-full"></div>
@@ -1139,10 +1139,10 @@ function Content() {
         <div className="w-full max-w-7xl mx-auto px-4 flex flex-col lg:flex-row gap-8 lg:gap-16 items-center relative z-10">
           {/* Testimonials Carousel */}
           <div className="w-full lg:w-1/2 relative" data-aos="fade-right">
-            <div className="absolute -top-10 -left-10 text-[#0891b2]/10 text-9xl font-serif">
+            <div className="absolute -top-10 -left-10 text-[#f97316]/10 text-9xl font-serif">
               "
             </div>
-            <div className="absolute -bottom-10 -right-10 text-[#0891b2]/10 text-9xl font-serif rotate-180">
+            <div className="absolute -bottom-10 -right-10 text-[#f97316]/10 text-9xl font-serif rotate-180">
               "
             </div>
 
@@ -1154,13 +1154,13 @@ function Content() {
                   revCount === index + 1
                     ? "opacity-100 translate-y-0 scale-100"
                     : "opacity-0 translate-y-8 scale-95 absolute inset-0"
-                } transition-all duration-700 bg-white shadow-xl p-8 border-t-4 border-[#0891b2]`}
+                } transition-all duration-700 bg-white shadow-xl p-8 border-t-4 border-[#f97316]`}
                 style={{ borderRadius: 0 }}
               >
                 <div className="flex items-center mb-6">
                   <div className="relative">
                     <div
-                      className="absolute inset-0 bg-[#0891b2] animate-pulse opacity-20"
+                      className="absolute inset-0 bg-[#f97316] animate-pulse opacity-20"
                       style={{ borderRadius: 0 }}
                     ></div>
                     <Image
@@ -1180,11 +1180,11 @@ function Content() {
                       }
                       width={120}
                       height={120}
-                      className="w-24 h-24 object-cover border-4 border-[#0891b2] relative z-10"
+                      className="w-24 h-24 object-cover border-4 border-[#f97316] relative z-10"
                       style={{ borderRadius: 0 }}
                     />
                     <div
-                      className="absolute -bottom-2 -right-2 bg-cyan-300 text-[#0891b2] p-2 z-20 shadow-md"
+                      className="absolute -bottom-2 -right-2 bg-orange-300 text-[#f97316] p-2 z-20 shadow-md"
                       style={{ borderRadius: 0 }}
                     >
                       <svg
@@ -1203,7 +1203,7 @@ function Content() {
                     </div>
                   </div>
                   <div className="ml-4">
-                    <h3 className="font-bold text-lg text-[#0891b2]">
+                    <h3 className="font-bold text-lg text-[#f97316]">
                       {index === 0
                         ? "Michael & Sarah T."
                         : index === 1
@@ -1243,25 +1243,25 @@ function Content() {
                   <div className="absolute -top-3 left-5 w-6 h-6 bg-gray-50 rotate-45 z-0"></div>
                   <p className="text-gray-600 relative z-10 italic">
                     {index === 0
-                      ? "I am posting this testimonial to appreciate the work that Track-Global Logistics did for me and my wife. Our new pet was safely transported to us at a very affordable price. The care and attention they showed was exceptional."
+                      ? "I am posting this testimonial to appreciate the work that SwiftPair Logistics did for me and my wife. Our new pet was safely transported to us at a very affordable price. The care and attention they showed was exceptional."
                       : index === 1
-                      ? "Thank you Track-Global Logistics for helping us ship our discreet parcel and keeping it safe during transit to the UK. This is the second time we've used your services, and we're consistently impressed with your professionalism."
+                      ? "Thank you SwiftPair Logistics for helping us ship our discreet parcel and keeping it safe during transit to the UK. This is the second time we've used your services, and we're consistently impressed with your professionalism."
                       : index === 2
-                      ? "Bruce and Jet have landed safely in our arms in San Francisco! I cannot thank the entire Track-Global Logistics team enough for helping us with this process from EU to America. Your flexibility when we had to reschedule due to my husband's emergency surgery was remarkable."
+                      ? "Bruce and Jet have landed safely in our arms in San Francisco! I cannot thank the entire SwiftPair Logistics team enough for helping us with this process from EU to America. Your flexibility when we had to reschedule due to my husband's emergency surgery was remarkable."
                       : index === 3
-                      ? "I had to share my experience with Track-Global Logistics after the exceptional service I received. Their team was professional, responsive, and the pricing was the best part - truly affordable without compromising on quality."
+                      ? "I had to share my experience with SwiftPair Logistics after the exceptional service I received. Their team was professional, responsive, and the pricing was the best part - truly affordable without compromising on quality."
                       : index === 4
-                      ? "Track-Global Logistics transported my car from the USA to Australia after my job transfer. The service saved me thousands compared to buying a new vehicle, and the car arrived in perfect condition."
+                      ? "SwiftPair Logistics transported my car from the USA to Australia after my job transfer. The service saved me thousands compared to buying a new vehicle, and the car arrived in perfect condition."
                       : index === 5
-                      ? "I've been using Track-Global Logistics for all my international shipping needs, and I couldn't be more satisfied. Their service is top-notch, with prompt deliveries and excellent customer support. The tracking system keeps me informed every step of the way."
-                      : "Track-Global Logistics made my shipping experience seamless and hassle-free. Their professional team handled my items with care, and the shipment arrived ahead of schedule. The communication throughout was fantastic, making it easy to track my package."}
+                      ? "I've been using SwiftPair Logistics for all my international shipping needs, and I couldn't be more satisfied. Their service is top-notch, with prompt deliveries and excellent customer support. The tracking system keeps me informed every step of the way."
+                      : "SwiftPair Logistics made my shipping experience seamless and hassle-free. Their professional team handled my items with care, and the shipment arrived ahead of schedule. The communication throughout was fantastic, making it easy to track my package."}
                   </p>
                 </div>
 
                 <div className="flex items-center justify-between">
                   <div className="flex items-center">
                     <svg
-                      className="h-5 w-5 text-[#0891b2] mr-2"
+                      className="h-5 w-5 text-[#f97316] mr-2"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
@@ -1291,7 +1291,7 @@ function Content() {
                   </div>
                   <div className="flex items-center">
                     <svg
-                      className="h-5 w-5 text-[#0891b2] mr-2"
+                      className="h-5 w-5 text-[#f97316] mr-2"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
@@ -1329,11 +1329,11 @@ function Content() {
 
                 <div className="mt-6 flex items-center justify-between">
                   <div className="flex items-center">
-                    <span className="text-sm font-medium text-[#0891b2] mr-2">
+                    <span className="text-sm font-medium text-[#f97316] mr-2">
                       Service Used:
                     </span>
                     <span
-                      className="bg-[#0891b2]/10 text-[#0891b2] text-xs font-medium px-2 py-1"
+                      className="bg-[#f97316]/10 text-[#f97316] text-xs font-medium px-2 py-1"
                       style={{ borderRadius: 0 }}
                     >
                       {index === 0
@@ -1360,7 +1360,7 @@ function Content() {
             <div className="flex justify-between mt-8">
               <button
                 onClick={handlePrev}
-                className="group p-3 bg-[#0891b2] text-white hover:bg-[#0e7490] transition-all transform hover:scale-105 active:scale-95 shadow-lg flex items-center"
+                className="group p-3 bg-[#f97316] text-white hover:bg-[#ea580c] transition-all transform hover:scale-105 active:scale-95 shadow-lg flex items-center"
                 style={{ borderRadius: 0 }}
               >
                 <svg
@@ -1387,7 +1387,7 @@ function Content() {
                     onClick={() => setRevCount(index + 1)}
                     className={`w-2 h-2 mx-1 transition-all ${
                       revCount === index + 1
-                        ? "bg-[#0891b2] w-4"
+                        ? "bg-[#f97316] w-4"
                         : "bg-gray-300 hover:bg-gray-400"
                     }`}
                     style={{ borderRadius: 0 }}
@@ -1398,7 +1398,7 @@ function Content() {
 
               <button
                 onClick={handleNext}
-                className="group p-3 bg-[#0891b2] text-white hover:bg-[#0e7490] transition-all transform hover:scale-105 active:scale-95 shadow-lg flex items-center"
+                className="group p-3 bg-[#f97316] text-white hover:bg-[#ea580c] transition-all transform hover:scale-105 active:scale-95 shadow-lg flex items-center"
                 style={{ borderRadius: 0 }}
               >
                 <span className="text-sm font-medium">Next</span>
@@ -1425,24 +1425,24 @@ function Content() {
             <div className="relative">
               {/* Decorative elements */}
               <div
-                className="absolute -top-6 -right-6 w-32 h-32 bg-cyan-400/20 z-0"
+                className="absolute -top-6 -right-6 w-32 h-32 bg-orange-400/20 z-0"
                 style={{ borderRadius: 0 }}
               ></div>
               <div
-                className="absolute -bottom-6 -left-6 w-24 h-24 bg-[#0891b2]/10 z-0"
+                className="absolute -bottom-6 -left-6 w-24 h-24 bg-[#f97316]/10 z-0"
                 style={{ borderRadius: 0 }}
               ></div>
 
               <div className="relative z-10">
                 <div
-                  className="bg-[#0891b2] text-white p-6"
+                  className="bg-[#f97316] text-white p-6"
                   style={{ borderRadius: 0 }}
                 >
                   <h2 className="text-2xl md:text-3xl font-bold mb-2">
                     Customer Success Stories
                   </h2>
                   <p className="text-gray-200">
-                    See why thousands of customers trust Track-Global Logistics with
+                    See why thousands of customers trust SwiftPair Logistics with
                     their shipping needs
                   </p>
                 </div>
@@ -1460,19 +1460,19 @@ function Content() {
                   <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-6">
                     <div className="grid grid-cols-3 gap-4 text-white">
                       <div className="text-center">
-                        <div className="text-3xl font-bold text-cyan-300">
+                        <div className="text-3xl font-bold text-orange-300">
                           98%
                         </div>
                         <div className="text-sm">Satisfaction Rate</div>
                       </div>
                       <div className="text-center">
-                        <div className="text-3xl font-bold text-cyan-300">
+                        <div className="text-3xl font-bold text-orange-300">
                           220+
                         </div>
                         <div className="text-sm">Countries Served</div>
                       </div>
                       <div className="text-center">
-                        <div className="text-3xl font-bold text-cyan-300">
+                        <div className="text-3xl font-bold text-orange-300">
                           15k+
                         </div>
                         <div className="text-sm">Happy Customers</div>
@@ -1482,21 +1482,21 @@ function Content() {
                 </div>
 
                 <div
-                  className="bg-white p-6 shadow-xl border-t-4 border-cyan-300"
+                  className="bg-white p-6 shadow-xl border-t-4 border-orange-300"
                   style={{ borderRadius: 0 }}
                 >
-                  <h3 className="font-bold text-xl mb-4 text-[#0891b2]">
+                  <h3 className="font-bold text-xl mb-4 text-[#f97316]">
                     Why Our Customers Love Us
                   </h3>
 
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
                     <div className="flex items-start">
                       <div
-                        className="bg-[#0891b2]/10 p-2 mr-3"
+                        className="bg-[#f97316]/10 p-2 mr-3"
                         style={{ borderRadius: 0 }}
                       >
                         <svg
-                          className="h-5 w-5 text-[#0891b2]"
+                          className="h-5 w-5 text-[#f97316]"
                           fill="none"
                           viewBox="0 0 24 24"
                           stroke="currentColor"
@@ -1510,7 +1510,7 @@ function Content() {
                         </svg>
                       </div>
                       <div>
-                        <h4 className="font-medium text-[#0891b2]">
+                        <h4 className="font-medium text-[#f97316]">
                           On-Time Delivery
                         </h4>
                         <p className="text-sm text-gray-600">
@@ -1521,11 +1521,11 @@ function Content() {
 
                     <div className="flex items-start">
                       <div
-                        className="bg-[#0891b2]/10 p-2 mr-3"
+                        className="bg-[#f97316]/10 p-2 mr-3"
                         style={{ borderRadius: 0 }}
                       >
                         <svg
-                          className="h-5 w-5 text-[#0891b2]"
+                          className="h-5 w-5 text-[#f97316]"
                           fill="none"
                           viewBox="0 0 24 24"
                           stroke="currentColor"
@@ -1539,7 +1539,7 @@ function Content() {
                         </svg>
                       </div>
                       <div>
-                        <h4 className="font-medium text-[#0891b2]">
+                        <h4 className="font-medium text-[#f97316]">
                           Secure Handling
                         </h4>
                         <p className="text-sm text-gray-600">
@@ -1550,11 +1550,11 @@ function Content() {
 
                     <div className="flex items-start">
                       <div
-                        className="bg-[#0891b2]/10 p-2 mr-3"
+                        className="bg-[#f97316]/10 p-2 mr-3"
                         style={{ borderRadius: 0 }}
                       >
                         <svg
-                          className="h-5 w-5 text-[#0891b2]"
+                          className="h-5 w-5 text-[#f97316]"
                           fill="none"
                           viewBox="0 0 24 24"
                           stroke="currentColor"
@@ -1568,7 +1568,7 @@ function Content() {
                         </svg>
                       </div>
                       <div>
-                        <h4 className="font-medium text-[#0891b2]">
+                        <h4 className="font-medium text-[#f97316]">
                           Expert Support
                         </h4>
                         <p className="text-sm text-gray-600">
@@ -1579,11 +1579,11 @@ function Content() {
 
                     <div className="flex items-start">
                       <div
-                        className="bg-[#0891b2]/10 p-2 mr-3"
+                        className="bg-[#f97316]/10 p-2 mr-3"
                         style={{ borderRadius: 0 }}
                       >
                         <svg
-                          className="h-5 w-5 text-[#0891b2]"
+                          className="h-5 w-5 text-[#f97316]"
                           fill="none"
                           viewBox="0 0 24 24"
                           stroke="currentColor"
@@ -1597,7 +1597,7 @@ function Content() {
                         </svg>
                       </div>
                       <div>
-                        <h4 className="font-medium text-[#0891b2]">
+                        <h4 className="font-medium text-[#f97316]">
                           Competitive Pricing
                         </h4>
                         <p className="text-sm text-gray-600">
@@ -1608,7 +1608,7 @@ function Content() {
                   </div>
 
                   <button
-                    className="w-full bg-gradient-to-r from-[#0891b2] to-[#0e7490] text-white py-3 font-bold hover:from-[#0e7490] hover:to-[#155e75] transition-colors flex items-center justify-center"
+                    className="w-full bg-gradient-to-r from-[#f97316] to-[#ea580c] text-white py-3 font-bold hover:from-[#ea580c] hover:to-[#c2410c] transition-colors flex items-center justify-center"
                     style={{ borderRadius: 0 }}
                   >
                     <span>READ MORE SUCCESS STORIES</span>
