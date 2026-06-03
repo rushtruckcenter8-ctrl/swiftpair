@@ -23,7 +23,7 @@ function Banner({ spanText, h2Text, pText, img, button, location, height }) {
           className="absolute inset-0"
           style={{
             background:
-              "linear-gradient(to right, rgba(194, 65, 12, 0.95) 0%, rgba(234, 88, 12, 0.85) 25%, rgba(249, 115, 22, 0.6) 50%, rgba(0, 0, 0, 0.3) 100%)",
+              "linear-gradient(to right, rgba(194, 64, 12, 0.52) 0%, rgba(234, 90, 12, 0.53) 25%, rgba(249, 116, 22, 0.33) 50%, rgba(0, 0, 0, 0.3) 100%)",
           }}
         />
         {/* Overlay pattern for texture */}

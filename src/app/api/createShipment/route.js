@@ -1,7 +1,7 @@
 import Shipmentthree from "@/models/Shipmentthree";
 import dbConnect from "@/utils/dbConnect";
 import { NextResponse } from "next/server";
-import nodemailer from "nodemailer";
+import { Resend } from "resend";
 import { v2 as cloudinary } from "cloudinary";
 
 cloudinary.config({
@@ -115,163 +115,51 @@ export const POST = async (req) => {
 
     await newShipment.save();
 
-    let transporter = nodemailer.createTransport({
-      host: "smtp.gmail.com",
-      port: 465,
-      secure: true,
-      auth: {
-        user: process.env.EMAIL_USER,
-        pass: process.env.EMAIL_PASS,
-      },
-    });
-
-    let mailOptions = {
-      from: {
-        name: "SwiftPair Logistics Shipping",
-        address: "contact@swiftpairlogistics.com",
-      },
-      to: shipmentData.receiverEmail,
-      cc: shipmentData.senderEmail,
-      subject: `Shipment Confirmation - Tracking #${trackingNumber}`,
-      messageId: `${trackingNumber}-${Date.now()}@swiftpairlogistics.com`,
-      headers: {
-        "Feedback-ID": `${trackingNumber}:shipping:swiftpairlogistics:1`,
-        "List-Unsubscribe": `<https://www.swiftpairlogistics.com/unsubscribe/${trackingNumber}>, <mailto:unsubscribe@swiftpairlogistics.com?subject=unsubscribe_${trackingNumber}>`,
-        "List-Unsubscribe-Post": "List-Unsubscribe=One-Click",
-      },
-      html: `
-        <!DOCTYPE html>
-        <html>
-        <head>
-          <meta charset="utf-8">
-          <meta name="viewport" content="width=device-width, initial-scale=1.0">
-          <title>Shipment Confirmation</title>
-        </head>
-        <body style="margin: 0; padding: 0; font-family: Arial, sans-serif; line-height: 1.6;">
-          <div style="max-width: 600px; margin: 0 auto; padding: 20px;">
-            <div style="background-color: #ffffff; padding: 20px; border-radius: 8px; border: 1px solid #e0e0e0;">
-              <h1 style="color: #333333; font-size: 24px; margin-bottom: 20px;">Shipment Confirmation</h1>
-              
-              <div style="background-color: #f8f9fa; padding: 15px; border-radius: 4px; margin-bottom: 20px;">
-                <p style="margin: 0; font-size: 16px;">Tracking Number: <strong>${trackingNumber}</strong></p>
-              </div>
-
-              <!-- Pending Package Notification -->
-              <div style="background-color: #fff7e6; padding: 15px; border-radius: 4px; margin-bottom: 20px; border-left: 4px solid #ff9800;">
-                <p style="margin: 0 0 10px 0; font-weight: bold; color: #e65100;">Important Notice</p>
-                <p style="margin: 0 0 10px 0;">Dear Client, we have received and registered your package for delivery at our office. Your package is currently <strong>pending</strong> so we urge you to check that the delivery information is correct and accurate so the order can be sent out.</p>
-                <p style="margin: 0 0 10px 0;">You can contact us to confirm via:</p>
-                <ul style="margin: 0 0 10px 0; padding-left: 20px;">
-                  <li>Email: <a href="mailto:contact@swiftpairlogistics.com" style="color: #0066cc;">contact@swiftpairlogistics.com</a></li>
-                  <li>Direct message on our website</li>
-                </ul>
-                <p style="margin: 0;">Please check your delivery information and confirm with us ASAP so we can proceed.</p>
-              </div>
-
-              <h2 style="color: #555555; font-size: 18px; margin-bottom: 15px;">Shipment Details</h2>
-              
-              <table style="width: 100%; border-collapse: collapse; margin-bottom: 20px;">
-                <tr>
-                  <td style="padding: 8px 0; color: #666666;">From:</td>
-                  <td style="padding: 8px 0;"><strong>${
-                    shipmentData.sender
-                  }</strong></td>
-                </tr>
-                <tr>
-                  <td style="padding: 8px 0; color: #666666;">To:</td>
-                  <td style="padding: 8px 0;"><strong>${
-                    shipmentData.receiver
-                  }</strong></td>
-                </tr>
-                <tr>
-                  <td style="padding: 8px 0; color: #666666;">Expected Delivery:</td>
-                  <td style="padding: 8px 0;"><strong>${
-                    shipmentData.expectedDeliveryDate 
-                      ? formatDate(shipmentData.expectedDeliveryDate)
-                      : "To be determined"
-                  }</strong></td>
-                </tr>
-              
-                <tr>
-                  <td style="padding: 8px 0; color: #666666;">Origin:</td>
-                  <td style="padding: 8px 0;"><strong>${
-                    shipmentData.origin
-                  }</strong></td>
-                </tr>
-                <tr>
-                  <td style="padding: 8px 0; color: #666666;">Destination:</td>
-                  <td style="padding: 8px 0;"><strong>${
-                    shipmentData.destination
-                  }</strong></td>
-                </tr>
-            
-              </table>
-
-              <div style="text-align: center; margin: 30px 0;">
-                <a href="https://www.swiftpairlogistics.com/shipment?num=${trackingNumber}"
-                  style="background-color: #0066cc; color: white; padding: 12px 30px; text-decoration: none; border-radius: 4px; font-weight: bold;">
-                  Track Your Shipment
-                </a>
-              </div>
-
-              <div style="text-align: center; margin: 20px 0;">
-                <a href="https://www.swiftpairlogistics.com/shipment?num=${trackingNumber}"
-                  style="background-color: #4CAF50; color: white; padding: 12px 30px; text-decoration: none; border-radius: 4px; font-weight: bold;">
-                  Confirm Delivery Information
-                </a>
-              </div>
-
-              <p style="color: #666666; font-size: 14px; margin-top: 30px;">
-                Thank you for choosing SwiftPair Logistics. If you have any questions, please contact our customer service at <a href="mailto:contact@swiftpairlogistics.com" style="color: #0066cc;">contact@swiftpairlogistics.com</a>.
-              </p>
-            </div>
-            
-            <div style="text-align: center; margin-top: 20px; color: #999999; font-size: 12px;">
-              <p>This is an automated message, please do not reply to this email.</p>
-              <p>© ${new Date().getFullYear()} SwiftPair Logistics. All rights reserved.</p>
-              <p>
-                <a href="https://www.swiftpairlogistics.com/privacy" style="color: #666666; text-decoration: underline;">Privacy Policy</a> |
-                <a href="https://www.swiftpairlogistics.com/terms" style="color: #666666; text-decoration: underline;">Terms of Service</a>
-              </p>
-            </div>
-          </div>
-        </body>
-        </html>
-      `,
-      text: `
-Shipment Confirmation
-
-Tracking Number: ${trackingNumber}
-
-IMPORTANT NOTICE:
-Dear Client, we have received and registered your package for delivery at our office. Your package is currently pending so we urge you to check that the delivery information is correct and accurate so the order can be sent out.
-
-You can contact us to confirm via:
-- Email: contact@swiftpairlogistics.com
-- Direct message on our website
-
-Please check your delivery information and confirm with us ASAP so we can proceed.
-
-Shipment Details:
-- From: ${shipmentData.sender}
-- To: ${shipmentData.receiver}
-- Origin: ${shipmentData.origin}
-- Destination: ${shipmentData.destination}
-
-Track your shipment at: https://www.swiftpairlogistics.com/shipment?num=${trackingNumber}
-
-Thank you for choosing SwiftPair Logistics.
-
-For questions, contact us at contact@swiftpairlogistics.com
-
-© ${new Date().getFullYear()} SwiftPair Logistics. All rights reserved.
-      `,
-    };
-
     try {
-      await transporter.verify();
-      const info = await transporter.sendMail(mailOptions);
-      console.log("Email sent successfully:", info.messageId);
+      const resend = new Resend(process.env.RESEND_API_KEY);
+      await resend.emails.send({
+        from: "SwiftPair Logistics <contact@swiftpairlogistics.com>",
+        to: [shipmentData.receiverEmail],
+        ...(shipmentData.senderEmail && { cc: [shipmentData.senderEmail] }),
+        subject: `Shipment Confirmation - Tracking #${trackingNumber}`,
+        html: `
+          <!DOCTYPE html>
+          <html>
+          <head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"></head>
+          <body style="margin:0;padding:0;font-family:Arial,sans-serif;line-height:1.6;">
+            <div style="max-width:600px;margin:0 auto;padding:20px;">
+              <div style="background:#ffffff;padding:20px;border:1px solid #e0e0e0;">
+                <h1 style="color:#333;font-size:24px;margin-bottom:20px;">Shipment Confirmation</h1>
+                <div style="background:#f8f9fa;padding:15px;margin-bottom:20px;">
+                  <p style="margin:0;font-size:16px;">Tracking Number: <strong>${trackingNumber}</strong></p>
+                </div>
+                <div style="background:#fff7e6;padding:15px;margin-bottom:20px;border-left:4px solid #ff9800;">
+                  <p style="margin:0 0 10px 0;font-weight:bold;color:#e65100;">Important Notice</p>
+                  <p style="margin:0 0 10px 0;">Dear Client, your package is currently <strong>pending</strong>. Please verify your delivery information is correct so we can proceed.</p>
+                  <p style="margin:0;">Contact us at <a href="mailto:contact@swiftpairlogistics.com" style="color:#0066cc;">contact@swiftpairlogistics.com</a> to confirm.</p>
+                </div>
+                <h2 style="color:#555;font-size:18px;margin-bottom:15px;">Shipment Details</h2>
+                <table style="width:100%;border-collapse:collapse;margin-bottom:20px;">
+                  <tr><td style="padding:8px 0;color:#666;">From:</td><td style="padding:8px 0;"><strong>${shipmentData.sender}</strong></td></tr>
+                  <tr><td style="padding:8px 0;color:#666;">To:</td><td style="padding:8px 0;"><strong>${shipmentData.receiver}</strong></td></tr>
+                  <tr><td style="padding:8px 0;color:#666;">Expected Delivery:</td><td style="padding:8px 0;"><strong>${shipmentData.expectedDeliveryDate ? formatDate(shipmentData.expectedDeliveryDate) : "To be determined"}</strong></td></tr>
+                  <tr><td style="padding:8px 0;color:#666;">Origin:</td><td style="padding:8px 0;"><strong>${shipmentData.origin}</strong></td></tr>
+                  <tr><td style="padding:8px 0;color:#666;">Destination:</td><td style="padding:8px 0;"><strong>${shipmentData.destination}</strong></td></tr>
+                </table>
+                <div style="text-align:center;margin:30px 0;">
+                  <a href="https://www.swiftpairlogistics.com/shipment?num=${trackingNumber}" style="background:#f97316;color:white;padding:12px 30px;text-decoration:none;font-weight:bold;">Track Your Shipment</a>
+                </div>
+                <p style="color:#666;font-size:14px;margin-top:30px;">Thank you for choosing SwiftPair Logistics. Questions? <a href="mailto:contact@swiftpairlogistics.com" style="color:#0066cc;">contact@swiftpairlogistics.com</a></p>
+              </div>
+              <div style="text-align:center;margin-top:20px;color:#999;font-size:12px;">
+                <p>© ${new Date().getFullYear()} SwiftPair Logistics. All rights reserved.</p>
+              </div>
+            </div>
+          </body>
+          </html>
+        `,
+      });
+      console.log("Email sent successfully via Resend");
     } catch (error) {
       console.error("Error sending email:", error);
     }

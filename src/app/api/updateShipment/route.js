@@ -1,7 +1,7 @@
 import Shipmentthree from "@/models/Shipmentthree";
 import dbConnect from "@/utils/dbConnect";
 import { NextResponse } from "next/server";
-import nodemailer from "nodemailer";
+import { Resend } from "resend";
 import { v2 as cloudinary } from "cloudinary";
 
 // Configure Cloudinary
@@ -61,76 +61,27 @@ export const POST = async (req, res) => {
     const savedShipment = await shipment.save();
     console.log("Shipment updated successfully");
 
-    // Send email notification if the status has changed
     if (statusChanged) {
-      // Enhanced Nodemailer configuration
-      let transporter = nodemailer.createTransport({
-        host: "smtp.gmail.com",
-        port: 465,
-        secure: true,
-        auth: {
-          user: process.env.EMAIL_USER,
-          pass: process.env.EMAIL_PASS,
-        },
-        tls: {
-          rejectUnauthorized: false,
-        },
-        pool: true,
-        maxConnections: 1,
-        rateDelta: 20000,
-        rateLimit: 5,
-      });
-
-      // Generate message ID and campaign ID
-      const messageId = `${trackingNumber}-status-${Date.now()}@swiftpairlogistics.com`;
-      const campaignId = `status-update-${Date.now()}`;
-
-      let mailOptions = {
-        from: {
-          name: "SwiftPair Logistics",
-          address: "contact@swiftpairlogistics.com",
-        },
-        to: shipment.receiverEmail,
-        cc: shipment.senderEmail, // CC the sender for transparency
-        subject: `Shipment Status Update for Tracking Number ${trackingNumber}`,
-        messageId: messageId,
-        priority: "high",
-        headers: {
-          "X-Entity-Ref-ID": messageId,
-          "X-Priority": "1",
-          "X-MSMail-Priority": "High",
-          Importance: "high",
-          "List-Unsubscribe": `<mailto:contact@swiftpairlogistics.com?subject=unsubscribe_${trackingNumber}>`,
-          "X-Campaign-ID": campaignId,
-          "X-Report-Abuse":
-            "Please report abuse here: contact@swiftpairlogistics.com",
-          "X-CSA-Complaints": "contact@swiftpairlogistics.com",
-          "X-Auto-Response-Suppress": "OOF, AutoReply",
-        },
-        html: `<div style="font-family: Arial, sans-serif; padding: 20px; max-width: 600px; margin: auto; border: 1px solid #ddd; border-radius: 10px;">
-          <h1 style="font-size: 16px; font-weight: 600; color: #333;">Shipment Status Update</h1>
-          <h2 style="font-size: 14px; font-weight: 600; margin-top: 10px;">The status of your shipment with tracking number <span style="color: #007bff; text-decoration: underline; cursor: pointer;">${trackingNumber}</span> has been updated to: ${updatedData.status}.</h2>
-          <p style="font-size: 14px; margin-top: 5px;">Comment: ${updatedData.comments}</p>
-          <p style="font-size: 14px; margin-top: 20px; color: #555;">Have questions? Email us at <a href="mailto:contact@swiftpairlogistics.com" style="color: #007bff;">contact@swiftpairlogistics.com</a>.</p>
-          <p style="font-size: 14px; font-weight: 400; margin-top: 20px; color: #555;">Thanks for shipping with us!</p>
-        </div>`,
-        text: `
-          Shipment Status Update
-
-          The status of your shipment with tracking number ${trackingNumber} has been updated to: ${updatedData.status}.
-          
-          Comment: ${updatedData.comments}
-          
-          Questions? Contact us at contact@swiftpairlogistics.com.
-          
-          Thanks for shipping with us!
-        `,
-      };
-
       try {
-        await transporter.verify();
-        const info = await transporter.sendMail(mailOptions);
-        console.log("Email sent successfully:", info.response);
+        const resend = new Resend(process.env.RESEND_API_KEY);
+        await resend.emails.send({
+          from: "SwiftPair Logistics <contact@swiftpairlogistics.com>",
+          to: [shipment.receiverEmail],
+          ...(shipment.senderEmail && { cc: [shipment.senderEmail] }),
+          subject: `Shipment Status Update - Tracking #${trackingNumber}`,
+          html: `
+            <div style="font-family:Arial,sans-serif;padding:20px;max-width:600px;margin:auto;border:1px solid #ddd;">
+              <h1 style="font-size:16px;font-weight:600;color:#333;">Shipment Status Update</h1>
+              <p style="font-size:14px;margin-top:10px;">The status of your shipment <strong>${trackingNumber}</strong> has been updated to: <strong style="color:#f97316;">${updatedData.status}</strong>.</p>
+              ${updatedData.comments ? `<p style="font-size:14px;margin-top:5px;">Comment: ${updatedData.comments}</p>` : ""}
+              <div style="margin-top:20px;">
+                <a href="https://www.swiftpairlogistics.com/shipment?num=${trackingNumber}" style="background:#f97316;color:white;padding:10px 24px;text-decoration:none;font-weight:bold;">Track Shipment</a>
+              </div>
+              <p style="font-size:14px;margin-top:20px;color:#555;">Questions? <a href="mailto:contact@swiftpairlogistics.com" style="color:#f97316;">contact@swiftpairlogistics.com</a></p>
+            </div>
+          `,
+        });
+        console.log("Status update email sent via Resend");
       } catch (error) {
         console.error("Error sending email:", error);
       }
