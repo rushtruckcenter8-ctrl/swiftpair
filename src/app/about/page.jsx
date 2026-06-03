@@ -33,9 +33,9 @@ function Page() {
         img={
           "/images_now/african-american-worker-writing-inventory-list-while-checking-stock-storage-room_637285-4716.jpg"
         }
-        h2Text={"About SwiftPair Logistics"}
+        h2Text={"Who We Are"}
         location={""}
-        spanText={"Your Trusted Logistics Partner Since 1995"}
+        spanText={"Three Decades of Reliable Delivery"}
       />
 
       {/* Introduction Section */}
@@ -85,24 +85,12 @@ function Page() {
                 </div>
 
                 <h2 className="text-4xl md:text-5xl font-bold mb-6">
-                  Your Trusted Partner for Global Deliveries
+                  Logistics Without Compromise
                 </h2>
                 <div className="w-20 h-1 bg-orange-300 mb-8"></div>
                 <div className="md:max-w-4xl">
-                  <p className="text-xl mb-6 leading-relaxed text-white/95">
-                    At SwiftPair Logistics Courier, every package receives
-                    meticulous attention and care, ensuring complete
-                    satisfaction for deliveries both locally and globally. Our
-                    commitment extends beyond shipping—we create seamless,
-                    customized delivery experiences tailored to your unique
-                    requirements.
-                  </p>
                   <p className="text-xl mb-10 leading-relaxed text-white/95">
-                    What sets us apart? A passionate team of logistics experts
-                    dedicated to ensuring your shipments arrive safely and on
-                    time. We honor our commitments and help you fulfill yours,
-                    building lasting partnerships through reliability and
-                    excellence.
+                    We've spent 30 years building a logistics network that businesses and individuals can count on. Every shipment matters.
                   </p>
                   <div className="flex flex-col sm:flex-row gap-4">
                     <button
@@ -110,7 +98,7 @@ function Page() {
                       className="bg-white text-[#f97316] hover:bg-gray-100 font-bold py-4 px-10 transition-all shadow-lg hover:shadow-xl transform hover:scale-105 flex items-center justify-center"
                       style={{ borderRadius: 0 }}
                     >
-                      CONTACT US TODAY
+                      GET IN TOUCH
                       <svg
                         className="w-5 h-5 ml-2"
                         fill="none"
@@ -130,7 +118,7 @@ function Page() {
                       className="border-2 border-white hover:bg-white hover:text-[#f97316] text-white font-bold py-4 px-10 transition-all flex items-center justify-center"
                       style={{ borderRadius: 0 }}
                     >
-                      TRACK SHIPMENT
+                      TRACK A SHIPMENT
                       <svg
                         className="w-5 h-5 ml-2"
                         fill="none"
@@ -196,44 +184,16 @@ function Page() {
                   Our Story
                 </span>
                 <h2 className="text-3xl md:text-4xl font-bold mb-4 text-transparent bg-clip-text bg-gradient-to-r from-[#f97316] to-[#c2410c]">
-                  A Success Story Spanning Three Decades
+                  30 Years. One Mission: Deliver.
                 </h2>
                 <div className="w-20 h-1 bg-[#f97316] mb-8"></div>
               </div>
 
               <div className="space-y-6 text-gray-700 mb-8">
                 <p className="leading-relaxed text-lg">
-                  Founded in the vibrant city of Montreal in 1995, SwiftTrack
-                  Express Courier quickly established itself as a leader in
-                  express delivery services. What began as a local courier
-                  company has grown into an international logistics powerhouse.
-                </p>
-                <p className="leading-relaxed">
-                  With over{" "}
-                  <span className="font-semibold text-[#f97316]">
-                    25 years of experience
-                  </span>
-                  , we now serve more than{" "}
-                  <span className="font-semibold text-[#f97316]">
-                    220 destinations worldwide
-                  </span>
-                  . Our reputation is built on reliability, efficiency, and an
-                  unwavering commitment to honoring our promises while
-                  prioritizing the well-being of our team.
-                </p>
-                <p className="leading-relaxed">
-                  At SwiftPair Logistics, we adapt to your unique shipping
-                  requirements, providing premium courier services across
-                  diverse industries including manufacturing, textiles,
-                  automotive, furniture, engineering, and architecture.
-                </p>
-                <p className="leading-relaxed">
-                  We're proud to be the trusted carrier for prestigious
-                  institutions including Quebec universities, the Quebec
-                  government, the Quebec Health Network, and many more. Our
-                  specialized expertise in transporting valuable items,
-                  including works of art, ensures the safety and security of
-                  your most precious shipments.
+                  Founded in Montreal in 1995, SwiftPair Logistics has grown from a local courier into a global freight partner. We serve{" "}
+                  <span className="font-semibold text-[#f97316]">220+ destinations</span>{" "}
+                  across manufacturing, textiles, automotive, and more — with the same commitment to precision we've always had.
                 </p>
               </div>
 
@@ -304,7 +264,7 @@ function Page() {
       <section className="py-16 md:py-24 px-4 bg-gradient-to-br from-[#ea580c] via-[#f97316] to-[#fb923c] text-white">
         <div className="max-w-7xl mx-auto text-center" data-aos="fade-up">
           <h2 className="text-3xl md:text-5xl font-bold mb-6">
-            Excellence in Numbers
+            By the Numbers
           </h2>
           <div className="w-20 h-1 bg-orange-300 mx-auto mb-12"></div>
           <p className="max-w-3xl mx-auto text-white/90 text-lg mb-12">
@@ -320,7 +280,7 @@ function Page() {
             >
               <h3 className="text-5xl font-bold text-orange-300 mb-3">12M+</h3>
               <p className="text-sm text-white/90 leading-relaxed">
-                Orders processed with unwavering dedication
+                Shipments delivered
               </p>
             </div>
 
@@ -330,7 +290,7 @@ function Page() {
             >
               <h3 className="text-5xl font-bold text-orange-300 mb-3">98%</h3>
               <p className="text-sm text-white/90 leading-relaxed">
-                On-time delivery rate – Your time matters
+                On-time rate
               </p>
             </div>
 
@@ -340,7 +300,7 @@ function Page() {
             >
               <h3 className="text-5xl font-bold text-orange-300 mb-3">350+</h3>
               <p className="text-sm text-white/90 leading-relaxed">
-                Professional delivery drivers across our network
+                Logistics experts
               </p>
             </div>
 
@@ -350,7 +310,7 @@ function Page() {
             >
               <h3 className="text-5xl font-bold text-orange-300 mb-3">250K+</h3>
               <p className="text-sm text-white/90 leading-relaxed">
-                Satisfied customers – Join our growing family
+                Happy customers
               </p>
             </div>
 
@@ -360,7 +320,7 @@ function Page() {
             >
               <h3 className="text-5xl font-bold text-orange-300 mb-3">4.8/5</h3>
               <p className="text-sm text-white/90 leading-relaxed">
-                Average rating on Google – Trusted by thousands
+                Google rating
               </p>
             </div>
           </div>
@@ -375,18 +335,14 @@ function Page() {
               className="inline-block px-4 py-1 bg-[#f97316]/10 text-[#f97316] font-medium mb-4"
               style={{ borderRadius: 0 }}
             >
-              Our Approach
+              What We Offer
             </span>
             <h2 className="text-3xl md:text-5xl font-bold mb-6 text-transparent bg-clip-text bg-gradient-to-r from-[#f97316] to-[#c2410c]">
-              Adaptable Solutions for Every Challenge
+              Designed Around Your Needs
             </h2>
             <div className="w-20 h-1 bg-[#f97316] mx-auto mb-8"></div>
             <p className="max-w-3xl mx-auto text-lg text-gray-700 leading-relaxed">
-              Your challenge is our mission! At SwiftPair Logistics, we
-              understand that every delivery is unique. We adapt to your
-              specific shipping needs with custom courier solutions. Our expert
-              team is ready to meet the transport and delivery requirements of
-              both standard and specialized packages.
+              Every business ships differently. We build logistics solutions that fit your requirements — not the other way around.
             </p>
           </div>
 
@@ -419,9 +375,7 @@ function Page() {
                 Custom Solutions
               </h3>
               <p className="text-gray-700 mb-6 leading-relaxed">
-                We tailor our services to meet your unique shipping
-                requirements, ensuring your packages are delivered exactly how
-                you need them, when you need them.
+                Every business is different. We adapt.
               </p>
               <div className="flex items-center text-[#f97316] font-semibold group-hover:gap-3 transition-all">
                 <span>Learn more</span>
@@ -469,9 +423,7 @@ function Page() {
                 Global Network
               </h3>
               <p className="text-gray-700 mb-6 leading-relaxed">
-                Our extensive international network spans over 220 destinations
-                worldwide, enabling efficient and reliable delivery of your
-                packages anywhere on the globe.
+                Shipping to 220+ destinations worldwide.
               </p>
               <div className="flex items-center text-[#f97316] font-semibold group-hover:gap-3 transition-all">
                 <span>Learn more</span>
@@ -519,9 +471,7 @@ function Page() {
                 Expert Support
               </h3>
               <p className="text-gray-700 mb-6 leading-relaxed">
-                Our dedicated team of logistics experts is available 24/7 to
-                assist you with any shipping challenges, providing personalized
-                support and strategic guidance.
+                Our team is always available.
               </p>
               <div className="flex items-center text-[#f97316] font-semibold group-hover:gap-3 transition-all">
                 <span>Learn more</span>
@@ -559,14 +509,10 @@ function Page() {
 
               <div className="md:w-2/3 text-white mb-8 md:mb-0 md:pr-12 relative z-10">
                 <h3 className="text-3xl md:text-4xl font-bold mb-6">
-                  More Than a Courier Company – Your Strategic Logistics Partner
+                  More Than a Courier.
                 </h3>
                 <p className="mb-8 text-lg text-white/95 leading-relaxed">
-                  Contact us today and discover the SwiftPair Logistics
-                  difference. Our expert team is ready to provide you with the
-                  best shipping solutions tailored to your specific needs,
-                  backed by decades of experience and a commitment to
-                  excellence.
+                  From a single parcel to a full supply chain — we deliver with precision, speed, and care.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4">
                   <button
@@ -574,7 +520,7 @@ function Page() {
                     className="bg-white text-[#f97316] hover:bg-gray-100 font-bold py-4 px-10 transition-all shadow-lg hover:shadow-xl transform hover:scale-105 flex items-center justify-center"
                     style={{ borderRadius: 0 }}
                   >
-                    CONTACT US TODAY
+                    GET IN TOUCH
                     <svg
                       className="w-5 h-5 ml-2"
                       fill="none"
@@ -594,7 +540,7 @@ function Page() {
                     className="border-2 border-white hover:bg-white hover:text-[#f97316] text-white font-bold py-4 px-10 transition-all flex items-center justify-center"
                     style={{ borderRadius: 0 }}
                   >
-                    TRACK SHIPMENT
+                    TRACK A SHIPMENT
                     <svg
                       className="w-5 h-5 ml-2"
                       fill="none"

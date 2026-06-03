@@ -19,11 +19,11 @@ export const metadata = {
   metadataBase: new URL(siteUrl),
   title: {
     default:
-      "SwiftPair Logistics - International Transport & Logistics | Track Your Shipment",
+      "SwiftPair Logistics — Ship Smarter, Deliver Faster",
     template: "%s | SwiftPair Logistics",
   },
   description:
-    "SwiftPair Logistics is a leading international transport and logistics company. Track your shipments in real-time, access warehouse solutions, and experience reliable global shipping across 220+ destinations. 24/7 support available.",
+    "SwiftPair Logistics delivers to 220+ destinations worldwide. Real-time tracking, air, ocean, and road freight — built for speed, backed by experience.",
   keywords: [
     "international shipping",
     "logistics company",
@@ -53,9 +53,9 @@ export const metadata = {
     locale: "en_US",
     url: siteUrl,
     siteName: "SwiftPair Logistics",
-    title: "SwiftPair Logistics - International Transport & Logistics",
+    title: "SwiftPair Logistics — Global Shipping, Simplified",
     description:
-      "Track your shipments in real-time with SwiftPair Logistics. Leading international transport and logistics company serving 220+ destinations worldwide.",
+      "220+ destinations. Real-time tracking. 98% on-time delivery. SwiftPair Logistics.",
     images: [
       {
         url: "/images/track_logo.png",
@@ -67,9 +67,9 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "SwiftPair Logistics - International Transport & Logistics",
+    title: "SwiftPair Logistics — Global Shipping, Simplified",
     description:
-      "Track your shipments in real-time. Leading international transport and logistics company.",
+      "Fast, secure shipping to 220+ destinations worldwide. Real-time tracking available.",
     images: ["/images/track_logo.png"],
     creator: "@swiftpairlogistics",
   },

@@ -172,7 +172,7 @@ function Navbar() {
                 </div>
                 <div className="flex items-center space-x-2 group cursor-default">
                   <MapPin className="h-4 w-4 text-white/90 group-hover:text-white transition-colors" />
-                  <span className="font-medium">Global Logistics Network</span>
+                  <span className="font-medium">220+ Destinations</span>
                 </div>
               </div>
               <div className="flex items-center space-x-6">
@@ -221,8 +221,8 @@ function Navbar() {
                 <Image
                   src="/images/track_logo.png"
                   alt="SwiftPair Logistics - International Transport and Logistics"
-                 width={150}
-                 height={150}
+                 width={90}
+                 height={90}
                   className="object-cover"
                   priority
                 />
@@ -327,7 +327,7 @@ function Navbar() {
                 <Package className="h-5 w-5 text-gray-400 flex-shrink-0" />
                 <input
                   type="text"
-                  placeholder="Enter tracking number"
+                  placeholder="Tracking number"
                   value={trackingNumber}
                   onChange={(e) => setTrackingNumber(e.target.value)}
                   className="flex-1 bg-transparent border-none outline-none text-sm placeholder:text-gray-400 text-gray-700"

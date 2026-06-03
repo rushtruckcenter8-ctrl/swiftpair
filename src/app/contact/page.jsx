@@ -71,7 +71,7 @@ function Page() {
         content={"CONTACT US"}
         height={"40vh"}
         location={""}
-        spanText={"Get in Touch - We're Here to Help"}
+        spanText={"We're here whenever you need us."}
       />
 
       <div className="flex-grow py-8 sm:py-12 md:py-16 px-4">
@@ -81,16 +81,14 @@ function Page() {
               className="inline-block px-4 py-1 bg-[#f97316]/10 text-[#f97316] font-medium mb-4 text-sm"
               style={{ borderRadius: 0 }}
             >
-              Contact Us
+              Contact
             </span>
             <h1 className="text-4xl sm:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#f97316] to-[#c2410c] mb-4 sm:mb-6">
-              Get in Touch
+              Let's Talk
             </h1>
             <div className="w-20 h-1 bg-[#f97316] mx-auto mb-4 sm:mb-6"></div>
             <p className="text-gray-700 max-w-3xl mx-auto text-base sm:text-lg leading-relaxed">
-              Have questions about our services or need a shipping quote? Our
-              expert team is ready to assist you with all your logistics needs.
-              Reach out today and experience the SwiftPair Logistics difference.
+              Need a quote or have questions? Our team responds fast.
             </p>
           </div>
 
@@ -108,7 +106,7 @@ function Page() {
                   ></div>
                   <div className="relative z-10">
                     <h2 className="text-xl sm:text-2xl font-bold mb-8">
-                      Contact Information
+                      Reach Us
                     </h2>
                     <div className="space-y-6 sm:space-y-8">
                       <div className="flex items-start">
@@ -351,7 +349,7 @@ function Page() {
                     </svg>
                   </div>
                   <h2 className="text-2xl sm:text-3xl font-bold text-[#f97316]">
-                    Send Us a Message
+                    Send a Message
                   </h2>
                 </div>
 
@@ -551,7 +549,7 @@ function Page() {
                       className="w-full bg-gradient-to-r from-[#f97316] to-[#ea580c] hover:from-[#ea580c] hover:to-[#c2410c] text-white font-bold py-4 px-8 transition-all shadow-lg hover:shadow-xl transform hover:scale-[1.02] flex items-center justify-center text-base"
                       style={{ borderRadius: 0 }}
                     >
-                      <span>Send Message</span>
+                      <span>Send</span>
                       <svg
                         className="w-4 h-4 sm:w-5 sm:h-5 ml-2"
                         fill="none"
@@ -585,13 +583,11 @@ function Page() {
               FAQ
             </span>
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#f97316] to-[#c2410c] mb-4 sm:mb-6">
-              Frequently Asked Questions
+              Quick Answers
             </h2>
             <div className="w-20 h-1 bg-[#f97316] mx-auto mb-6"></div>
             <p className="text-gray-700 text-base sm:text-lg max-w-3xl mx-auto">
-              Find answers to common questions about our shipping and logistics
-              services. Can't find what you're looking for? Contact our support
-              team.
+              Can't find what you're looking for? Contact us directly.
             </p>
           </div>
 
@@ -624,9 +620,7 @@ function Page() {
                     What areas do you service?
                   </h3>
                   <p className="text-gray-700 leading-relaxed">
-                    We deliver to over 220 destinations worldwide, including all
-                    major cities and remote locations. Our extensive network
-                    ensures reliable service wherever you need to ship.
+                    We ship to 220+ destinations worldwide. Contact us to confirm coverage for your region.
                   </p>
                 </div>
               </div>
@@ -660,10 +654,7 @@ function Page() {
                     How can I track my shipment?
                   </h3>
                   <p className="text-gray-700 leading-relaxed">
-                    You can track your shipment using the tracking number
-                    provided at the time of booking. Use our website's tracking
-                    tool or mobile app for real-time updates on your package
-                    location.
+                    Enter your tracking number on the shipment page for real-time updates.
                   </p>
                 </div>
               </div>
@@ -734,10 +725,7 @@ function Page() {
                     Do you offer insurance for shipments?
                   </h3>
                   <p className="text-gray-700 leading-relaxed">
-                    Yes, we offer comprehensive insurance options for all
-                    shipments to ensure your items are protected throughout the
-                    delivery process. Coverage can be customized based on the
-                    value of your shipment.
+                    Yes. We offer comprehensive insurance for all shipment types. Ask us for details.
                   </p>
                 </div>
               </div>
@@ -750,7 +738,7 @@ function Page() {
               style={{ borderRadius: 0 }}
             >
               <p className="text-gray-700 mb-6 text-lg font-medium">
-                Still have questions? Our team is here to help.
+                Still have questions?
               </p>
               <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
                 <a
@@ -770,7 +758,7 @@ function Page() {
                       d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
                     />
                   </svg>
-                  Email our support team
+                  Email Support
                 </a>
                 <span className="text-gray-400 hidden sm:inline text-2xl">
                   |

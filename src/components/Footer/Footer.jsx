@@ -34,17 +34,15 @@ function Footer() {
               >
                 <Image
                   src="/images/track_logo2.png"
-                  width={400}
-                  height={80}
+                  width={140}
+                  height={140}
                   alt="SwiftPair Logistics - International Transport and Logistics"
-                  className="h-20 w-auto object-contain "
+                  className="h-24 w-auto object-contain filter brightness-0 invert"
                   priority
                 />
               </div>
               <p className="text-gray-200 mb-6 text-sm leading-relaxed">
-                Your trusted partner for fast, secure, and reliable worldwide
-                shipping solutions. Connecting businesses and individuals across
-                220+ destinations with over 25 years of excellence.
+                Fast, secure shipping to 220+ destinations worldwide. 30 years of logistics excellence.
               </p>
 
               {/* Social Media Icons */}
@@ -441,10 +439,9 @@ function Footer() {
           {/* Newsletter Subscription */}
           <div className="border-t border-white/20 pt-8 pb-8">
             <div className="max-w-xl mx-auto text-center">
-              <h3 className="text-xl font-bold mb-4">Stay Connected</h3>
+              <h3 className="text-xl font-bold mb-4">Stay in the Loop</h3>
               <p className="text-gray-200 mb-6">
-                Get the latest shipping tips, industry insights, and exclusive
-                offers delivered to your inbox
+                Shipping tips, updates, and exclusive offers — in your inbox.
               </p>
               <form className="flex flex-col sm:flex-row gap-2">
                 <input

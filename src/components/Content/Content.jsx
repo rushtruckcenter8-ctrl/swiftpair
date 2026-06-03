@@ -251,7 +251,7 @@ function Content() {
           <div className="bg-white border border-gray-200 shadow-lg p-8 md:p-10">
             <div className="border-b border-gray-200 pb-6 mb-8">
               <h1 className="text-3xl md:text-4xl font-bold text-left text-[#f97316]">
-                Track Your Shipment
+                Where's Your Package?
               </h1>
             </div>
 
@@ -260,7 +260,7 @@ function Content() {
                 htmlFor="tracking-input"
                 className="block text-sm font-medium text-gray-700 mb-2"
               >
-                Enter your tracking number
+                Tracking number
               </label>
               <div className="flex flex-col md:flex-row items-stretch gap-3">
                 <div className="relative flex-grow">
@@ -285,7 +285,7 @@ function Content() {
                     type="text"
                     value={trackingNumber}
                     onChange={(e) => setTrackingNumber(e.target.value)}
-                    placeholder="Enter your tracking number"
+                    placeholder="Tracking number"
                     required
                     className="w-full pl-12 pr-4 py-4 border-2 border-gray-300 focus:outline-none focus:border-[#f97316] focus:ring-2 focus:ring-orange-100 transition-all text-gray-700 text-base"
                     style={{ borderRadius: 0 }}
@@ -323,7 +323,7 @@ function Content() {
                     </>
                   ) : (
                     <>
-                      <span>Track Now</span>
+                      <span>Track</span>
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         className="h-5 w-5"
@@ -360,7 +360,7 @@ function Content() {
                       d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
                     />
                   </svg>
-                  Enter your tracking ID to get real-time updates
+                  Get real-time delivery updates in seconds.
                 </p>
               </div>
 
@@ -414,10 +414,10 @@ function Content() {
           <div className="w-full lg:w-1/2 animate-fade-in" data-aos="fade-up">
             <div className="border-l-4 border-[#f97316] pl-4 mb-6">
               <h1 className="text-3xl md:text-4xl font-bold mb-2 text-[#f97316]">
-                Delivering Excellence Worldwide
+                Numbers That Speak for Themselves
               </h1>
               <p className="text-[#f97316] font-medium">
-                Domestic & International Courier Services
+                Trusted by businesses and individuals across the globe.
               </p>
             </div>
 
@@ -451,7 +451,7 @@ function Content() {
                   <h1 className="text-4xl font-bold">M+</h1>
                 </div>
                 <p className="text-gray-600 mt-2 font-medium">
-                  Orders Processed Since 1995
+                  Shipments Delivered
                 </p>
               </div>
               <div className="border-l-4 border-[#f97316] pl-4 transition-all hover:pl-5 hover:bg-white">
@@ -466,7 +466,7 @@ function Content() {
                   )}
                 </div>
                 <p className="text-gray-600 mt-2 font-medium">
-                  Active Customers
+                  Customers
                 </p>
               </div>
               <div className="border-l-4 border-[#f97316] pl-4 transition-all hover:pl-5 hover:bg-white">
@@ -483,7 +483,7 @@ function Content() {
                   <h1 className="text-4xl font-bold">%</h1>
                 </div>
                 <p className="text-gray-600 mt-2 font-medium">
-                  On-Time Delivery Rate
+                  On-Time Rate
                 </p>
               </div>
               <div className="border-l-4 border-[#f97316] pl-4 transition-all hover:pl-5 hover:bg-white">
@@ -499,7 +499,7 @@ function Content() {
                   <h1 className="text-4xl font-bold">+</h1>
                 </div>
                 <p className="text-gray-600 mt-2 font-medium">
-                  Global Delivery Professionals
+                  Logistics Experts
                 </p>
               </div>
             </div>
@@ -543,13 +543,11 @@ function Content() {
               Specialized Service
             </span>
             <h1 className="text-3xl md:text-4xl font-bold mb-4 text-[#f97316]">
-              Express International Shipping
+              Built for Speed. Built for Scale.
             </h1>
             <div className="w-20 h-1 bg-[#f97316] mx-auto mb-6"></div>
             <p className="text-gray-600 text-lg">
-              Fast, reliable, and secure international shipping solutions. We
-              deliver your packages across borders with precision and care,
-              ensuring timely arrival to over 220 destinations worldwide.
+              From same-day express to ocean freight — we move your goods with precision, security, and full visibility.
             </p>
           </div>
 
@@ -597,7 +595,7 @@ function Content() {
                     </h3>
                   </div>
                   <p className="text-gray-600 ml-11">
-                    Fast-track shipping options for urgent deliveries worldwide
+                    Priority shipping, door to door.
                   </p>
                 </div>
 
@@ -624,8 +622,7 @@ function Content() {
                     <h3 className="font-bold text-gray-800">Secure Handling</h3>
                   </div>
                   <p className="text-gray-600 ml-11">
-                    Advanced security protocols and insurance coverage for peace
-                    of mind
+                    Every package treated with care.
                   </p>
                 </div>
 
@@ -652,7 +649,7 @@ function Content() {
                     <h3 className="font-bold text-gray-800">Customs Support</h3>
                   </div>
                   <p className="text-gray-600 ml-11">
-                    Expert assistance with documentation and customs clearance
+                    We handle the paperwork.
                   </p>
                 </div>
 
@@ -679,7 +676,7 @@ function Content() {
                     <h3 className="font-bold text-gray-800">Live Tracking</h3>
                   </div>
                   <p className="text-gray-600 ml-11">
-                    Real-time shipment tracking with detailed status updates
+                    Full visibility, every step.
                   </p>
                 </div>
               </div>
@@ -806,7 +803,7 @@ function Content() {
                 </div>
 
                 <h1 className="text-2xl font-bold mb-4 text-[#f97316] text-center">
-                  Book & Schedule
+                  Book
                 </h1>
 
                 <ul className="space-y-3 text-gray-600 mb-6">
@@ -824,7 +821,7 @@ function Content() {
                         d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
                       />
                     </svg>
-                    <span>Book online or call our customer service</span>
+                    <span>Schedule online or by phone.</span>
                   </li>
                   <li className="flex items-start">
                     <svg
@@ -840,9 +837,7 @@ function Content() {
                         d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
                       />
                     </svg>
-                    <span>
-                      Receive instant price quotes based on package details
-                    </span>
+                    <span>Get an instant quote.</span>
                   </li>
                   <li className="flex items-start">
                     <svg
@@ -858,9 +853,7 @@ function Content() {
                         d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
                       />
                     </svg>
-                    <span>
-                      Select your preferred pickup time and delivery options
-                    </span>
+                    <span>Choose your pickup window.</span>
                   </li>
                 </ul>
 
@@ -908,7 +901,7 @@ function Content() {
                 </div>
 
                 <h1 className="text-2xl font-bold mb-4 text-[#f97316] text-center">
-                  Collection & Tracking
+                  Pick Up
                 </h1>
 
                 <ul className="space-y-3 text-gray-600 mb-6">
@@ -926,7 +919,7 @@ function Content() {
                         d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
                       />
                     </svg>
-                    <span>Professional courier arrives at your location</span>
+                    <span>A courier comes to you.</span>
                   </li>
                   <li className="flex items-start">
                     <svg
@@ -942,9 +935,7 @@ function Content() {
                         d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
                       />
                     </svg>
-                    <span>
-                      Package is scanned and securely prepared for transit
-                    </span>
+                    <span>Your package is scanned and secured.</span>
                   </li>
                   <li className="flex items-start">
                     <svg
@@ -960,9 +951,7 @@ function Content() {
                         d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
                       />
                     </svg>
-                    <span>
-                      Real-time tracking updates via our customer portal
-                    </span>
+                    <span>Track every move in real time.</span>
                   </li>
                 </ul>
 
@@ -1010,7 +999,7 @@ function Content() {
                 </div>
 
                 <h1 className="text-2xl font-bold mb-4 text-[#f97316] text-center">
-                  Delivery & Confirmation
+                  Deliver
                 </h1>
 
                 <ul className="space-y-3 text-gray-600 mb-6">
@@ -1028,7 +1017,7 @@ function Content() {
                         d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
                       />
                     </svg>
-                    <span>Package delivered within the promised timeframe</span>
+                    <span>Delivered on time, guaranteed.</span>
                   </li>
                   <li className="flex items-start">
                     <svg
@@ -1044,9 +1033,7 @@ function Content() {
                         d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
                       />
                     </svg>
-                    <span>
-                      Digital proof of delivery with signature capture
-                    </span>
+                    <span>Digital proof of delivery included.</span>
                   </li>
                   <li className="flex items-start">
                     <svg
@@ -1062,9 +1049,7 @@ function Content() {
                         d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
                       />
                     </svg>
-                    <span>
-                      Delivery confirmation email with delivery details
-                    </span>
+                    <span>Confirmation sent immediately.</span>
                   </li>
                 </ul>
 
@@ -1086,7 +1071,7 @@ function Content() {
               className="px-8 py-4 bg-gradient-to-r from-[#f97316] to-[#ea580c] text-white font-medium shadow-md hover:from-[#ea580c] hover:to-[#c2410c] transition-all inline-flex items-center gap-2"
               style={{ borderRadius: 0 }}
             >
-              <span>Start Shipping Today</span>
+              <span>Ship Now</span>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-5 w-5"
@@ -1104,7 +1089,7 @@ function Content() {
             </button>
 
             <p className="mt-4 text-gray-600">
-              Need assistance?{" "}
+              Questions?{" "}
               <a
                 href="mailto:contact@swiftpairlogistics.com"
                 className="text-[#f97316] font-medium hover:underline"
