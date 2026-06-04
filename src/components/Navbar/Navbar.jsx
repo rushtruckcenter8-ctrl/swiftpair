@@ -172,7 +172,7 @@ function Navbar() {
                 </div>
                 <div className="flex items-center space-x-2 group cursor-default">
                   <MapPin className="h-4 w-4 text-white/90 group-hover:text-white transition-colors" />
-                  <span className="font-medium">220+ Destinations</span>
+                  <span className="font-medium">Worldwide Shipping</span>
                 </div>
               </div>
               <div className="flex items-center space-x-6">

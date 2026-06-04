@@ -19,11 +19,11 @@ export const metadata = {
   metadataBase: new URL(siteUrl),
   title: {
     default:
-      "SwiftPair Logistics — Ship Smarter, Deliver Faster",
+      "SwiftPair Logistics — Global Freight, Delivered.",
     template: "%s | SwiftPair Logistics",
   },
   description:
-    "SwiftPair Logistics delivers to 220+ destinations worldwide. Real-time tracking, air, ocean, and road freight — built for speed, backed by experience.",
+    "From local parcels to international freight — SwiftPair Logistics ships to 220+ destinations with real-time tracking, air, ocean, and road freight solutions.",
   keywords: [
     "international shipping",
     "logistics company",
@@ -53,9 +53,9 @@ export const metadata = {
     locale: "en_US",
     url: siteUrl,
     siteName: "SwiftPair Logistics",
-    title: "SwiftPair Logistics — Global Shipping, Simplified",
+    title: "SwiftPair Logistics — Move Anything, Anywhere",
     description:
-      "220+ destinations. Real-time tracking. 98% on-time delivery. SwiftPair Logistics.",
+      "220+ destinations. 30 years of experience. 98% on-time delivery. SwiftPair Logistics.",
     images: [
       {
         url: "/images/track_logo.png",
@@ -67,9 +67,9 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "SwiftPair Logistics — Global Shipping, Simplified",
+    title: "SwiftPair Logistics — Move Anything, Anywhere",
     description:
-      "Fast, secure shipping to 220+ destinations worldwide. Real-time tracking available.",
+      "Fast, reliable freight across 220+ destinations worldwide.",
     images: ["/images/track_logo.png"],
     creator: "@swiftpairlogistics",
   },

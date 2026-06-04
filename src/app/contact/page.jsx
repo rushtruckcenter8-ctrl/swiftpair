@@ -71,7 +71,7 @@ function Page() {
         content={"CONTACT US"}
         height={"40vh"}
         location={""}
-        spanText={"We're here whenever you need us."}
+        spanText={"Fast responses. Real people."}
       />
 
       <div className="flex-grow py-8 sm:py-12 md:py-16 px-4">
@@ -81,14 +81,14 @@ function Page() {
               className="inline-block px-4 py-1 bg-[#f97316]/10 text-[#f97316] font-medium mb-4 text-sm"
               style={{ borderRadius: 0 }}
             >
-              Contact
+              Contact Us
             </span>
             <h1 className="text-4xl sm:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#f97316] to-[#c2410c] mb-4 sm:mb-6">
-              Let's Talk
+              Get in Touch
             </h1>
             <div className="w-20 h-1 bg-[#f97316] mx-auto mb-4 sm:mb-6"></div>
             <p className="text-gray-700 max-w-3xl mx-auto text-base sm:text-lg leading-relaxed">
-              Need a quote or have questions? Our team responds fast.
+              Have a question or need a quote? We'll get back to you quickly.
             </p>
           </div>
 
@@ -106,7 +106,7 @@ function Page() {
                   ></div>
                   <div className="relative z-10">
                     <h2 className="text-xl sm:text-2xl font-bold mb-8">
-                      Reach Us
+                      Contact Details
                     </h2>
                     <div className="space-y-6 sm:space-y-8">
                       <div className="flex items-start">
@@ -349,7 +349,7 @@ function Page() {
                     </svg>
                   </div>
                   <h2 className="text-2xl sm:text-3xl font-bold text-[#f97316]">
-                    Send a Message
+                    Drop Us a Message
                   </h2>
                 </div>
 
@@ -549,7 +549,7 @@ function Page() {
                       className="w-full bg-gradient-to-r from-[#f97316] to-[#ea580c] hover:from-[#ea580c] hover:to-[#c2410c] text-white font-bold py-4 px-8 transition-all shadow-lg hover:shadow-xl transform hover:scale-[1.02] flex items-center justify-center text-base"
                       style={{ borderRadius: 0 }}
                     >
-                      <span>Send</span>
+                      <span>Send Message</span>
                       <svg
                         className="w-4 h-4 sm:w-5 sm:h-5 ml-2"
                         fill="none"
@@ -583,11 +583,11 @@ function Page() {
               FAQ
             </span>
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#f97316] to-[#c2410c] mb-4 sm:mb-6">
-              Quick Answers
+              FAQs
             </h2>
             <div className="w-20 h-1 bg-[#f97316] mx-auto mb-6"></div>
             <p className="text-gray-700 text-base sm:text-lg max-w-3xl mx-auto">
-              Can't find what you're looking for? Contact us directly.
+              Can't find the answer? Reach out to our team directly.
             </p>
           </div>
 
@@ -620,7 +620,7 @@ function Page() {
                     What areas do you service?
                   </h3>
                   <p className="text-gray-700 leading-relaxed">
-                    We ship to 220+ destinations worldwide. Contact us to confirm coverage for your region.
+                    We cover 220+ destinations globally. Get in touch to confirm availability for your route.
                   </p>
                 </div>
               </div>
@@ -654,7 +654,7 @@ function Page() {
                     How can I track my shipment?
                   </h3>
                   <p className="text-gray-700 leading-relaxed">
-                    Enter your tracking number on the shipment page for real-time updates.
+                    Use your tracking number on our shipment page for live updates.
                   </p>
                 </div>
               </div>
@@ -725,7 +725,7 @@ function Page() {
                     Do you offer insurance for shipments?
                   </h3>
                   <p className="text-gray-700 leading-relaxed">
-                    Yes. We offer comprehensive insurance for all shipment types. Ask us for details.
+                    Yes — comprehensive coverage is available for all shipment types.
                   </p>
                 </div>
               </div>
@@ -738,7 +738,7 @@ function Page() {
               style={{ borderRadius: 0 }}
             >
               <p className="text-gray-700 mb-6 text-lg font-medium">
-                Still have questions?
+                Not finding what you need?
               </p>
               <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
                 <a
@@ -758,7 +758,7 @@ function Page() {
                       d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
                     />
                   </svg>
-                  Email Support
+                  Email Our Team
                 </a>
                 <span className="text-gray-400 hidden sm:inline text-2xl">
                   |

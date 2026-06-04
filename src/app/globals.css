@@ -28,3 +28,13 @@ body {
 .nav-wrapper {
   isolation: isolate;
 }
+
+@keyframes markerPulse {
+  0%   { box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.7), 0 2px 4px rgba(0,0,0,0.2); }
+  70%  { box-shadow: 0 0 0 14px rgba(16, 185, 129, 0), 0 2px 4px rgba(0,0,0,0.2); }
+  100% { box-shadow: 0 0 0 0 rgba(16, 185, 129, 0), 0 2px 4px rgba(0,0,0,0.2); }
+}
+
+.marker-current-pulse {
+  animation: markerPulse 1.8s ease-out infinite;
+}

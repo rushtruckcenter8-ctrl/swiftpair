@@ -32,22 +32,22 @@ function Page() {
     {
       title: "Parcel delivery",
       content:
-        "Fast, reliable parcel delivery for individuals and businesses. Domestic and international.",
+        "Door-to-door parcel delivery for businesses and individuals — local and international.",
     },
     {
       title: "Parcels throughout Europe",
       content:
-        "Seamless European shipping with full tracking and customs handling.",
+        "Full European coverage with real-time tracking and customs documentation.",
     },
     {
       title: "Freight",
       content:
-        "Heavy-haul freight with proven carrier partnerships and end-to-end management.",
+        "Proven freight partnerships with end-to-end cargo management.",
     },
     {
       title: "Fulfillment services",
       content:
-        "Storage, pick and pack, and last-mile delivery — handled for you.",
+        "We store, pick, pack, and ship directly to your customers.",
     },
   ];
 
@@ -60,10 +60,10 @@ function Page() {
         img={
           "/images_now/aerial-view-cargo-ship-cargo-container-harbor_335224-1380.avif"
         }
-        h2Text={"Freight, Simplified."}
-        spanText={"Air. Ocean. Road. All in one place."}
+        h2Text={"Every Freight Mode. One Partner."}
+        spanText={"Air. Ocean. Road. End to end."}
         pText={
-          "End-to-end freight for businesses of any size."
+          "Comprehensive freight solutions built for your business."
         }
       />
 
@@ -98,18 +98,18 @@ function Page() {
                   className="px-4 py-1 bg-[#f97316]/10 text-[#f97316] font-medium text-sm"
                   style={{ borderRadius: 0 }}
                 >
-                  Our Capabilities
+                  What We Do
                 </span>
               </div>
 
               <h1 className="text-4xl md:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#f97316] to-[#c2410c] mb-8">
-                Move Anything. Anywhere.
+                Your Cargo, Our Responsibility.
               </h1>
 
               <div className="grid md:grid-cols-2 gap-8 mb-8">
                 <div className="space-y-4 text-gray-700">
                   <p className="leading-relaxed text-lg">
-                    We optimize supply chains across air, ocean, and road — with full visibility and expert support at every stage.
+                    Air, ocean, and road freight — optimized for speed, cost, and reliability across 220+ destinations.
                   </p>
                 </div>
                 <div className="space-y-4 text-gray-700">
@@ -170,12 +170,12 @@ function Page() {
               Our Services
             </span>
             <h2 className="text-3xl md:text-5xl font-bold text-[#f97316] mb-6">
-              Every Mode, Every Route
+              Choose Your Freight Mode
             </h2>
             <div className="w-20 h-1 bg-[#f97316] mx-auto mb-6"></div>
             <div className="max-w-4xl mx-auto space-y-4 text-gray-700 text-lg leading-relaxed">
               <p>
-                Air, ocean, or road — we manage cross-border shipments with precision and full documentation support.
+                Full container loads, LCL, air express, or road freight — we handle the right mode for every shipment.
               </p>
             </div>
           </div>
@@ -215,7 +215,7 @@ function Page() {
               </div>
               <div className="p-8">
                 <h4 className="font-bold text-[#f97316] mb-4 text-lg">
-                  Fast air freight, door to door.
+                  Priority air shipping, globally.
                 </h4>
                 <ul className="mb-8 space-y-3">
                   <li className="flex items-start">
@@ -349,7 +349,7 @@ function Page() {
               </div>
               <div className="p-8">
                 <h4 className="font-bold text-[#f97316] mb-4 text-lg">
-                  Cost-effective ocean shipping, FCL or LCL.
+                  Flexible ocean freight, FCL and LCL.
                 </h4>
                 <ul className="mb-8 space-y-3">
                   <li className="flex items-start">
@@ -499,7 +499,7 @@ function Page() {
               </div>
               <div className="p-8">
                 <h4 className="font-bold text-[#f97316] mb-4 text-lg">
-                  Reliable road freight across the region.
+                  Dependable road freight, door to door.
                 </h4>
                 <ul className="mb-8 space-y-3">
                   <li className="flex items-start">
@@ -636,11 +636,11 @@ function Page() {
 
               <div className="relative z-10">
                 <h2 className="text-3xl md:text-4xl font-bold mb-6">
-                  Let's Build Your Shipping Solution.
+                  Ready to Optimize Your Supply Chain?
                 </h2>
 
                 <p className="mb-6 text-white/95 leading-relaxed text-lg max-w-4xl">
-                  Our team designs custom strategies tailored to your cargo, timeline, and budget.
+                  Tell us what you're moving and we'll build the most efficient route for it.
                 </p>
 
                 <div className="mb-10 grid md:grid-cols-2 gap-6">
@@ -650,7 +650,7 @@ function Page() {
                   >
                     <h3 className="font-bold text-xl mb-3">Custom Solutions</h3>
                     <p className="text-white/90">
-                      Tailored to your exact requirements.
+                      Built around your cargo and timeline.
                     </p>
                   </div>
                   <div
@@ -661,7 +661,7 @@ function Page() {
                       End-to-End Support
                     </h3>
                     <p className="text-white/90">
-                      We're with you from booking to delivery.
+                      Support from first quote to final delivery.
                     </p>
                   </div>
                 </div>
@@ -672,7 +672,7 @@ function Page() {
                     className="bg-white text-[#f97316] hover:bg-gray-100 font-bold py-4 px-10 transition-all shadow-lg hover:shadow-xl transform hover:scale-105"
                     style={{ borderRadius: 0 }}
                   >
-                    TALK TO AN EXPERT
+                    GET A QUOTE
                   </button>
                   <Link
                     href="/#track-shipment"
@@ -724,10 +724,10 @@ function Page() {
                   className="inline-block px-4 py-1 bg-[#f97316]/10 text-[#f97316] font-medium mb-4"
                   style={{ borderRadius: 0 }}
                 >
-                  Services
+                  Service Details
                 </span>
                 <h3 className="text-3xl md:text-4xl font-bold text-[#f97316] mb-2">
-                  What's Included
+                  Everything We Cover
                 </h3>
                 <div className="w-20 h-1 bg-[#f97316] mb-6"></div>
               </div>
@@ -810,10 +810,10 @@ function Page() {
             <div className="p-10 md:p-16">
               <div className="max-w-4xl mb-10">
                 <h2 className="text-3xl md:text-4xl font-bold text-[#f97316] mb-6">
-                  Supply Chain, Under Control.
+                  Total Supply Chain Visibility.
                 </h2>
                 <p className="text-gray-700 mb-10 text-lg leading-relaxed">
-                  As your Lead Logistics Provider, we consolidate, optimize, and manage your entire supply chain — so you can focus on your business.
+                  As your Lead Logistics Provider, we take ownership of your entire supply chain — from strategy to final-mile delivery.
                 </p>
               </div>
 
@@ -861,7 +861,7 @@ function Page() {
                         />
                       </svg>
                       <span className="text-gray-700">
-                        Global and regional strategy
+                        Global and local logistics strategy
                       </span>
                     </li>
                     <li className="flex items-start">
@@ -879,7 +879,7 @@ function Page() {
                         />
                       </svg>
                       <span className="text-gray-700">
-                        Full supply chain visibility
+                        End-to-end visibility and control
                       </span>
                     </li>
                     <li className="flex items-start">
@@ -897,7 +897,7 @@ function Page() {
                         />
                       </svg>
                       <span className="text-gray-700">
-                        Data accuracy and integrity
+                        Clean, validated logistics data
                       </span>
                     </li>
                     <li className="flex items-start">
@@ -964,7 +964,7 @@ function Page() {
                         />
                       </svg>
                       <span className="text-gray-700">
-                        Lean process management
+                        Streamlined process execution
                       </span>
                     </li>
                     <li className="flex items-start">
@@ -982,7 +982,7 @@ function Page() {
                         />
                       </svg>
                       <span className="text-gray-700">
-                        Freight consolidation
+                        Consolidation opportunities identified
                       </span>
                     </li>
                     <li className="flex items-start">
@@ -1018,7 +1018,7 @@ function Page() {
                         />
                       </svg>
                       <span className="text-gray-700">
-                        Mode optimization
+                        Air-to-sea and mode shifting
                       </span>
                     </li>
                   </ul>

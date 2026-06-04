@@ -84,7 +84,7 @@ function Banner({ spanText, h2Text, pText, img, button, location, height }) {
                 border-2 border-transparent hover:border-orange-200
               "
             >
-              {button || "Get a Quote"}
+              {button || "Get Started"}
               <ArrowRight className="ml-2 w-5 h-5 transition-transform duration-300 group-hover:translate-x-1" />
             </Link>
             <Link
@@ -130,7 +130,7 @@ function Banner({ spanText, h2Text, pText, img, button, location, height }) {
               <div className="p-2 bg-white/10 rounded-lg backdrop-blur-sm">
                 <Package className="h-5 w-5" />
               </div>
-              <span className="text-sm font-medium">Real-Time Tracking</span>
+              <span className="text-sm font-medium">Live Updates</span>
             </div>
           </div>
         </div>

@@ -42,7 +42,7 @@ function Footer() {
                 />
               </div>
               <p className="text-gray-200 mb-6 text-sm leading-relaxed">
-                Fast, secure shipping to 220+ destinations worldwide. 30 years of logistics excellence.
+                Moving goods across 220+ destinations for 30 years. Speed, security, and precision — every time.
               </p>
 
               {/* Social Media Icons */}
@@ -439,9 +439,9 @@ function Footer() {
           {/* Newsletter Subscription */}
           <div className="border-t border-white/20 pt-8 pb-8">
             <div className="max-w-xl mx-auto text-center">
-              <h3 className="text-xl font-bold mb-4">Stay in the Loop</h3>
+              <h3 className="text-xl font-bold mb-4">Stay Updated</h3>
               <p className="text-gray-200 mb-6">
-                Shipping tips, updates, and exclusive offers — in your inbox.
+                Get logistics insights, shipping tips, and exclusive offers delivered to your inbox.
               </p>
               <form className="flex flex-col sm:flex-row gap-2">
                 <input

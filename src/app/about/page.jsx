@@ -33,9 +33,9 @@ function Page() {
         img={
           "/images_now/african-american-worker-writing-inventory-list-while-checking-stock-storage-room_637285-4716.jpg"
         }
-        h2Text={"Who We Are"}
+        h2Text={"Built on Trust"}
         location={""}
-        spanText={"Three Decades of Reliable Delivery"}
+        spanText={"30 Years of Delivering What Matters"}
       />
 
       {/* Introduction Section */}
@@ -85,12 +85,12 @@ function Page() {
                 </div>
 
                 <h2 className="text-4xl md:text-5xl font-bold mb-6">
-                  Logistics Without Compromise
+                  We Don't Just Ship Packages
                 </h2>
                 <div className="w-20 h-1 bg-orange-300 mb-8"></div>
                 <div className="md:max-w-4xl">
                   <p className="text-xl mb-10 leading-relaxed text-white/95">
-                    We've spent 30 years building a logistics network that businesses and individuals can count on. Every shipment matters.
+                    We move what matters most — with care, precision, and a 30-year track record that businesses worldwide rely on.
                   </p>
                   <div className="flex flex-col sm:flex-row gap-4">
                     <button
@@ -98,7 +98,7 @@ function Page() {
                       className="bg-white text-[#f97316] hover:bg-gray-100 font-bold py-4 px-10 transition-all shadow-lg hover:shadow-xl transform hover:scale-105 flex items-center justify-center"
                       style={{ borderRadius: 0 }}
                     >
-                      GET IN TOUCH
+                      CONTACT US
                       <svg
                         className="w-5 h-5 ml-2"
                         fill="none"
@@ -118,7 +118,7 @@ function Page() {
                       className="border-2 border-white hover:bg-white hover:text-[#f97316] text-white font-bold py-4 px-10 transition-all flex items-center justify-center"
                       style={{ borderRadius: 0 }}
                     >
-                      TRACK A SHIPMENT
+                      TRACK NOW
                       <svg
                         className="w-5 h-5 ml-2"
                         fill="none"
@@ -184,16 +184,16 @@ function Page() {
                   Our Story
                 </span>
                 <h2 className="text-3xl md:text-4xl font-bold mb-4 text-transparent bg-clip-text bg-gradient-to-r from-[#f97316] to-[#c2410c]">
-                  30 Years. One Mission: Deliver.
+                  From Montreal to the World
                 </h2>
                 <div className="w-20 h-1 bg-[#f97316] mb-8"></div>
               </div>
 
               <div className="space-y-6 text-gray-700 mb-8">
                 <p className="leading-relaxed text-lg">
-                  Founded in Montreal in 1995, SwiftPair Logistics has grown from a local courier into a global freight partner. We serve{" "}
+                  SwiftPair Logistics started as a local courier in Montreal in 1995. Today we connect businesses to{" "}
                   <span className="font-semibold text-[#f97316]">220+ destinations</span>{" "}
-                  across manufacturing, textiles, automotive, and more — with the same commitment to precision we've always had.
+                  worldwide — across manufacturing, textiles, automotive, architecture, and more.
                 </p>
               </div>
 
@@ -264,7 +264,7 @@ function Page() {
       <section className="py-16 md:py-24 px-4 bg-gradient-to-br from-[#ea580c] via-[#f97316] to-[#fb923c] text-white">
         <div className="max-w-7xl mx-auto text-center" data-aos="fade-up">
           <h2 className="text-3xl md:text-5xl font-bold mb-6">
-            By the Numbers
+            Our Track Record
           </h2>
           <div className="w-20 h-1 bg-orange-300 mx-auto mb-12"></div>
           <p className="max-w-3xl mx-auto text-white/90 text-lg mb-12">
@@ -280,7 +280,7 @@ function Page() {
             >
               <h3 className="text-5xl font-bold text-orange-300 mb-3">12M+</h3>
               <p className="text-sm text-white/90 leading-relaxed">
-                Shipments delivered
+                Packages delivered
               </p>
             </div>
 
@@ -290,7 +290,7 @@ function Page() {
             >
               <h3 className="text-5xl font-bold text-orange-300 mb-3">98%</h3>
               <p className="text-sm text-white/90 leading-relaxed">
-                On-time rate
+                On-time delivery
               </p>
             </div>
 
@@ -300,7 +300,7 @@ function Page() {
             >
               <h3 className="text-5xl font-bold text-orange-300 mb-3">350+</h3>
               <p className="text-sm text-white/90 leading-relaxed">
-                Logistics experts
+                Team members
               </p>
             </div>
 
@@ -310,7 +310,7 @@ function Page() {
             >
               <h3 className="text-5xl font-bold text-orange-300 mb-3">250K+</h3>
               <p className="text-sm text-white/90 leading-relaxed">
-                Happy customers
+                Clients served
               </p>
             </div>
 
@@ -320,7 +320,7 @@ function Page() {
             >
               <h3 className="text-5xl font-bold text-orange-300 mb-3">4.8/5</h3>
               <p className="text-sm text-white/90 leading-relaxed">
-                Google rating
+                Customer rating
               </p>
             </div>
           </div>
@@ -335,14 +335,14 @@ function Page() {
               className="inline-block px-4 py-1 bg-[#f97316]/10 text-[#f97316] font-medium mb-4"
               style={{ borderRadius: 0 }}
             >
-              What We Offer
+              How We Help
             </span>
             <h2 className="text-3xl md:text-5xl font-bold mb-6 text-transparent bg-clip-text bg-gradient-to-r from-[#f97316] to-[#c2410c]">
-              Designed Around Your Needs
+              Solutions That Fit Your Business
             </h2>
             <div className="w-20 h-1 bg-[#f97316] mx-auto mb-8"></div>
             <p className="max-w-3xl mx-auto text-lg text-gray-700 leading-relaxed">
-              Every business ships differently. We build logistics solutions that fit your requirements — not the other way around.
+              No two shipments are the same. We build around your requirements — not the other way around.
             </p>
           </div>
 
@@ -375,7 +375,7 @@ function Page() {
                 Custom Solutions
               </h3>
               <p className="text-gray-700 mb-6 leading-relaxed">
-                Every business is different. We adapt.
+                Custom routes, custom rates, custom timelines.
               </p>
               <div className="flex items-center text-[#f97316] font-semibold group-hover:gap-3 transition-all">
                 <span>Learn more</span>
@@ -423,7 +423,7 @@ function Page() {
                 Global Network
               </h3>
               <p className="text-gray-700 mb-6 leading-relaxed">
-                Shipping to 220+ destinations worldwide.
+                One network. 220+ destinations. No limits.
               </p>
               <div className="flex items-center text-[#f97316] font-semibold group-hover:gap-3 transition-all">
                 <span>Learn more</span>
@@ -471,7 +471,7 @@ function Page() {
                 Expert Support
               </h3>
               <p className="text-gray-700 mb-6 leading-relaxed">
-                Our team is always available.
+                Round-the-clock support from real people.
               </p>
               <div className="flex items-center text-[#f97316] font-semibold group-hover:gap-3 transition-all">
                 <span>Learn more</span>
@@ -509,10 +509,10 @@ function Page() {
 
               <div className="md:w-2/3 text-white mb-8 md:mb-0 md:pr-12 relative z-10">
                 <h3 className="text-3xl md:text-4xl font-bold mb-6">
-                  More Than a Courier.
+                  Your Logistics Partner.
                 </h3>
                 <p className="mb-8 text-lg text-white/95 leading-relaxed">
-                  From a single parcel to a full supply chain — we deliver with precision, speed, and care.
+                  Whether you're shipping one box or managing a full supply chain, we make it simple.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4">
                   <button
@@ -520,7 +520,7 @@ function Page() {
                     className="bg-white text-[#f97316] hover:bg-gray-100 font-bold py-4 px-10 transition-all shadow-lg hover:shadow-xl transform hover:scale-105 flex items-center justify-center"
                     style={{ borderRadius: 0 }}
                   >
-                    GET IN TOUCH
+                    CONTACT US
                     <svg
                       className="w-5 h-5 ml-2"
                       fill="none"
@@ -540,7 +540,7 @@ function Page() {
                     className="border-2 border-white hover:bg-white hover:text-[#f97316] text-white font-bold py-4 px-10 transition-all flex items-center justify-center"
                     style={{ borderRadius: 0 }}
                   >
-                    TRACK A SHIPMENT
+                    TRACK NOW
                     <svg
                       className="w-5 h-5 ml-2"
                       fill="none"

@@ -168,6 +168,7 @@ const MapComponent = ({
       element.style.backgroundColor = "#ef4444";
     } else if (type === "current") {
       element.style.backgroundColor = "#10b981";
+      element.classList.add("marker-current-pulse");
     }
 
     element.style.color = "white";
@@ -181,6 +182,7 @@ const MapComponent = ({
         ? '<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path></svg>'
         : '<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"></path><circle cx="12" cy="10" r="3"></circle></svg>';
     element.appendChild(icon);
+
     return element;
   };
 

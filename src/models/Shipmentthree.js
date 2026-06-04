@@ -157,6 +157,21 @@ const ShipmentthreeSchema = new mongoose.Schema(
       type: String,
       default: "pending",
     },
+    statusDescription: {
+      type: String,
+      required: false,
+    },
+    packageDetails: [
+      {
+        productType: { type: String },
+        description: { type: String },
+        quantity: { type: Number },
+        length: { type: String },
+        width: { type: String },
+        height: { type: String },
+        productWeight: { type: String },
+      },
+    ],
     currentPosition: {
       type: [Number],
       default: [0, 0],

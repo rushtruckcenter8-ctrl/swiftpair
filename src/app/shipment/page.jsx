@@ -410,8 +410,16 @@ function PageContent() {
           </div>
         </div>
 
-        {/* Continue with the rest of the components... */}
-        {/* Shipping Informati{/* Shipping Information Card */}
+        {/* Status Description */}
+        {shipments.statusDescription && (
+          <div className="mb-6 mx-auto max-w-2xl px-4">
+            <div className="p-4 bg-orange-50 border-l-4 border-[#f97316]" style={{ borderRadius: 0 }}>
+              <p className="text-sm font-semibold text-[#f97316] mb-1 uppercase tracking-wide">Status Update</p>
+              <p className="text-gray-700">{shipments.statusDescription}</p>
+            </div>
+          </div>
+        )}
+
         {/* Shipping Information Card */}
         <div className={styles.card}>
           <h2 className={styles.cardTitle}>Shipping Information</h2>
@@ -550,98 +558,114 @@ function PageContent() {
         </div>
 
         {/* Package Details Card */}
-        {(shipments.productQuantity > 0 ||
-          shipments.productType ||
-          shipments.description ||
-          shipments.length ||
-          shipments.width ||
-          shipments.productWeight ||
-          shipments.height ||
-          shipments.currentLocation) && (
-          <div className={styles.card}>
-            <h2 className={styles.sectionHeader}>Package Details</h2>
-            <div className="overflow-x-auto">
-              <table className={styles.detailsTable}>
-                <tbody>
-                  {shipments.productQuantity > 0 && (
+        {(() => {
+          const hasNewPackages = shipments.packageDetails?.length > 0;
+          const hasLegacy = shipments.productQuantity > 0 || shipments.productType || shipments.description || shipments.length || shipments.width || shipments.height || shipments.productWeight;
+          const hasLocation = shipments.currentLocation;
+          if (!hasNewPackages && !hasLegacy && !hasLocation) return null;
+
+          const packagesToShow = hasNewPackages
+            ? shipments.packageDetails
+            : hasLegacy
+            ? [{
+                quantity: shipments.productQuantity,
+                productType: shipments.productType,
+                description: shipments.description,
+                length: shipments.length,
+                width: shipments.width,
+                height: shipments.height,
+                productWeight: shipments.productWeight,
+              }]
+            : [];
+
+          return (
+            <div className={styles.card}>
+              <h2 className={styles.sectionHeader}>Package Details</h2>
+
+              {packagesToShow.map((pkg, i) => (
+                <div key={i} className={i > 0 ? "mt-6 pt-6 border-t-2 border-gray-100" : ""}>
+                  {packagesToShow.length > 1 && (
+                    <p className="text-xs font-bold text-[#f97316] uppercase tracking-wider mb-3">
+                      Package {i + 1}
+                    </p>
+                  )}
+                  <div className="overflow-x-auto">
+                    <table className={styles.detailsTable}>
+                      <tbody>
+                        {pkg.quantity > 0 && (
+                          <tr className={styles.tableRow}>
+                            <td className={styles.label}>Quantity</td>
+                            <td className={styles.value}>{pkg.quantity}</td>
+                          </tr>
+                        )}
+                        {pkg.productType && (
+                          <tr className={styles.tableRow}>
+                            <td className={styles.label}>Piece Type</td>
+                            <td className={styles.value}>{pkg.productType}</td>
+                          </tr>
+                        )}
+                        {pkg.description && (
+                          <tr className={styles.tableRow}>
+                            <td className={styles.label}>Description</td>
+                            <td className={`${styles.value} uppercase`}>{pkg.description}</td>
+                          </tr>
+                        )}
+                        {pkg.length && (
+                          <tr className={styles.tableRow}>
+                            <td className={styles.label}>Length (cm)</td>
+                            <td className={`${styles.value} font-bold`}>{pkg.length}</td>
+                          </tr>
+                        )}
+                        {pkg.width && (
+                          <tr className={styles.tableRow}>
+                            <td className={styles.label}>Width (cm)</td>
+                            <td className={`${styles.value} font-bold`}>{pkg.width}</td>
+                          </tr>
+                        )}
+                        {pkg.height && (
+                          <tr className={styles.tableRow}>
+                            <td className={styles.label}>Height (cm)</td>
+                            <td className={`${styles.value} font-bold`}>{pkg.height}</td>
+                          </tr>
+                        )}
+                        {pkg.productWeight && (
+                          <tr className={styles.tableRow}>
+                            <td className={styles.label}>Weight (g)</td>
+                            <td className={`${styles.value} font-bold`}>{pkg.productWeight}</td>
+                          </tr>
+                        )}
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              ))}
+
+              {/* Current Location — shown once at the bottom */}
+              <div className={`overflow-x-auto ${packagesToShow.length > 0 ? "mt-4 pt-4 border-t-2 border-gray-100" : ""}`}>
+                <table className={styles.detailsTable}>
+                  <tbody>
                     <tr className={styles.tableRow}>
-                      <td className={styles.label}>Quantity</td>
+                      <td className={styles.label}>Current Location</td>
                       <td className={styles.value}>
-                        {shipments.productQuantity}
+                        {shipments.currentLocation ? (
+                          <div className="inline-flex items-center px-3 py-1 bg-gradient-to-r from-[#f97316]/10 to-[#fb923c]/10 border-2 border-[#f97316]/20" style={{ borderRadius: 0 }}>
+                            <div className="w-2 h-2 bg-[#f97316] mr-2" style={{ borderRadius: 0 }}></div>
+                            <span className="text-[#f97316] font-semibold">{shipments.currentLocation}</span>
+                          </div>
+                        ) : (
+                          <div className="inline-flex items-center px-3 py-1 bg-[#f97316]/10 border-2 border-[#f97316]/20" style={{ borderRadius: 0 }}>
+                            <div className="w-2 h-2 bg-[#f97316] mr-2 animate-[locationPulse_2s_ease-in-out_infinite]" style={{ borderRadius: 0 }}></div>
+                            <span className="text-[#f97316] animate-[locationPulse_2s_ease-in-out_infinite] font-semibold">Checking...</span>
+                          </div>
+                        )}
                       </td>
                     </tr>
-                  )}
-                  {shipments.productType && (
-                    <tr className={styles.tableRow}>
-                      <td className={styles.label}>Piece Type</td>
-                      <td className={styles.value}>{shipments.productType}</td>
-                    </tr>
-                  )}
-                  {shipments.description && (
-                    <tr className={styles.tableRow}>
-                      <td className={styles.label}>Description</td>
-                      <td className={`${styles.value} uppercase`}>
-                        {shipments.description}
-                      </td>
-                    </tr>
-                  )}
-                  {shipments.length && (
-                    <tr className={styles.tableRow}>
-                      <td className={styles.label}>Length (cm)</td>
-                      <td className={`${styles.value} font-bold`}>
-                        {shipments.length}
-                      </td>
-                    </tr>
-                  )}
-                  {shipments.width && (
-                    <tr className={styles.tableRow}>
-                      <td className={styles.label}>Width (cm)</td>
-                      <td className={`${styles.value} font-bold`}>
-                        {shipments.width}
-                      </td>
-                    </tr>
-                  )}
-                  {shipments.height && (
-                    <tr className={styles.tableRow}>
-                      <td className={styles.label}>Height (cm)</td>
-                      <td className={`${styles.value} font-bold`}>
-                        {shipments.height}
-                      </td>
-                    </tr>
-                  )}
-                  {shipments.productWeight && (
-                    <tr className={styles.tableRow}>
-                      <td className={styles.label}>Weight (g)</td>
-                      <td className={`${styles.value} font-bold`}>
-                        {shipments.productWeight}
-                      </td>
-                    </tr>
-                  )}
-                  <tr className={styles.tableRow}>
-                    <td className={styles.label}>Current Location</td>
-                    <td className={styles.value}>
-                      {shipments.currentLocation ? (
-                        <div className="inline-flex items-center px-3 py-1 bg-gradient-to-r from-[#f97316]/10 to-[#fb923c]/10 border-2 border-[#f97316]/20" style={{ borderRadius: 0 }}>
-                          <div className="w-2 h-2 bg-[#f97316] mr-2" style={{ borderRadius: 0 }}></div>
-                          <span className="text-[#f97316] font-semibold">
-                            {shipments.currentLocation}
-                          </span>
-                        </div>
-                      ) : (
-                        <div className="inline-flex items-center px-3 py-1 bg-[#f97316]/10 border-2 border-[#f97316]/20" style={{ borderRadius: 0 }}>
-                          <div className="w-2 h-2 bg-[#f97316] mr-2 animate-[locationPulse_2s_ease-in-out_infinite]" style={{ borderRadius: 0 }}></div>
-                          <span className="text-[#f97316] animate-[locationPulse_2s_ease-in-out_infinite] font-semibold">
-                            Checking...
-                          </span>
-                        </div>
-                      )}
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
+                  </tbody>
+                </table>
+              </div>
             </div>
-          </div>
-        )}
+          );
+        })()}
         {featuredImage && (
           <div className={styles.card}>
             <h2 className={styles.cardTitle}>Shipment Image</h2>
