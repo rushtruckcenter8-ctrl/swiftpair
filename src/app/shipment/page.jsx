@@ -367,7 +367,7 @@ function PageContent() {
         <div className={styles.barcodeContainer}>
           <Barcode trackingNumber={trackingNumber} />
         </div>
-        {/* Status Badge */}
+        {/* Status Badge + Description */}
         <div className="mb-8 text-center text-3xl">
           <div
             className={`inline-flex items-center px-6 py-2 shadow-sm ${
@@ -408,17 +408,16 @@ function PageContent() {
               </span>
             </span>
           </div>
-        </div>
 
-        {/* Status Description */}
-        {shipments.statusDescription && (
-          <div className="mb-6 mx-auto max-w-2xl px-4">
-            <div className="p-4 bg-orange-50 border-l-4 border-[#f97316]" style={{ borderRadius: 0 }}>
-              <p className="text-sm font-semibold text-[#f97316] mb-1 uppercase tracking-wide">Status Update</p>
-              <p className="text-gray-700">{shipments.statusDescription}</p>
+          {shipments.statusDescription && (
+            <div className="mt-3 mx-auto max-w-2xl text-left">
+              <div className="p-4 bg-orange-50 border-l-4 border-[#f97316]" style={{ borderRadius: 0 }}>
+                <p className="text-sm font-semibold text-[#f97316] mb-1 uppercase tracking-wide">Status Update</p>
+                <p className="text-gray-700 text-base font-normal">{shipments.statusDescription}</p>
+              </div>
             </div>
-          </div>
-        )}
+          )}
+        </div>
 
         {/* Shipping Information Card */}
         <div className={styles.card}>

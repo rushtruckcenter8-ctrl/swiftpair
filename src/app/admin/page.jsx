@@ -668,6 +668,7 @@ export default function Home() {
         // Additional Fields
         comments: shipment.comments || "",
         courier: shipment.courier || "",
+        statusDescription: shipment.statusDescription || "",
 
         // Tracking Events
         trackingEvents: trackingEvents || [],
@@ -2901,6 +2902,21 @@ export default function Home() {
                         }
                         className="w-full px-3 py-2 border-2 border-gray-300 focus:ring-2 focus:ring-orange-100 focus:border-[#f97316] transition-all"
                         style={{ borderRadius: 0 }}
+                      />
+                    </div>
+                    <div className="md:col-span-2">
+                      <label className="block text-sm font-medium text-gray-700 mb-1">
+                        Status Description
+                      </label>
+                      <textarea
+                        value={shipment.statusDescription || ""}
+                        onChange={(e) =>
+                          setShipment({ ...shipment, statusDescription: e.target.value })
+                        }
+                        className="w-full px-3 py-2 border-2 border-gray-300 focus:ring-2 focus:ring-orange-100 focus:border-[#f97316] transition-all"
+                        style={{ borderRadius: 0 }}
+                        rows={2}
+                        placeholder="Describe the current status (e.g. Package awaiting customs clearance at Miami hub)..."
                       />
                     </div>
                     <div>
