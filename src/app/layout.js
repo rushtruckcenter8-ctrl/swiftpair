@@ -200,7 +200,13 @@ export default function RootLayout({ children }) {
         <ShipmentProvider>
           <Toaster position="top-right" richColors />
           {children}
-          <Script src="//code.jivosite.com/widget/J3iDSeoWaG" async ></Script>
+         <Script
+          id="crisp-chat"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `window.$crisp=[];window.CRISP_WEBSITE_ID="d701ccbd-10ca-4420-ac27-e5aebe783a7e";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();`,
+          }}
+        />
         </ShipmentProvider>
       </body>
     </html>
