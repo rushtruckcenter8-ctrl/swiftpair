@@ -200,9 +200,7 @@ export default function RootLayout({ children }) {
         <ShipmentProvider>
           <Toaster position="top-right" richColors />
           {children}
-          <Script
-           id="chatway" async="true" src="https://cdn.chatway.app/widget.js?id=JaMR4vjl04KP"
-          ></Script>
+          <Script src="//code.jivosite.com/widget/J3iDSeoWaG" async ></Script>
         </ShipmentProvider>
       </body>
     </html>
