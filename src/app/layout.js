@@ -201,12 +201,9 @@ export default function RootLayout({ children }) {
           <Toaster position="top-right" richColors />
           {children}
          <Script
-          id="crisp-chat"
-          strategy="afterInteractive"
-          dangerouslySetInnerHTML={{
-            __html: `window.$crisp=[];window.CRISP_WEBSITE_ID="d701ccbd-10ca-4420-ac27-e5aebe783a7e";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();`,
-          }}
-        />
+            src="https://embed.tawk.to/69a131f44e6f551c35b71ae6/1jieqm8tq"
+            async
+          ></Script>
         </ShipmentProvider>
       </body>
     </html>
