@@ -200,9 +200,24 @@ export default function RootLayout({ children }) {
         <ShipmentProvider>
           <Toaster position="top-right" richColors />
           {children}
-         <Script
-           id="chatway" async="true" src="https://cdn.chatway.app/widget.js?id=zIaqhTmT7lrq"
-          ></Script>
+          <Script id="chatwoot" strategy="afterInteractive">
+            {`
+              window.chatwootSettings = {"position":"right","type":"standard","launcherTitle":""};
+              (function(d,t) {
+                var BASE_URL="https://app.chatwoot.com";
+                var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+                g.src=BASE_URL+"/packs/js/sdk.js";
+                g.async = true;
+                s.parentNode.insertBefore(g,s);
+                g.onload=function(){
+                  window.chatwootSDK.run({
+                    websiteToken: 'ctwupLr33tQsiEDUj7jsdbXo',
+                    baseUrl: BASE_URL
+                  })
+                }
+              })(document,"script");
+            `}
+          </Script>
         </ShipmentProvider>
       </body>
     </html>
